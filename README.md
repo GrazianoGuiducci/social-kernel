@@ -54,6 +54,7 @@ The public product is being formed around:
 - user-local knowledge and preferences;
 - platform-specific competence adapters;
 - effect/consequence ledgers;
+- executable effect freshness: current owner state can invalidate an older queued/browser effect before write;
 - multi-surface readback;
 - relationship and opportunity continuity;
 - competence formation and learning;
@@ -101,3 +102,14 @@ The intended advantage is compounding continuity and competence, not artificial
 lock-in: the system should become more useful because it learns how to work with
 the user and field over time while preserving user control and future
 portability.
+
+
+## Executable effect freshness
+
+A queued post, browser packet or scheduled action is a projection of an earlier
+field, not permanent authority.
+
+Before a real external write, Social Kernel can reenter the current owner state
+and stop an effect that has since been requalified or superseded.
+
+See [Executable effect freshness](docs/EXECUTABLE_EFFECT_FRESHNESS.md).
