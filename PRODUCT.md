@@ -49,6 +49,11 @@ understand current public context
    Move from observation to supervised action and later bounded standing
    authority where the user explicitly selects it.
 
+8. **Executable effect freshness**  
+   Revalidate the semantic eligibility of a queued/browser/scheduled effect
+   against current owner state before execution; stop stale effects without
+   erasing the earlier decision that formed them.
+
 ## Intended users
 
 Potential users include:
