@@ -10,6 +10,17 @@ later live bridge: MAIOS Bridge MCP / social adapters
 
 ## Private preview 0.2.1 — executable effect freshness
 
+Current private OpenAI preview:
+
+~~~text
+plugin_id: plugins_6ac0e852cfc4819195834dbe65936fb3
+release: pluginrel_6ac14bba20c8819197796abd1f4e92fd
+version: 0.2.1
+scope: USER / PRIVATE
+public release: none
+~~~
+
+
 A fresh receiver exercise exposed a general Social Kernel defect outside the
 private K-Social state:
 
