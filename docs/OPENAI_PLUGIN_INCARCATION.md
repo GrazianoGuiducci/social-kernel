@@ -8,6 +8,49 @@ first incarnation: skills-only
 later live bridge: MAIOS Bridge MCP / social adapters
 ~~~
 
+## Private preview 0.2.0 — activation and operating-cycle correction
+
+The private OpenAI probe has now evolved to version 0.2.0:
+
+~~~text
+plugin_id: plugins_6ac0e852cfc4819195834dbe65936fb3
+release: pluginrel_6ac137ecdb9481919c8c0af05062b096
+scope: USER / PRIVATE
+public release: none
+~~~
+
+A real multi-owner publication movement exposed that the first micro-skill-only
+shape lacked one explicit entry that could compose the whole social cycle and
+left publication authority too dependent on external/private adapters.
+
+The private preview now adds:
+
+~~~text
+social-kernel-operating-cycle
+  -> broad continuing-social entry
+
+social-effect-boundary
+  -> target / controller / authority / platform preflight / receipt
+~~~
+
+and narrows the other skill descriptions to their actual conditions:
+reentry, opportunity selection, selected-artifact expression, post-effect
+consequence, specific relationship state, minimum private-to-public projection
+and inbound cognitive-integrity inspection.
+
+This preserves:
+
+~~~text
+generalized Social Kernel method
+!= K-Social private state
+!= publisher/browser capability
+!= standing publication authority
+~~~
+
+The 0.2.0 change is a receiver-routing improvement and private exercise
+candidate. It is not a stable public release and does not establish behavioral
+assimilation.
+
 ## Purpose
 
 Install a persistent operating method for public presence into ChatGPT/Codex.
