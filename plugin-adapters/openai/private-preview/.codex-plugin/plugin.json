@@ -1,0 +1,19 @@
+{
+  "name": "maios-social-kernel",
+  "version": "0.2.1",
+  "description": "A generalized operating kernel for continuing public presence through current-field reentry, native expression, effect authority, consequence readback, relationship continuity, and learning.",
+  "author": {"name":"Graziano Guiducci","url":"https://maios.it"},
+  "interface": {
+    "displayName": "MAIOS Social Kernel (Private Preview)",
+    "shortDescription": "Continuity, publication boundaries, consequences and learning across public surfaces.",
+    "longDescription": "Private preview of the generalized Social Kernel method. It resumes the current public field, selects the smallest useful movement, adapts expression to the surface, preserves effect authority, records receipts, reads consequences and returns reusable learning without assuming a particular social publisher.",
+    "developerName": "Graziano Guiducci",
+    "category": "Other",
+    "capabilities": [],
+    "defaultPrompt": null
+  },
+  "keywords": ["maios","social kernel","public presence","continuity","relationships","consequences","learning"],
+  "homepage": "https://maios.it",
+  "repository": "https://github.com/GrazianoGuiducci/social-kernel",
+  "skills": "./skills"
+}
