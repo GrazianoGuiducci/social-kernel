@@ -8,6 +8,27 @@ first incarnation: skills-only
 later live bridge: MAIOS Bridge MCP / social adapters
 ~~~
 
+## Private preview 0.2.1 — executable effect freshness
+
+A fresh receiver exercise exposed a general Social Kernel defect outside the
+private K-Social state:
+
+~~~text
+current field requalifies an effect
++ older executable/browser packet still carries previous order
+-> technically valid packet can be semantically stale
+~~~
+
+The generalized correction is now owned by
+`docs/EXECUTABLE_EFFECT_FRESHNESS.md`.
+
+The private OpenAI preview therefore advances the operating cycle/effect
+boundary so a real effect must be checked against current owner state before
+the write.
+
+This is not a new publication authority. It is a freshness condition on already
+selected effects.
+
 ## Private preview 0.2.0 — activation and operating-cycle correction
 
 The private OpenAI probe has now evolved to version 0.2.0:
