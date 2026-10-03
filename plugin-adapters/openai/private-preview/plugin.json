@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "maios-social-kernel",
+  "version": "0.2.1",
+  "description": "A generalized operating kernel for continuing public presence through current-field reentry, native expression, effect authority, consequence readback, relationship continuity, and learning.",
+  "author": {"name": "Graziano Guiducci", "url": "https://maios.it"},
+  "homepage": "https://maios.it",
+  "repository": "https://github.com/GrazianoGuiducci/social-kernel",
+  "keywords": ["maios", "social kernel", "public presence", "continuity", "relationships", "consequences", "learning"]
+}
