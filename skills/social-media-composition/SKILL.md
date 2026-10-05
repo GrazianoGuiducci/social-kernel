@@ -148,6 +148,43 @@ short video, longer explainer or interactive surface. Produce only the forms
 that serve a real receiving situation. Derivatives preserve the source relation,
 not merely the crop or style of the first artifact.
 
+## Transmute internal knowledge into a public possibility
+
+Internal taxonomies, system labels and implementation vocabulary can guide the
+work without becoming the public language of the artifact.
+
+When the audience does not need the technical mechanism itself, transform the
+underlying relation into a scene, role or situation in which a person can
+recognize a possible way of working.
+
+```text
+internal/source depth
+-> understand the dynamic
+-> show a recognizable situation
+-> show what becomes different
+-> keep further possibility open
+```
+
+A useful media artifact can shape expectation. If the system genuinely supports
+more than the receiver currently imagines, a source-grounded visual can help
+them see what could be attempted. That changed expectation can influence how
+they use, teach, delegate to or explore the system.
+
+Do not confuse this with promising an outcome. Preserve the distinction between
+current capability, a reachable direction and an open horizon. A desirable
+future relation may be shown as possibility, not as an already observed fact.
+
+Prefer media in which the receiver can think:
+
+```text
+I can see myself using this;
+I understand what changes in the work;
+I can imagine further possibilities beyond this one example.
+```
+
+Avoid turning one platform, workflow, interface or current tool into the whole
+identity of the system.
+
 ## Choose and compose the medium
 
 Select the carrier through which the relation becomes understandable:
