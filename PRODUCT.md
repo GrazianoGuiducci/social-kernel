@@ -165,7 +165,8 @@ recoverable files and a practical way to preserve or export local knowledge
 support that direction. A service or business model should earn continued use
 through accumulated usefulness.
 
-The **0.2.0-dev.2 source candidate** develops the public method and its receiving
-projections. Licensing and stable-release form remain owner decisions.
+The **0.2.0-dev.2 public development source** develops the public method and
+its receiving projections under Apache-2.0. A stable release remains optional
+future work rather than a prerequisite for use or contribution.
 [Roadmap](ROADMAP.md) keeps further development and evidence needs reachable
 without making them current delivered capability.
