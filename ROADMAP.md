@@ -1,72 +1,24 @@
-# Social Kernel Roadmap
+# Social Kernel continuation
 
-The roadmap follows evidence from real use rather than a fixed feature calendar.
+This roadmap follows current source and consequences of use. It is not a publication calendar or an automatic sequence.
 
-## Formation
+## Current source result
 
-**Current**
+The public candidate brings together a native kernel, ten portable competence bodies, receiver and continuity contracts, an instructional example and optional local initialization, bundle assembly and checks. [CURRENT.md](CURRENT.md) and [Verification](docs/VERIFICATION.md) qualify the actual state.
 
-- establish public/private source boundary;
-- exercise the first live MAIOS public-field vertical;
-- recover consequences across several surfaces;
-- test source-aware competence routing;
-- prove reentry without operator reconstruction;
-- identify what requires a native Social Kernel owner.
+## Evidence that can change the product
 
-## First product kernel
+- A fresh receiver uses the public source with a separate private instance and completes a useful movement, including a later non-identical continuation. Observe whether the method reduces reconstruction and changes subsequent handling.
+- A selected native host loads the source bundle, reaches its full methods and retains user continuity across interruption. Repair actual delivery or discovery gaps without duplicating canonical method.
+- Where the user selects recurring operation, the actual scheduler/controller demonstrates current-state reentry, deduplication, uncertain-effect recovery, operator reachability and suspension. Source instructions alone do not activate it.
+- Real use exposes a missing surface method, source relation or competence. Extend its owner when it changes behavior; another platform's existence does not require another module.
 
-**Candidate, not yet frozen**
+Concrete bounded receiver work is in [Codex continuation](docs/CODEX_CONTINUATION.md).
 
-- public-field state / continuum;
-- event and consequence model;
-- effect ledger;
-- user-knowledge projection contract;
-- surface-adapter interface;
-- competence routing;
-- supervised action boundary;
-- learning / reentry;
-- initial cognitive-integrity functions.
+## Product decisions
 
-## Surface modules
+The owner still selects licensing and any stable public release. A complete source layout or green structural test does not replace that decision or the release's evidence. Keep personal, organizational and community uses possible without forcing one business model or runtime.
 
-Modules can be added when their surface-specific knowledge changes behavior.
+## Open research
 
-Potential adapters include:
-- LinkedIn;
-- Reddit;
-- GitHub;
-- OpenAI Developer Community;
-- Mastodon / Fediverse;
-- Bluesky;
-- YouTube;
-- additional future social/public surfaces.
-
-The existence of a platform does not require an adapter.
-
-## Automation
-
-```text
-A1 persistent observation
-A2 autonomous recomposition + supervised effects
-A3 bounded standing authority
-A4 high-autonomy operation with selective escalation
-```
-
-Only A1/A2 are current formation targets.
-
-## Research
-
-- kernel individuation and generation;
-- cross-kernel learning;
-- public-field cognitive integrity;
-- operator-kernel continuity;
-- cryptographic continuity attestation;
-- long-horizon effects of source-aware public mediation.
-
-## Release condition
-
-Do not declare a first stable public release only because the repository has a
-complete-looking structure.
-
-A release should follow an exercised complete vertical and a coherent public
-boundary that survives removal of MAIOS/Graziano-specific private context.
+Longer-term possibilities include cross-kernel learning, the effects of persistent public-field continuity, cognitive-integrity methods and privacy-preserving continuity attestation. New evidence can refine these questions. No attestation service, authentication property, medical benefit or independent effectiveness follows from the current source.

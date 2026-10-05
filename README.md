@@ -1,115 +1,109 @@
 # Social Kernel
 
-**A kernel for public presence that can maintain orientation, relationships and learning while channels, people, products and events change.**
+**Keep the public side of your work connected as sources, conversations and people change.**
 
-```text
-status: early public formation
-project: MAIOS
-source lineage: private living development -> generalized public product
-release: none yet
-license: not yet selected
-```
+Social Kernel gives an AI assistant a continuing method for working with a
+person's, project's or organization's public presence. It connects current
+sources, user direction, public events, relationships and learned methods so
+the next session can continue from what now matters.
 
-Most social tooling optimizes isolated outputs: write a post, schedule it,
-measure it, repeat.
+Consider an announcement prepared before a product changes. A useful assistant
+needs to recover the new source, understand what that changes about the
+announcement, preserve the earlier decision, and choose a useful continuation.
+If a later discussion exposes the same kind of source dependency, the learned
+method should help it recognize that dependency before forming another reply.
 
-Social Kernel explores a different object: the **continuity of a public field**.
+Social Kernel carries that connection into the next task: what happened, what
+it means now, and how it changes the work that follows.
 
-It is designed to keep source, user intent, platform context, public events,
-relationships, consequences and reusable learning connected across time.
+## What it helps you do
 
-## Core idea
+- **Resume a public field.** Recover the relevant sources, open conversations,
+  previous effects and reasons that still change the work.
+- **Choose a useful movement.** Form a reply, post, investigation, contribution,
+  correction or wait from the actual situation and your direction.
+- **Express the source faithfully.** Preserve meaning and evidence while
+  adapting language and depth to the place where people encounter it.
+- **Keep relationships continuous.** Distinguish a response, explicit deferral,
+  open question and closed relation so the next contact has a reason.
+- **Handle incoming information.** Examine provenance, uncertainty, repetition
+  and attention pressure according to your chosen policy.
+- **Learn from consequences.** Return a useful correction to the competence
+  that should approach later work differently.
 
-```text
-OBSERVE
--> ORIENT
--> SELECT
--> COMPOSE
--> AUTHORIZE
--> EFFECT
--> READ BACK
--> LEARN
--> REENTER
-```
+The assistant uses the capabilities of its actual host. Reading these files
+does not connect an account, start background work or publish anything.
 
-These are coupled relations, not a mandatory publishing funnel.
+## Start with one real situation
 
-The correct result can be a post, a reply, a deeper contribution, a delegated
-check, or no action.
+Give your assistant access to this repository and point it to [BOOT.md](BOOT.md),
+together with the public work you want to continue. For example:
 
-## What it is not
+> Use Social Kernel to help me continue this project's public work. Start from
+> these current sources and conversations. Tell me what changed and form the
+> next useful movement. Prepare any message for review.
 
-Social Kernel is not:
-- a generic content generator;
-- a cross-posting scheduler;
-- an engagement-maximization bot;
-- a replacement for the user;
-- a claim of fully autonomous social operation.
+The entry recovers the method and the user-local context that the situation
+needs. It does not require you to fill a campaign plan or connect every
+platform first. A narrow question can use a single competence directly.
 
-## Product direction
+Choose how your assistant will reach the source and preserve your own
+continuity in [Adoption](docs/ADOPTION.md). A repository-connected assistant,
+a project with persistent files, and a session with attachments have different
+ways of continuing. The [receiver contract](docs/RECEIVER_CONTRACT.md) keeps
+those differences explicit.
 
-The public product is being formed around:
-- persistent public-field continuity;
-- source-aware content and response formation;
-- user-local knowledge and preferences;
-- platform-specific competence adapters;
-- effect/consequence ledgers;
-- executable effect freshness: current owner state can invalidate an older queued/browser effect before write;
-- multi-surface readback;
-- relationship and opportunity continuity;
-- competence formation and learning;
-- supervised and later policy-bounded automation;
-- cognitive-integrity functions for spam, scams, manipulation pressure,
-  provenance and attention overload.
+For a complete fictional walk-through, read the
+[worked example](docs/WORKED_EXAMPLE.md). It shows the method without requiring
+access to a real account or anyone's private history.
 
-## User knowledge stays user-local
+## How the parts work together
 
-A social-surface adapter should receive only the knowledge pertinent to the
-current situation. The product direction does not require exposing a user's
-whole private continuum to every platform.
+[KERNEL.md](KERNEL.md) carries the operating relation. The
+[competence map](COMPETENCES.md) reaches the knowledge for reentry, opportunity,
+expression, private-context projection, effects, consequences, relationships,
+incoming information and competence evolution.
 
-## Cognitive Integrity
+These functions can enter from different situations. A product correction can
+change a prepared post. A reply can make a relationship more important than the
+content queue. Repeated weak consequences can call for another format or a
+different entry into a discussion. Waiting can be useful when a real condition
+must change.
 
-A future Social Kernel should help users control the information field reaching
-them as well as the information they publish into it.
+Product and research owners retain their facts. Writing, design, business and
+platform competences contribute when they change the movement. The assistant
+uses the smallest useful composition and can deepen a missing method before
+continuing.
 
-Candidate functions include:
-- source/provenance visibility;
-- spam and scam detection;
-- manipulation-pressure signals;
-- repetition/flooding control;
-- uncertainty/context marking;
-- configurable attention and exposure policies.
+Before a real effect, it checks current authority, the exact artifact and
+destination, the actual controller, and whether the effect is still eligible.
+A schedule wakes current reasoning; it does not preserve an old instruction to
+post after the field has changed. See
+[effect freshness](docs/EXECUTABLE_EFFECT_FRESHNESS.md) and
+[recurrent operation](docs/RECURRENT_OPERATION.md).
 
-This is a product/research direction, not a medical claim and not a political
-filter deciding what a user should believe.
+## Your continuing context
 
-## Development model
+Your project state, preferences, relationship details and effect history belong
+in a location you select and control. Public source files carry the general
+method. Surface tools receive only the information needed for their current
+job, including information sent through searches and other tool requests.
 
-The public repository receives generalized relations only after they become
-useful beyond the private formation context.
+The kernel preserves the history needed to understand a change without treating
+every record as a current instruction. It also distinguishes an observed event
+from an interpretation, and a successful publication from its later
+consequences. See [state and records](docs/STATE_AND_RECORDS.md).
 
-This repository is not an automatic mirror of internal development.
+## Current source
 
-Current work is focused on proving the first complete vertical before fixing the
-final package/runtime architecture.
+This is the **0.1.0-dev.1 source candidate**: a public operating method, native
+competence bodies and receiver guidance. Stable release, installed-host
+behavior and licensing remain separately determined in
+[CURRENT.md](CURRENT.md). Source checks and examples have their own limited
+scope; they do not establish independent adoption or social effectiveness.
 
-## MAIOS
+[Product direction](PRODUCT.md) describes the continuing object and its possible
+forms. [Evolution](EVOLUTION.md) explains how new experience can change the
+method while preserving source identity and evidence.
 
-Social Kernel is being formed as a possible MAIOS product and kernel family.
-
-The intended advantage is compounding continuity and competence, not artificial
-lock-in: the system should become more useful because it learns how to work with
-the user and field over time while preserving user control and future
-portability.
-
-
-## Executable effect freshness
-
-A queued post, browser packet or scheduled action is a projection of an earlier
-field, not permanent authority.
-
-Before a real external write, Social Kernel can reenter the current owner state
-and stop an effect that has since been requalified or superseded.
-
-See [Executable effect freshness](docs/EXECUTABLE_EFFECT_FRESHNESS.md).
+Social Kernel is part of MAIOS.

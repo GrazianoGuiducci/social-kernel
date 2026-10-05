@@ -1,62 +1,28 @@
-# Social Kernel — Current Public State
+# Social Kernel — current product source
 
 ```text
-updated: 2026-10-03
-state: EARLY_PUBLIC_FORMATION
+updated: 2026-10-05
+source_version: 0.1.0-dev.1
+state: PUBLIC_SOURCE_CANDIDATE / LOCALLY_VERIFIED
 stable_release: none
-installable_product: not yet published
-license: not yet selected
-autonomous_social_operation: not claimed
+license: operator decision pending
+installed_receiver_update: none from this source change
 ```
 
-## Current private receiver preview
+## Current source
 
-The generalized method is currently exercised through the private OpenAI
-skills-only preview `maios-social-kernel 0.2.0`
-(`plugins_6ac0e852cfc4819195834dbe65936fb3`). It adds a top-level social
-operating cycle and an explicit effect-authority/controller boundary while
-keeping K-Social private state and publisher capabilities outside this public
-repository's semantic ownership.
+The public candidate supplies a native [entry](BOOT.md), [kernel](KERNEL.md), [competence field](COMPETENCES.md), [evolution method](EVOLUTION.md) and ten portable competence bodies. A new receiver can use these sources without the private history that formed them. [Adoption](docs/ADOPTION.md) connects the method to the user's own private continuity and actual capabilities.
 
-This preview is evidence of method formation only. It is not the stable public
-package and does not establish receiver assimilation or autonomous publishing.
+Optional local instance initialization, self-contained OpenAI source-bundle assembly and structural validation provide bounded file mechanics. They do not publish, install a plugin, create a scheduled job or connect an account.
 
-## Current public object
+[Verification](docs/VERIFICATION.md) records exact check scope and results. The [worked example](docs/WORKED_EXAMPLE.md) is fictional and instructional. Local checks and an internal receiver exercise do not establish independent adoption or continuing autonomous operation.
 
-This repository is the generalized public product surface of the MAIOS Social
-Kernel programme.
+## Historical preview
 
-It currently exposes:
-- product thesis;
-- public/private development boundary;
-- privacy and cognitive-integrity direction;
-- evidence-driven roadmap.
+The earlier skills-only private preview had source identity 0.2.1. Its incomplete source snapshot remains under `plugin-adapters/openai/private-preview/` as genealogy. It is not the current public entry or a package assembled from these new owners. Its installed state and effects are not changed or re-proved here. The public source identity is separate from that preview's numbering.
 
-The working kernel is still being exercised through a private living
-incarnation before a stable public package/runtime is selected.
+## Continuation
 
-## Current public claims
+The selected source completion, three useful readings and local checks are complete at the scope recorded in Verification. An equipped receiver can continue the bounded tasks in [Codex continuation](docs/CODEX_CONTINUATION.md), using current source and preserving existing user instances. Native package loading, recurring execution, later real use, stable release and licensing retain their own evidence or operator decision.
 
-Supported:
-- Social Kernel is being formed as a persistent operating kernel for public
-  presence;
-- it is designed around continuity, source-aware expression, consequences,
-  competence learning and reentry;
-- the product direction includes user-local knowledge projection, surface
-  modules, progressive automation and cognitive integrity.
-
-Not yet established:
-- stable package/runtime architecture;
-- autonomous multi-platform operation;
-- independent adoption or effectiveness;
-- medical or mental-health benefit;
-- a final licensing/business model;
-- receiving-model assimilation.
-
-## Current next threshold
-
-A first stable public release should follow an exercised complete vertical that
-survives removal of MAIOS/Graziano-specific private context.
-
-Until then, public development should remain inspectable without presenting
-formation artifacts as completed product capability.
+The live social field belongs in the user's instance, not in this product CURRENT. Later source changes and receiver results can teach the product through [Evolution](EVOLUTION.md) without replaying completed effects.

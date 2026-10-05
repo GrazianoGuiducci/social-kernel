@@ -1,56 +1,21 @@
-# Privacy and Cognitive Integrity
+# Private context and cognitive integrity
 
-Social Kernel is being designed around a simple constraint:
+Social Kernel can use rich context while giving each surface only what the selected situation requires. The person chooses where their continuity lives and which effects are permitted. This public product contains generalized method; user records belong to a separate private instance.
 
-> The system can become highly contextual without requiring every social
-> platform or adapter to receive the user's whole private context.
+## Project the pertinent relation
 
-## Local knowledge principle
+Use [Social User Field Projection](skills/social-user-field-projection/SKILL.md) to identify what a public encounter needs, what may be disclosed and what remains private. Read access does not authorize sharing. Remove unnecessary personal, account, relationship and business detail without removing the condition that makes the contribution meaningful.
 
-User/project knowledge should remain under the user's selected control and be
-projected to a surface only at the depth needed for the current operation.
+Keep credentials in the receiver's established credential mechanism. Neither the product nor its reference instance initializer needs them. The [receiver contract](docs/RECEIVER_CONTRACT.md) preserves knowledge, account capability and effect authority as different relations.
 
-```text
-private continuum
-+ current situation
--> pertinent projection
--> surface adapter
-```
+## Govern the incoming field
 
-## Cognitive-integrity direction
+Use [Social Cognitive Integrity](skills/social-cognitive-integrity/SKILL.md) when information carries uncertain provenance, impersonation, pressure, repetition or possible manipulation. Show observations and uncertainty that affect the user's decision. Their selected direction and transparent preferences govern attention; a familiar category is not evidence about a particular person or source.
 
-The inbound public field may include:
-- spam;
-- scams and impersonation;
-- low-provenance claims;
-- synthetic-content uncertainty;
-- coordinated amplification;
-- engagement bait;
-- repetition/flooding;
-- commercial manipulation;
-- attention overload.
+Contextualization, prioritization or deferral can be useful without deletion or moderation. Account changes and external effects require their actual authority. Keep corrections and user overrides reachable. No medical or mental-health outcome is claimed by this method.
 
-The product may help classify, contextualize, prioritize, warn, defer or
-suppress according to transparent user policy.
+## Portability and learning
 
-It must not silently decide a user's political, cultural or personal beliefs.
+Preserve a practical route to export the user's chosen records and learned knowledge. A change of receiver preserves their identity, reasons and current authority where applicable; it does not carry another receiver's credentials or runtime automatically. Continued capability and context should make the product worth using while preserving a practical way to leave.
 
-## Wellbeing boundary
-
-Reducing cognitive overload and manipulative engagement pressure may have
-wellbeing value.
-
-The current project does not claim to diagnose, prevent or treat medical or
-mental-health conditions. Any future health/medical positioning would require
-separate evidence, specialist review and applicable regulatory analysis.
-
-## Identity / continuity research
-
-Long-term operator-kernel interaction may create a distinctive bilateral
-continuum of decisions, corrections and causal history.
-
-A future research direction is cryptographic continuity attestation: proving
-selected continuity properties without exposing the underlying private
-knowledge.
-
-This is not currently an authentication mechanism.
+Public learning follows [Public derivation](docs/PUBLIC_DERIVATION.md). Structural checks can detect some packaging mistakes; they cannot certify that arbitrary text contains no private information. Review actual disclosure at the point of use.

@@ -1,0 +1,49 @@
+{
+  "schema_version": "social-kernel.manifest.v1",
+  "source_version": "0.1.0-dev.1",
+  "product": "Social Kernel",
+  "source_role": "generalized_public_operating_method",
+  "release_state": "development_source",
+  "entries": {
+    "boot": "BOOT.md",
+    "kernel": "KERNEL.md",
+    "competence_field": "COMPETENCES.md",
+    "evolution": "EVOLUTION.md",
+    "current": "CURRENT.md"
+  },
+  "competences": [
+    {"name": "social-kernel-operating-cycle", "path": "skills/social-kernel-operating-cycle/SKILL.md"},
+    {"name": "social-field-reentry", "path": "skills/social-field-reentry/SKILL.md"},
+    {"name": "social-opportunity-formation", "path": "skills/social-opportunity-formation/SKILL.md"},
+    {"name": "social-surface-expression", "path": "skills/social-surface-expression/SKILL.md"},
+    {"name": "social-user-field-projection", "path": "skills/social-user-field-projection/SKILL.md"},
+    {"name": "social-effect-boundary", "path": "skills/social-effect-boundary/SKILL.md"},
+    {"name": "social-effect-consequence", "path": "skills/social-effect-consequence/SKILL.md"},
+    {"name": "social-relationship-continuity", "path": "skills/social-relationship-continuity/SKILL.md"},
+    {"name": "social-cognitive-integrity", "path": "skills/social-cognitive-integrity/SKILL.md"},
+    {"name": "social-competence-evolution", "path": "skills/social-competence-evolution/SKILL.md"}
+  ],
+  "state_contract": {
+    "owner": "user_selected_private_instance",
+    "guidance": "docs/STATE_AND_RECORDS.md",
+    "reference_schema": "social-kernel.instance.v1",
+    "universal_storage_schema_required": false,
+    "default_effect_authority": "none_inherited_from_product"
+  },
+  "receiver_contract": "docs/RECEIVER_CONTRACT.md",
+  "adoption": "docs/ADOPTION.md",
+  "source_bundle": {
+    "name": "social-kernel",
+    "include": [
+      "README.md", "PRODUCT.md", "BOOT.md", "AGENTS.md", "KERNEL.md",
+      "EVOLUTION.md", "COMPETENCES.md", "KERNEL_MANIFEST.json", "CURRENT.md",
+      "PRIVACY_AND_COGNITIVE_INTEGRITY.md", "ROADMAP.md", "docs/", "skills/", "scripts/"
+    ]
+  },
+  "evidence": {
+    "record": "docs/VERIFICATION.md",
+    "structural_validation_is_semantic_proof": false,
+    "source_bundle_is_installed_plugin": false,
+    "private_exercise_transfers_to_public_receiver": false
+  }
+}

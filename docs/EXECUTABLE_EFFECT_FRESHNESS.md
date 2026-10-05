@@ -1,102 +1,110 @@
 # Executable Effect Freshness
 
-Social Kernel treats an executable packet, scheduled artifact or browser handoff
-as a **projection of a prior public field**, not as permanent authority.
+A prepared post, browser handoff or scheduled artifact expresses an earlier
+determination. Its content may remain mechanically usable while its purpose,
+source, relationship or authority has changed.
 
-## Core relation
+Use this method from [effect boundary](../skills/social-effect-boundary/SKILL.md)
+whenever an external action depends on saved state.
 
-~~~text
-field at T0
--> effect selected
--> executable packet formed
+## The relation that must survive
 
-field changes at T1
-+ a newer consequence / source / relationship / authority relation
-  changes whether the effect is still useful or valid
--> prior packet loses semantic eligibility
--> controller must reenter current field before the write
-~~~
+At T0 an effect is selected and a packet is prepared. At T1 a new source,
+consequence, correction or policy changes its eligibility. The old packet
+remains evidence of the earlier choice; it must not execute as though T1 had
+not happened.
 
-A technically valid packet can therefore be semantically stale.
+Current applicable owner determination takes precedence over a stale queue or
+schedule. Currentness is not simply the newest timestamp: resolve what each
+source governs, when it applies and what it actually supersedes. Compatible
+knowledge from different owners can remain jointly useful.
 
-## Before an external effect
+## Before the dependent write
 
-Resolve both:
+Resolve both mechanical readiness and semantic eligibility.
 
-~~~text
-mechanical readiness
-  surface / account / controller / native rules / artifact
+| Mechanical relation | Semantic relation |
+| --- | --- |
+| Correct native account, target and available means | Current operator direction and selected purpose |
+| Final content, links and assets render as intended | Source claims and exact approved revision still apply |
+| Controller can perform the action | That controller has authority for this action class |
+| Native constraints permit the intended form | Conversation, relationship and newer consequences still support the movement |
+| Native receipt can be inspected | No duplicate or unresolved attempt makes this a repeat |
 
-semantic freshness
-  current owner state / current effect eligibility / current authority /
-  duplicate-or-overlap / newer consequence
-~~~
+Check relations whose drift could change this action. An old coordinate is
+genealogy, not proof that the outside world is unchanged. A found search result
+or reselected browser tab also needs relevant freshness qualification.
+If a handoff, delay or new signal intervenes and can change a decisive condition,
+refresh that relation at the actual write. A past preflight does not lock a
+changing external authority or guarantee an atomic check-and-send operation.
 
-Passing the first does not imply the second.
+If the effect remains authorized and useful, execute it. Do not require another
+approval of unchanged scope simply because the system woke again.
 
-## Current owner outranks queued projection
+If it was requalified, superseded or closed, stop that effect and recompose.
+Do not ask for reconfirmation of obsolete copy to satisfy an old queue.
 
-When a current owner-native state explicitly requalifies, supersedes, closes or
-materially changes an effect:
+## Approval and artifact changes
 
-~~~text
-current owner decision
-> older queue entry
-> older browser packet
-> older schedule
-~~~
+When policy requires approval, bind it to the exact revision, destination,
+identity and material assets. A visual must actually be visible to the approving
+person. Approval of a topic or an inaccessible image path does not approve
+unseen final content.
+Positive feedback on layout or tone has its own scope; it does not by itself
+approve the message or the complete text-and-asset package.
 
-The old packet remains genealogy. It is not executable authority.
+Resolve authority again when changed content, assets, meaning or destination
+falls outside the approval or allowed deviations. Preserve the earlier approval
+and later reason. Clear contextual approval is sufficient; do not require a
+special phrase or repeat the request when the exact choice is already clear.
 
-Do not ask the operator to reconfirm an effect that the current field has already
-made obsolete merely because an automation or browser still has its copy.
+A broad project description does not silently cancel a specific restriction.
+A general method document cannot restore permission revoked by the authorized
+operator.
 
-## Controller behavior
+## Uncertain occurrence and duplicate recovery
 
-A browser, agent, scheduler or other executor should:
+A timeout, disappearing success notice, failed screenshot or failed source
+push does not show that publication failed.
 
-1. reenter the minimum current owner state before the first write;
-2. verify that the effect id is still selected/eligible;
-3. stop the stale effect if current state disagrees;
-4. return the semantic drift as a readback;
-5. execute only after current semantic and mechanical conditions agree.
+Before retrying:
 
-## Automation boundary
+1. Recover the in-flight target, action, account and content/revision.
+2. Inspect the native target, permalink, Sent folder or equivalent occurrence
+   source through available authorized means.
+3. Compare identity, body/action and time with the attempted effect.
+4. If it occurred, recover the receipt into the local owner; do not send again
+   to repair bookkeeping.
+5. If unresolved, retain uncertainty and the missing observation. Retry only
+   when non-occurrence or a safe native retry mechanism is established.
 
-A scheduler may wake the system but should not blindly paste an old artifact.
+Native idempotency may help when actually available. These instructions do not
+provide a distributed exactly-once guarantee. Several receivers should consult
+one current effect controller and shared receipts. See
+[recurrent operation](RECURRENT_OPERATION.md).
 
-Preferred relation:
+## Fictional example
 
-~~~text
-scheduled wake
--> current-field reentry
--> effect freshness / authority / duplicate / native-rule preflight
--> execute | requalify | wait | no_action
--> receipt
--> consequence
-~~~
+A research group's assistant prepares an answer to a forum question. Before
+sending, the author answers it and another participant supplies the planned
+example. The old answer is still correct and the account works. Its
+conversational function has changed.
 
-## Generalization boundary
+The assistant reads the exchange, retains the draft as superseded, and chooses
+a distinct useful follow-up or no_action. It does not paste the saved answer
+solely because it was ready yesterday.
 
-This relation does not require one universal queue schema or scheduler.
+If a later useful reply is sent but the local record write fails, the next
+receiver inspects the native thread first. A matching reply restores the receipt,
+not another publication.
 
-It is a semantic invariant:
+This illustrates the contract; it is not an occurred customer result or a
+platform test.
 
-> **A later current determination can invalidate an earlier executable
-> projection without rewriting the earlier occurrence.**
+## Return
 
-This is compatible with posts, replies, DMs, publication queues, campaigns,
-browser handoffs and other social/public effect carriers.
-
-## Source exercise
-
-The relation was exposed in K-Social on 2026-10-03:
-
-- E01 Reddit was initially execution-ready;
-- later public-field readback showed independent semantic overlap;
-- E01 was requalified to `DO_NOT_POST_AS_QUEUED`;
-- the older Codex/browser packet still instructed E01 to execute first;
-- a fresh MAIOS ChatGPT Adapter 0.2.1 receiver detected the contradiction before
-  mutation.
-
-The learning is generalized here; K-Social keeps the private occurrence.
+Preserve what changed eligibility, its source, the disposition, any actual
+occurrence and the next useful continuation.
+[State and records](STATE_AND_RECORDS.md) offers adaptable record shapes.
+[Effect and consequence](../skills/social-effect-consequence/SKILL.md) interprets
+observed results without fabricated causality.

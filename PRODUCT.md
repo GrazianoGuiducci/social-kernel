@@ -1,93 +1,86 @@
 # Social Kernel — Product Direction
 
-## Product thesis
+## The continuing object
 
-Social platforms increasingly mediate identity, information, relationships,
-reputation, work and opportunity, while most tools still treat activity as
-isolated content operations.
+A person's or project's public work can span product sources, conversations,
+published artifacts, communities and relationships. Each can change what a
+later action means. Social Kernel preserves enough of those relations for an
+AI assistant and its user to continue intelligently across changing situations.
 
-Social Kernel treats the public/social environment as a changing field with
-continuity.
+The product offers a method through which a receiver can reach current sources,
+recognize a useful movement, compose the competences it needs, act through its
+actual means and authority, and let consequences change its later work.
 
-Its product goal is to give a person, project or organization an operating
-kernel that can:
+The same kernel can support public expression and the incoming information
+field. A technical question may call for a source-grounded reply. A product
+change may require a correction. A stream of repetitive claims may call for
+provenance inspection or an attention policy. Each situation determines the
+pertinent capability.
 
-```text
-understand current public context
-+ preserve relevant user/project knowledge
-+ coordinate specialized competences
-+ act through surface-native forms
-+ observe real consequences
-+ learn from those consequences
-+ continue without repeated reconstruction
-```
+## Value in use
 
-## Initial product jobs
+Continuity is useful when it reduces the need to reconstruct a situation and
+improves the next decision. The retained knowledge may include why an earlier
+message was formed, which source is now current, who owns a follow-up, what the
+user actually selected, and which correction should change a later method.
 
-1. **Public-field continuity**  
-   Recover what happened, what remains open and what materially changed.
+Learning has a further consequence: a distinction formed in one situation can
+help the assistant approach a different situation later. A stored lesson makes
+that distinction reachable; its participation in later work provides evidence
+that the competence changed.
 
-2. **Opportunity formation**  
-   Distinguish when to respond, publish, investigate, wait or do nothing.
+Possible users include professionals, creators, researchers, open-source
+maintainers, companies and communities. Their purposes and suitable operating
+forms may differ. The public method does not prescribe one market, publishing
+cadence or permanent organization of roles.
 
-3. **Source-aware expression**  
-   Preserve product/research/business truth while adapting to each surface.
+## Product and user instance
 
-4. **Relationship continuity**  
-   Keep public interactions connected across time rather than treating every
-   message as a new task.
+The public source owns the generalized method and its evolution. A user
+instance owns the selected project context, sources, relationships, local
+policies and current work. An available host carries the interaction,
+persistence and tools through which that instance operates.
 
-5. **Effect / consequence learning**  
-   Separate publication from outcome and let useful consequences change later
-   work.
+Surface adapters contribute current platform knowledge and available
+mechanics. They receive only the pertinent projection of private context.
+Product, research, editorial, design, business and other competences retain
+their own knowledge and authority when participating.
 
-6. **Cognitive integrity**  
-   Help the user manage inbound public information, attention pressure,
-   provenance, spam/scams and uncertainty.
+The source can therefore be used without any private development repository.
+Connecting a service, installing a receiver adapter, configuring recurrence
+and authorizing an external effect remain identifiable actions in the actual
+host. The [adoption guide](docs/ADOPTION.md) starts from the capabilities that
+are really available.
 
-7. **Progressive automation**  
-   Move from observation to supervised action and later bounded standing
-   authority where the user explicitly selects it.
+## What evidence can show
 
-8. **Executable effect freshness**  
-   Revalidate the semantic eligibility of a queued/browser/scheduled effect
-   against current owner state before execution; stop stale effects without
-   erasing the earlier decision that formed them.
+A public-field movement may produce attention, a question, criticism,
+inspection, attempted use, adoption, a contribution or a continuing
+relationship. These observations have different meanings. An unanswered post
+may provide little evidence. The next movement should reflect the observed
+difference and its uncertainty.
 
-## Intended users
+Local source checks can show that files, routes and helpers agree. A fictional
+exercise can make the operating relation inspectable. A fresh receiver can
+show what it understands and how it would act. Actual use and later changed
+behavior provide further evidence, with their own context and limits.
 
-Potential users include:
-- professionals and creators;
-- researchers;
-- open-source maintainers;
-- startups and companies;
-- communities;
-- multi-agent organizations.
+The [current source state](CURRENT.md) records which of these have occurred.
+Completing a source package does not transfer evidence from a different
+receiver or earlier version.
 
-The final packaging may differ by user and is not yet selected.
+## Evolving forms
 
-## Value compounding
+The method can take different forms as real use makes them worthwhile:
+assisted reentry, persistent observation, supervised effects, bounded standing
+authority, a private organizational instance, or a surface-specific module.
+The current host and selected user policy determine what can happen now.
 
-The product is expected to become more useful over time because the kernel can
-accumulate:
-- user/project distinctions;
-- source relationships;
-- public-history causality;
-- platform competence;
-- response patterns;
-- relationship knowledge;
-- learned methods;
-- user-approved policy.
+Useful continuity should remain under the user's control. Exportability,
+readable sources and a clear separation of private context from public method
+support that direction. A future service or business model should earn
+continued use through accumulated usefulness.
 
-This compounding value is the intended retention mechanism.
-
-The product should not depend on artificial data captivity or deliberately
-difficult exit.
-
-## Public / private development
-
-The public project contains generalized, transferable relations.
-
-High-resolution internal development, incomplete experiments and private
-operator context remain outside the public product until they can be safely and
-usefully generalized.
+Research on richer cognitive-integrity functions and continuity attestation
+remains reachable in the [roadmap](ROADMAP.md). It is distinct from present
+delivered capability.
