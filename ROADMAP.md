@@ -88,14 +88,15 @@ their own source identities and scope in [Verification](docs/VERIFICATION.md).
 work that requires its receiving environment. Completed source work and
 qualified earlier observations remain preserved.
 
-## Product decisions
+## Distribution state
 
-The owner still selects the license and release form. The
-[prepared decision document](docs/RELEASE_DECISIONS.md) proposes Apache-2.0
-with MIT as an alternative, identifies the holder and material scope to select,
-and proposes a development pre-release tied to an exact source commit and its
-three projections. A source push does not select a license, publish a stable
-release or update personal installations.
+Apache-2.0 is selected for the public source. The current distribution form is
+the public development source on `main`, with contributions welcome through
+issues and pull requests. See [license and distribution state](docs/RELEASE_DECISIONS.md).
+
+A tag, pre-release, marketplace listing or stable release can be added later
+when it serves a concrete distribution need. None is required for public use or
+contribution, and none updates personal installations by itself.
 
 Personal, organizational and community uses remain possible. A chosen
 distribution or business model can develop from actual use without defining

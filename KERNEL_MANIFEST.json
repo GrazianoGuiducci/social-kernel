@@ -12,17 +12,50 @@
     "current": "CURRENT.md"
   },
   "competences": [
-    {"name": "social-kernel-operating-cycle", "path": "skills/social-kernel-operating-cycle/SKILL.md"},
-    {"name": "social-field-reentry", "path": "skills/social-field-reentry/SKILL.md"},
-    {"name": "social-opportunity-formation", "path": "skills/social-opportunity-formation/SKILL.md"},
-    {"name": "social-surface-expression", "path": "skills/social-surface-expression/SKILL.md"},
-    {"name": "social-media-composition", "path": "skills/social-media-composition/SKILL.md"},
-    {"name": "social-user-field-projection", "path": "skills/social-user-field-projection/SKILL.md"},
-    {"name": "social-effect-boundary", "path": "skills/social-effect-boundary/SKILL.md"},
-    {"name": "social-effect-consequence", "path": "skills/social-effect-consequence/SKILL.md"},
-    {"name": "social-relationship-continuity", "path": "skills/social-relationship-continuity/SKILL.md"},
-    {"name": "social-cognitive-integrity", "path": "skills/social-cognitive-integrity/SKILL.md"},
-    {"name": "social-competence-evolution", "path": "skills/social-competence-evolution/SKILL.md"}
+    {
+      "name": "social-kernel-operating-cycle",
+      "path": "skills/social-kernel-operating-cycle/SKILL.md"
+    },
+    {
+      "name": "social-field-reentry",
+      "path": "skills/social-field-reentry/SKILL.md"
+    },
+    {
+      "name": "social-opportunity-formation",
+      "path": "skills/social-opportunity-formation/SKILL.md"
+    },
+    {
+      "name": "social-surface-expression",
+      "path": "skills/social-surface-expression/SKILL.md"
+    },
+    {
+      "name": "social-media-composition",
+      "path": "skills/social-media-composition/SKILL.md"
+    },
+    {
+      "name": "social-user-field-projection",
+      "path": "skills/social-user-field-projection/SKILL.md"
+    },
+    {
+      "name": "social-effect-boundary",
+      "path": "skills/social-effect-boundary/SKILL.md"
+    },
+    {
+      "name": "social-effect-consequence",
+      "path": "skills/social-effect-consequence/SKILL.md"
+    },
+    {
+      "name": "social-relationship-continuity",
+      "path": "skills/social-relationship-continuity/SKILL.md"
+    },
+    {
+      "name": "social-cognitive-integrity",
+      "path": "skills/social-cognitive-integrity/SKILL.md"
+    },
+    {
+      "name": "social-competence-evolution",
+      "path": "skills/social-competence-evolution/SKILL.md"
+    }
   ],
   "state_contract": {
     "owner": "user_selected_private_instance",
@@ -36,9 +69,22 @@
   "source_bundle": {
     "name": "social-kernel",
     "include": [
-      "README.md", "PRODUCT.md", "BOOT.md", "AGENTS.md", "KERNEL.md",
-      "EVOLUTION.md", "COMPETENCES.md", "KERNEL_MANIFEST.json", "CURRENT.md",
-      "PRIVACY_AND_COGNITIVE_INTEGRITY.md", "ROADMAP.md", "docs/", "skills/", "scripts/", "examples/"
+      "README.md",
+      "LICENSE",
+      "PRODUCT.md",
+      "BOOT.md",
+      "AGENTS.md",
+      "KERNEL.md",
+      "EVOLUTION.md",
+      "COMPETENCES.md",
+      "KERNEL_MANIFEST.json",
+      "CURRENT.md",
+      "PRIVACY_AND_COGNITIVE_INTEGRITY.md",
+      "ROADMAP.md",
+      "docs/",
+      "skills/",
+      "scripts/",
+      "examples/"
     ]
   },
   "evidence": {
@@ -46,5 +92,6 @@
     "structural_validation_is_semantic_proof": false,
     "source_bundle_is_installed_plugin": false,
     "private_exercise_transfers_to_public_receiver": false
-  }
+  },
+  "license": "Apache-2.0"
 }

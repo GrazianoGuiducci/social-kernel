@@ -1,71 +1,46 @@
-# License and first release: prepared owner decisions
+# License and distribution state
 
-The current result is the `0.2.0-dev.2` public source candidate. Source changes,
-local assembly and recorded exercises do not select a license or publish a
-stable release. This document makes those remaining decisions concrete.
+Social Kernel `0.2.0-dev.2` is distributed as a public development source.
 
-## Choose the reuse grant
+## License selected
 
-For a product intended to be reused and adapted in different AI environments,
-a single permissive license for the original method, documentation and helper
-code would keep adoption understandable. Two practical choices are:
+The public Social Kernel source is licensed under **Apache License 2.0**. The
+canonical license text is in [LICENSE](../LICENSE), and the source bundle
+manifest carries the same SPDX identifier.
 
-| Choice | Material terms | Why choose it here |
-| --- | --- | --- |
-| **Apache-2.0 — proposed** | Express copyright and contributor patent grants; redistribution retains applicable notices and identifies changed files. It does not grant trademark use. See the [official license, sections 2–4 and 6](https://www.apache.org/licenses/LICENSE-2.0). | Makes the reuse terms explicit for organizations integrating and extending the product. |
-| **MIT** | Broad permission to use, modify and distribute software and associated documentation, including commercial reuse, with the copyright and permission notice retained. See the [official license text](https://opensource.org/license/mit). | A shorter notice and a simpler distribution document, if that is the owner's priority. |
+The license applies to the original Social Kernel material distributed in this
+repository unless a file or included asset states different terms. Linked
+external sources retain their own identity and licensing; linking to them does
+not relicense them.
 
-This proposal is a product choice to review, not a license grant. The owner
-must select the license, copyright holder and covered material. Do not infer
-that choice from another MAIOS repository's license.
+Private user instances, account state, credentials, private learned methods and
+other private operating fields are not part of this public source.
 
-Keep the scope inspectable:
+Contributions intentionally submitted for inclusion are handled according to
+the contribution terms of Apache-2.0 unless explicitly stated otherwise. See
+[CONTRIBUTING](../CONTRIBUTING.md).
 
-- Original kernel, skills, references, documentation and helper code: include
-  them explicitly in the selected grant.
-- Linked sources: retain their provenance. A link does not import that
-  source's entire license or make its contents part of this package.
-- Included examples and media: retain their production provenance and identify
-  any separately licensed material. Decide their distribution terms with the
-  source grant; do not silently describe generated imagery as an exclusive
-  owned brand asset.
-- User instances, account state and private learned methods: they are outside
-  this public package and remain with their owners.
+## Current distribution form
 
-After selection, add the actual `LICENSE` and any required notice, include
-them in `KERNEL_MANIFEST.json`'s source bundle, and make the generated metadata
-agree with that selected source license. Rebuild and validate each affected
-profile. Adding a license file beside an inventory does not update a previously
-built package.
+The selected distribution form is **public development source on `main`**.
 
-## Choose the first distribution form
+A Git tag, GitHub pre-release, archive, marketplace listing or stable release is
+not required before people can inspect, use, fork or contribute to the project.
+Those can be added later when they solve a concrete distribution or adoption
+need.
 
-**Proposed next form: a development pre-release** tied to one exact reviewed
-source commit, with the three mechanically checked projections and their
-inventories. A suitable tag is `v0.2.0-dev.2` if it remains unused and still
-identifies the selected source. Include release notes explaining the useful creative methods, the observed
-internal exercise, the new concept-to-media generalization, the actual host
-checks and any remaining receiving limits.
+The current source remains a development line. Native host discovery, installed
+receiver state, recurring execution and real public effects retain their own
+evidence boundaries; public availability does not imply those behaviors have
+been observed everywhere.
 
-This form lets early adopters inspect and exercise the same source while its
-native receiving evidence grows. The alternative is to keep distributing the
-source branch until a selected native-host trial is complete. A stable release
-should state only the host behavior and continuing use actually observed for
-its version; it need not promise universal portability.
+## Future release boundary
 
-The bundle builder prepares directories. Creating archives, a Git tag, a GitHub
-release, a marketplace listing or an installed personal plugin remains a
-separate selected action. The current work does not perform those actions.
+If a tagged or stable release is created later, tie it to one exact source
+commit and describe only the host behavior and continuing use actually observed
+for that revision. Include the license in every distributed source bundle and
+keep receiver installation/version identity separate from the public source
+version.
 
-## Exact receiving packet after the owner decides
-
-Record the chosen license and holder, covered material, source commit,
-release form and tag, intended audiences, and host claims supported by the
-[verification record](VERIFICATION.md). Confirm the license and notices are
-inside every delivered archive. Keep a previous receiver's version and local
-learning intact when any later installation is selected.
-
-Use [Codex continuation](CODEX_CONTINUATION.md) for native validation and
-bounded receiving use. Those tasks can expose a concrete source correction;
-they do not choose the product's legal or release identity on the owner's
-behalf.
+A release, package installation or marketplace publication is a separate
+effect from keeping the public development source available.

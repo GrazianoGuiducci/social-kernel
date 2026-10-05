@@ -222,4 +222,4 @@ inventory checks. A regression test covers reordered/indented manifests and
 confirms that a changed metadata value still fails. The account-specific
 archive and installation evidence remain with the private receiver owner.
 
-[Codex continuation](CODEX_CONTINUATION.md) identifies the loops that need a selected host, native loading, actual recurring operation or later real use. Licensing and a stable release retain their separate owner decisions. A successful Git operation makes source reachable; it does not close those receiving loops.
+[Codex continuation](CODEX_CONTINUATION.md) identifies the loops that need a selected host, native loading, actual recurring operation or later real use. Apache-2.0 and public development distribution are product state, not behavioral evidence; a future stable release remains separate. A successful Git operation makes source reachable; it does not close those receiving loops.

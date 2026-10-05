@@ -2,6 +2,8 @@
 
 **Create your public communication, and carry what you learn into what comes next.**
 
+**Status:** public development source · `0.2.0-dev.2` · Apache-2.0 · contributions welcome.
+
 Social Kernel gives an AI assistant a continuing method for a person's,
 project's or organization's public work. It joins understanding the situation,
 creating content and media, following conversations, reviewing results and
@@ -138,7 +140,7 @@ after the facts change. See
 
 ## Current source and evidence
 
-This is the **0.2.0-dev.2 source candidate**. It includes the operating core,
+This is the **0.2.0-dev.2 public development source**. It includes the operating core,
 public competence bodies, editorial and media methods, receiver guidance and
 optional file tools. [CURRENT.md](CURRENT.md) carries its exact state and
 [Verification](docs/VERIFICATION.md) records which checks and exercises have
@@ -146,10 +148,18 @@ actually been completed.
 
 The separate [instructional worked example](docs/WORKED_EXAMPLE.md) explains
 continuity through a fictional narrative. Local contract checks, internal
-exercises, native-host use and
-real social effects have different scopes; their records preserve that
-difference. Licensing and a stable release remain decisions to make with the
-project owner.
+exercises, native-host use and real social effects have different scopes; their
+records preserve that difference. A stable release is not required to use or
+contribute to the development source.
+
+## License and contributions
+
+Social Kernel is licensed under the [Apache License 2.0](LICENSE).
+
+Real-world use, corrections, receiver findings, documentation improvements and
+bounded method changes are welcome. You do not need to prove the whole kernel
+before contributing; report what actually happened and keep unobserved claims
+out of scope. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 [Product direction](PRODUCT.md) develops the continuing object and its possible
 forms. [Evolution](EVOLUTION.md) explains how experience changes the method and

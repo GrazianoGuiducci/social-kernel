@@ -4,15 +4,16 @@
 updated: 2026-10-05
 source_version: 0.2.0-dev.2
 source_resultant: cb380b59784e9b10e40090400fa8efcc02b64510
-state: PUBLIC_SOURCE_CANDIDATE / LOCALLY_VERIFIED
+state: PUBLIC_DEVELOPMENT_SOURCE
 stable_release: none
-license: operator decision pending
+license: Apache-2.0
+distribution: public main / contributions welcome
 installed_receiver_update: none from this source change
 ```
 
 ## Current source
 
-The public candidate supplies a native [entry](BOOT.md), [kernel](KERNEL.md), [competence field](COMPETENCES.md), [evolution method](EVOLUTION.md) and eleven portable competence bodies. The current extension brings practical writing and revision, concept-to-media formation plus actual production, field research and listening, and learning that changes later work. A new receiver can use these sources without the private history that formed them. [Adoption](docs/ADOPTION.md) connects the method to the user's existing knowledge, private continuity and actual capabilities.
+The public development source supplies a native [entry](BOOT.md), [kernel](KERNEL.md), [competence field](COMPETENCES.md), [evolution method](EVOLUTION.md) and eleven portable competence bodies. The current extension brings practical writing and revision, concept-to-media formation plus actual production, field research and listening, and learning that changes later work. A new receiver can use these sources without the private history that formed them. [Adoption](docs/ADOPTION.md) connects the method to the user's existing knowledge, private continuity and actual capabilities.
 
 Optional local instance initialization, self-contained OpenAI, Claude Code and portable source projections, and structural validation provide bounded file mechanics. The profiles assemble the same canonical method for different receiving layouts. Native loading and actual capability retain their own evidence.
 
@@ -100,6 +101,6 @@ The earlier skills-only private preview had source identity 0.2.1. Its incomplet
 
 ## Continuation
 
-The original three-reading source completion and the subsequent receiving fixes retain their recorded scope. This extension's source work, local mechanics and two assisted creative receiving movements are complete. The export finding also returned a reference-base distinction to the public media method; later receiving use of that new distinction remains unobserved. One assisted direct-source `dev.2` movement has now been observed at exact revision `9bc71a5...`; the later public-possibility addition in current resultant `cb380b5...` remains unexercised. An equipped receiver can continue the bounded tasks in [Codex continuation](docs/CODEX_CONTINUATION.md), using current source and preserving existing user instances. Concrete choices are prepared in [License and release decisions](docs/RELEASE_DECISIONS.md). Native package loading, selected recurring execution, later non-identical use of the current resultant, stable release and licensing retain their own evidence or operator decision.
+The original three-reading source completion and the subsequent receiving fixes retain their recorded scope. This extension's source work, local mechanics and two assisted creative receiving movements are complete. The export finding also returned a reference-base distinction to the public media method; later receiving use of that new distinction remains unobserved. One assisted direct-source `dev.2` movement has now been observed at exact revision `9bc71a5...`; the later public-possibility addition in current resultant `cb380b5...` remains unexercised. An equipped receiver can continue the bounded tasks in [Codex continuation](docs/CODEX_CONTINUATION.md), using current source and preserving existing user instances. The selected license and current distribution form are recorded in [License and distribution state](docs/RELEASE_DECISIONS.md). Native package loading, selected recurring execution, later non-identical use of the current resultant and any future stable release retain their own evidence or operator decision.
 
 The live social field belongs in the user's instance, not in this product CURRENT. Later source changes and receiver results can teach the product through [Evolution](EVOLUTION.md) without replaying completed effects.
