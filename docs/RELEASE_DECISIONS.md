@@ -1,6 +1,6 @@
 # License and first release: prepared owner decisions
 
-The current result is the `0.2.0-dev.1` public source candidate. Source changes,
+The current result is the `0.2.0-dev.2` public source candidate. Source changes,
 local assembly and recorded exercises do not select a license or publish a
 stable release. This document makes those remaining decisions concrete.
 
@@ -42,10 +42,10 @@ built package.
 
 **Proposed next form: a development pre-release** tied to one exact reviewed
 source commit, with the three mechanically checked projections and their
-inventories. A suitable tag is `v0.2.0-dev.1` if it remains unused and still
-identifies the selected source. Include release notes explaining the useful
-creative methods, the observed internal exercise, the actual host checks and
-any remaining receiving limits.
+inventories. A suitable tag is `v0.2.0-dev.2` if it remains unused and still
+identifies the selected source. Include release notes explaining the useful creative methods, the observed
+internal exercise, the new concept-to-media generalization, the actual host
+checks and any remaining receiving limits.
 
 This form lets early adopters inspect and exercise the same source while its
 native receiving evidence grows. The alternative is to keep distributing the
