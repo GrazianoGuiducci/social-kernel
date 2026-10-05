@@ -47,8 +47,9 @@ conversation history and source topology remain with their owners. The
 adopter supplies their own purpose, sources, context and actual means.
 
 The source projects retain their own identity and licensing. Their presence
-here does not select Social Kernel's license or authorize a release; those
-product decisions remain explicit in [CURRENT](../CURRENT.md).
+here does not relicense those sources. Social Kernel itself is distributed
+under Apache-2.0 as declared in [LICENSE](../LICENSE) and
+[CURRENT](../CURRENT.md).
 
 ## Keep derivation and receiver evidence distinct
 
