@@ -4,13 +4,10 @@ This roadmap follows the current source and what use makes newly relevant.
 [CURRENT.md](CURRENT.md) identifies the product state;
 [Verification](docs/VERIFICATION.md) qualifies the observations that support it.
 
-## Current source work — 0.2.0-dev.1
+## Current source work — 0.2.0-dev.2
 
 The development source preserves the native kernel, adoption, continuity,
-evolution and optional local tools. It deepens editorial conception, writing
-and revision; adds native media composition, production and inspection; and
-makes ordinary listening and field research usable alongside relationship
-continuity and cognitive integrity.
+evolution and optional local tools. It deepens editorial conception, writing and revision; extends native media composition with concept-to-representation formation before medium selection; preserves production and inspection; and makes ordinary listening and field research usable alongside relationship continuity and cognitive integrity.
 
 The current competence field contains eleven bodies. Their contribution and
 usable continuation determine further changes; this count is not a target
@@ -21,6 +18,17 @@ The builder provides three projections of the same canonical methods:
 discovery, available integrations and exercised behavior have separate
 evidence. See [Adoption](docs/ADOPTION.md) and the
 [receiver contract](docs/RECEIVER_CONTRACT.md).
+
+## Concept-to-media generalization
+
+The public media competence can now begin from a concept or emerging learning,
+not only from an already selected artifact. It uses domain/use case, dynamic,
+practical consequence and receiving situation to form a representation field
+before choosing a medium.
+
+Recurring operation uses the same method after a wake instead of inheriting the
+previous run's visual grammar. The first later non-identical use of this
+generalization remains an observation to obtain.
 
 ## Completed creative receiving exercise
 
