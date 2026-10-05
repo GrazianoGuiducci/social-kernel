@@ -20,6 +20,26 @@ formation. Each source owns its own claims and evidence.
 | [D-ND Design Kernel](https://github.com/GrazianoGuiducci/d-nd-ux-ai-seed/blob/fac87ed6e9d347fad7892e579c7b6b4756e2a352/DESIGN_KERNEL.md), [perceptual composition](https://github.com/GrazianoGuiducci/d-nd-ux-ai-seed/blob/fac87ed6e9d347fad7892e579c7b6b4756e2a352/design/skills/perceptual-composition/SKILL.md), [infographic](https://github.com/GrazianoGuiducci/d-nd-ux-ai-seed/blob/fac87ed6e9d347fad7892e579c7b6b4756e2a352/design/skills/source-grounded-infographic/SKILL.md) and [storyboard](https://github.com/GrazianoGuiducci/d-nd-ux-ai-seed/blob/fac87ed6e9d347fad7892e579c7b6b4756e2a352/design/skills/source-grounded-storyboard/SKILL.md) methods | Form what the receiver should perceive; compose language and visual meaning together; select a suitable medium; keep exact relations controllable; let observation of the artifact correct its form. | [Media composition](../skills/social-media-composition/SKILL.md), its production guide and reciprocal [surface expression](../skills/social-surface-expression/SKILL.md). |
 | [kernel_chat architecture](https://github.com/GrazianoGuiducci/kernel_chat/blob/82a5bd78f5ecb667e6392e1dd149be2c34c4ec3c/docs/ARCHITECTURE.md) | Distinguish portable method, user-owned context, persistent entry, host means and observed behavior; preserve meaningful local evolution through an upstream change. | [Adoption](ADOPTION.md), [receiver contract](RECEIVER_CONTRACT.md) and evolution. |
 
+A 5 October 2026 private editorial/design movement also exposed a reusable
+source-neutral relation now carried directly by the public media method:
+**form the representation field before choosing the familiar format**.
+
+```text
+concept
++ domain / concrete use case
++ cognitive or operational dynamic
++ practical consequence
++ receiving situation
+-> representation field
+-> selected medium
+```
+
+The public method does not depend on that private repository, campaign, brand or
+conversation. Its transferable relation is fully stated in
+[Social Media Composition](../skills/social-media-composition/SKILL.md) and
+[Recurrent Operation](RECURRENT_OPERATION.md). Private examples, target maps and
+campaign decisions remain private.
+
 Construction also drew on private editorial, social, business and
 metacompetence practice. Its transferable decisions, reasons and conditions
 are expressed in the public methods. Private campaigns, accounts, contacts,
