@@ -4,6 +4,41 @@ Current source family: `0.2.0-dev.2`. Updated on 2026-10-05.
 
 This document separates source construction, local mechanics, receiving behavior and external use. A material change has its own applicable proof; an earlier preview or upstream product's result does not prove this source.
 
+## Current source resultant — cb380b5 after the first dev.2 receiver exercise
+
+The current `0.2.0-dev.2` family points to source resultant
+[`cb380b59784e9b10e40090400fa8efcc02b64510`](https://github.com/GrazianoGuiducci/social-kernel/commit/cb380b59784e9b10e40090400fa8efcc02b64510).
+
+A first assisted direct-source receiver movement had already been completed
+against exact public revision
+[`9bc71a5f422bfc516b741c9490edadfd136bb022`](https://github.com/GrazianoGuiducci/social-kernel/commit/9bc71a5f422bfc516b741c9490edadfd136bb022).
+In an owner-controlled receiving field, a real question about continuity across
+AI environments was formed through the `dev.2` concept-to-representation
+method before medium selection. The receiver produced editable and raster media,
+inspected native and reduced outputs, preserved the result and returned
+`no_change` to the public method. The receiver used the public source directly;
+native plugin discovery was not observed. This was assisted use, not independent
+adoption or a public social effect.
+
+That observation is evidence for the exact `9bc71a5...` source cut. It does
+not automatically prove later source additions.
+
+After the exercise, `main` added a public-expression relation to the existing
+media competence and kernel:
+
+```text
+internal / source depth
+-> understand the dynamic
+-> recognizable human situation
+-> practical difference
+-> further supported possibility
+```
+
+The current `cb380b5...` resultant therefore contains source knowledge that
+postdates the observed movement. Its presence and routing are source evidence;
+its use in a later movement has not yet been observed. No new mechanical test
+run is claimed for this post-exercise documentation/method delta.
+
 ## Current source delta — 0.2.0-dev.2
 
 The source adds a generalized **concept-to-media** relation to the existing
@@ -25,13 +60,15 @@ concept
 It does not add a twelfth competence, renderer, scheduler or publication
 authority. The eleven declared competence identities remain unchanged.
 
-Evidence boundary for this delta: the source relation and local routes are
-represented, but the completed creative receiving exercise predates this
-change and therefore does not prove its use. The first later non-identical
-media movement or recurring wake that forms a new representation through this
-method is still needed as behavioral evidence. Historical exercised-source
-identities and fingerprints remain `0.2.0-dev.1` and are intentionally not
-renamed.
+Evidence boundary for this delta: the earlier creative receiving exercise
+predates the concept-to-media change and therefore does not prove it. A later
+assisted direct-source movement did exercise concept-to-representation formation
+at exact revision `9bc71a5...`, with production, inspection and continuity
+preserved. That movement did not establish native plugin discovery, independent
+adoption, recurring execution or real audience consequence. The current
+`cb380b5...` resultant contains the later public-possibility projection
+described above, whose behavioral use remains unobserved. Historical
+`0.2.0-dev.1` exercised-source identities and fingerprints remain unchanged.
 
 ## Verified predecessor — 0.2.0-dev.1
 

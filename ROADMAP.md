@@ -6,6 +6,11 @@ This roadmap follows the current source and what use makes newly relevant.
 
 ## Current source work — 0.2.0-dev.2
 
+Current source resultant: `cb380b59784e9b10e40090400fa8efcc02b64510`.
+The first assisted direct-source concept-to-media exercise belongs to the
+earlier exact revision `9bc71a5f422bfc516b741c9490edadfd136bb022`; later
+source additions retain their own evidence boundary.
+
 The development source preserves the native kernel, adoption, continuity,
 evolution and optional local tools. It deepens editorial conception, writing and revision; extends native media composition with concept-to-representation formation before medium selection; preserves production and inspection; and makes ordinary listening and field research usable alongside relationship continuity and cognitive integrity.
 
@@ -27,8 +32,21 @@ practical consequence and receiving situation to form a representation field
 before choosing a medium.
 
 Recurring operation uses the same method after a wake instead of inheriting the
-previous run's visual grammar. The first later non-identical use of this
-generalization remains an observation to obtain.
+previous run's visual grammar. One assisted direct-source use of the
+generalization has now been observed at exact revision `9bc71a5...`. A later
+different-session use and a real recurring wake remain observations to obtain.
+
+## Public possibility projection after the first exercise
+
+The current `cb380b5...` resultant deepens the same media competence so
+internal taxonomy can remain behind the work while public expression shows a
+recognizable human situation, what changes in practice and what further
+source-supported possibility remains open. Current capability, direction and
+horizon stay distinct.
+
+This relation was added after the first `dev.2` receiver exercise. Its later
+behavioral use is therefore still unobserved and must not inherit that earlier
+exercise as proof.
 
 ## Completed creative receiving exercise
 
