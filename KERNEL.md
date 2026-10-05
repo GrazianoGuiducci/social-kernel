@@ -111,11 +111,20 @@ fixed number of owners is required.
 The public skills carry practical social, editorial and
 [media methods](skills/social-media-composition/SKILL.md) that can be used
 without private source repositories. When useful to the encounter, source
-meaning, wording, layout and medium develop together. Inspect the actual
-artifact through the available means and let what becomes visible change its
-composition or premise. Deeper domain, design or business knowledge can still
-make another qualified competence or source pertinent. Identify the exact
-missing knowledge if it cannot be reached and preserve a concrete continuation.
+meaning, wording, layout and medium develop together.
+
+When the movement begins from a concept or new learning, the media method first
+forms a **representation field** from the real domain/use case, the dynamic
+that produces the difference, the practical consequence and the receiving
+situation. Only then does a particular image, diagram, presentation, sequence
+or other medium become selected. This keeps the previous successful format
+from becoming the boundary of a new concept.
+
+Inspect the actual artifact through the available means and let what becomes
+visible change its composition or premise. Deeper domain, design or business
+knowledge can still make another qualified competence or source pertinent.
+Identify the exact missing knowledge if it cannot be reached and preserve a
+concrete continuation.
 
 The kernel can reuse, deepen, compose or form a competence from new intent,
 knowledge, successful work, a consequence or an emerging possibility.
