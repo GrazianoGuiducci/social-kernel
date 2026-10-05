@@ -348,6 +348,21 @@ class ReferenceToolTests(unittest.TestCase):
         write_json(bundles[0] / "plugin.json", portable)
         self.assertIn("bundle_metadata", self.error_codes(self.validate(root=bundles[0])[1]))
 
+    def test_host_manifest_reserialization_is_qualified_but_value_changes_fail(self) -> None:
+        bundle = self.build()
+        for name in ("plugin.json", ".codex-plugin/plugin.json"):
+            path = bundle / name
+            metadata = json.loads(path.read_text(encoding="utf-8"))
+            path.write_text(json.dumps(dict(reversed(list(metadata.items()))), indent=4) + "\n", encoding="utf-8")
+        report = self.validate(root=bundle)[1]
+        self.assertTrue(report["ok"], report)
+        self.assertEqual({warning["path"] for warning in report["warnings"]
+                          if warning["code"] == "manifest_serialization"},
+                         {"plugin.json", ".codex-plugin/plugin.json"})
+        metadata["description"] = "A different meaning, not merely a serialization."
+        write_json(bundle / ".codex-plugin/plugin.json", metadata)
+        self.assertIn("bundle_metadata", self.error_codes(self.validate(root=bundle)[1]))
+
     def test_receiver_metadata_cannot_add_execution_or_leak_credential_values(self) -> None:
         base = {"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
                 "name": "fictional-plugin", "version": "0.3.0", "description": "Fictional metadata."}

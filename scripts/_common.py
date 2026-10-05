@@ -542,7 +542,13 @@ def validate_source(root: Path) -> tuple[dict, dict, dict[str, bytes]]:
                 if path in PLUGIN_FILES and embedded_credentials(parsed):
                     issue(errors, "credential_metadata", path, "Source plugin metadata cannot embed credential fields.")
                 if actual != expected[path]:
-                    issue(errors, "bundle_metadata", path, "Generated metadata or inventory differs from the current declared file bytes.")
+                    if path in PLUGIN_FILES and parsed == json.loads(expected[path]):
+                        warnings.append({
+                            "code": "manifest_serialization", "path": path,
+                            "message": "Plugin JSON values match; serialized bytes differ from canonical assembly. The inventory records assembly bytes, not this host serialization.",
+                        })
+                    else:
+                        issue(errors, "bundle_metadata", path, "Generated metadata or inventory differs from the current declared file bytes.")
         actual_paths = {path.relative_to(root).as_posix() for path in tree_files(root, root, errors, filter_exclusions=False)}
         for path in sorted(actual_paths - set(expected)):
             issue(errors, "unlisted_bundle_file", path, "Bundle contains a file outside its declared inventory.")

@@ -46,6 +46,14 @@ against a concurrently changed release. Native discovery and later use must
 observe the installed result; a successful account update alone establishes
 only the saved release.
 
+A receiving service may reserialize generated plugin JSON without changing
+its values. Read back the actual saved archive when exact byte identity matters;
+a text-file API may also normalize line endings. The validator accepts equivalent
+JSON values for the two generated plugin manifests and explicitly reports the
+serialization difference. Their inventory hashes still identify canonical
+assembly bytes, not the host's serialization. Canonical source bodies and the
+inventory itself retain exact-byte checks; a changed metadata value still fails.
+
 ## Verify the receiving host
 
 Use the receiver's actually available installation or loading mechanism. Confirm what it loads, whether discovery reaches the intended skill body and whether local references remain reachable. A file check does not prove the current host accepts the package or that its model follows the method.

@@ -87,7 +87,7 @@ did not establish a failure or success of the product's symlink behavior.
 The suite now separates ordinary file/directory preservation and direct
 source-destination checks from symlink-dependent cases. It explicitly skips
 only the unavailable symlink fixtures for that Windows privilege error;
-unexpected errors still fail. The adapted suite runs 29 tests here: 25 pass,
+unexpected errors still fail. The adapted suite runs 30 tests here: 26 pass,
 four are skipped. The original Python 3.12.14 result above retains its own
 source and platform scope.
 
@@ -99,5 +99,13 @@ The added fictional tests exercise deterministic custom assembly, standalone
 validation after removing the original source, tamper detection, and refusal
 of undeclared execution configuration or credential metadata. They do not
 establish native installation or account-update success.
+
+Independent download of a saved receiver archive exposed service-side
+reserialization of the compatibility plugin manifest: its JSON values were
+unchanged while its bytes differed. The validator now qualifies equivalent
+manifest serialization explicitly, without weakening exact source-body or
+inventory checks. A regression test covers reordered/indented manifests and
+confirms that a changed metadata value still fails. The account-specific
+archive and installation evidence remain with the private receiver owner.
 
 [Codex continuation](CODEX_CONTINUATION.md) identifies the loops that need a selected host, native loading, actual recurring operation or later real use. Licensing and a stable release retain their separate owner decisions. A successful Git operation makes source reachable; it does not close those receiving loops.
