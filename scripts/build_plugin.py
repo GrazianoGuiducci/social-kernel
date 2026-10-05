@@ -7,6 +7,8 @@ import sys
 sys.dont_write_bytecode = True
 
 import argparse
+import json
+from pathlib import Path
 
 from _common import DEFAULT_ROOT, ToolError, absent_destination, assembled_files, require_valid_source, write_new_tree
 
@@ -14,11 +16,20 @@ from _common import DEFAULT_ROOT, ToolError, absent_destination, assembled_files
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--destination", required=True, help="Absent absolute directory outside the source root, in an existing parent.")
+    parser.add_argument("--plugin-manifest", type=Path, help="Optional Agent Plugins identity/presentation JSON for an existing receiver; source version remains separate.")
     args = parser.parse_args()
     try:
         destination = absent_destination(args.destination, DEFAULT_ROOT)
         manifest, sources = require_valid_source(DEFAULT_ROOT)
-        files = assembled_files(manifest, sources)
+        receiver_plugin = None
+        if args.plugin_manifest is not None:
+            try:
+                receiver_plugin = json.loads(args.plugin_manifest.read_text(encoding="utf-8"))
+            except (OSError, UnicodeError, ValueError):
+                raise ToolError("Cannot read receiver plugin metadata as UTF-8 JSON.") from None
+            if receiver_plugin is None:
+                raise ToolError("Receiver plugin metadata must be an object.")
+        files = assembled_files(manifest, sources, receiver_plugin)
         write_new_tree(destination, files)
     except ToolError as exc:
         print("REFUSED: " + str(exc), file=sys.stderr)

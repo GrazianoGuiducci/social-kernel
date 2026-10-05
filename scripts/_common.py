@@ -240,11 +240,47 @@ def plugin_metadata(manifest: dict) -> dict:
     }
 
 
-def assembled_files(manifest: dict, sources: dict[str, bytes]) -> dict[str, bytes]:
+def receiver_plugin_metadata(value: Any) -> dict:
+    """Accept identity/presentation only; no undeclared tools or integrations."""
+    allowed = {"$schema", "name", "version", "description", "author", "homepage",
+               "repository", "license", "keywords", "extensions"}
+    if not isinstance(value, dict) or set(value) - allowed or embedded_credentials(value):
+        raise ToolError("Receiver metadata must contain only credential-free plugin identity and presentation.")
+    if value.get("$schema") != "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json":
+        raise ToolError("Receiver metadata must use the Agent Plugins 1.0 schema.")
+    name, version = value.get("name"), value.get("version")
+    if not isinstance(name, str) or len(name) > 64 or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", name):
+        raise ToolError("Receiver plugin name must be a lowercase hyphenated identifier of at most 64 characters.")
+    if not isinstance(version, str) or not re.fullmatch(r"(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)(?:-[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?", version):
+        raise ToolError("Receiver plugin version must be a semantic version.")
+    if not isinstance(value.get("description"), str) or not value["description"].strip():
+        raise ToolError("Receiver plugin metadata requires a description.")
+    extensions = value.get("extensions", {})
+    if not isinstance(extensions, dict) or set(extensions) - {"com.openai"}:
+        raise ToolError("This skills-only builder supports only OpenAI presentation metadata.")
+    openai = extensions.get("com.openai", {})
+    if not isinstance(openai, dict) or set(openai) - {"interface"}:
+        raise ToolError("Receiver metadata cannot introduce tools, hooks, apps or execution capabilities.")
+    interface = openai.get("interface", {})
+    if not isinstance(interface, dict):
+        raise ToolError("Receiver plugin interface must be an object.")
+    subtitle = interface.get("shortDescription")
+    if subtitle is not None and (not isinstance(subtitle, str) or len(subtitle) > 30):
+        raise ToolError("Receiver plugin shortDescription must be at most 30 characters.")
+    return value
+
+
+def assembled_files(manifest: dict, sources: dict[str, bytes], receiver_plugin: dict | None = None) -> dict[str, bytes]:
     files = dict(sources)
-    metadata = json_bytes(plugin_metadata(manifest))
-    for path in PLUGIN_FILES:
-        files[path] = metadata
+    plugin = plugin_metadata(manifest) if receiver_plugin is None else receiver_plugin_metadata(receiver_plugin)
+    files["plugin.json"] = json_bytes(plugin)
+    if receiver_plugin is None:
+        files[".codex-plugin/plugin.json"] = files["plugin.json"]
+    else:
+        legacy = {key: value for key, value in plugin.items() if key not in {"$schema", "extensions"}}
+        legacy.update(plugin.get("extensions", {}).get("com.openai", {}))
+        legacy["skills"] = "./skills"
+        files[".codex-plugin/plugin.json"] = json_bytes(legacy)
     source_files = inventory(sources)
     contents = {
         "schema_version": INVENTORY_SCHEMA,
@@ -256,6 +292,8 @@ def assembled_files(manifest: dict, sources: dict[str, bytes]) -> dict[str, byte
         "inventory_excludes": [INVENTORY_FILE],
         "qualification": "Deterministic local source assembly only; no installation, release, execution, or authenticity claim.",
     }
+    if receiver_plugin is not None:
+        contents["receiver_plugin"] = receiver_plugin
     files[INVENTORY_FILE] = json_bytes(contents)
     return files
 
@@ -487,7 +525,16 @@ def validate_source(root: Path) -> tuple[dict, dict, dict[str, bytes]]:
     generated = [path for path in (*PLUGIN_FILES, INVENTORY_FILE) if os.path.lexists(root / path)]
     if generated:
         report["kind"] = "source_bundle"
-        expected = assembled_files(manifest, sources)
+        receiver_plugin = None
+        inventory_bytes = read_regular(root / INVENTORY_FILE, INVENTORY_FILE, errors)
+        if inventory_bytes is not None:
+            saved_inventory = parse_json(inventory_bytes, INVENTORY_FILE, errors)
+            if isinstance(saved_inventory, dict) and "receiver_plugin" in saved_inventory:
+                try:
+                    receiver_plugin = receiver_plugin_metadata(saved_inventory["receiver_plugin"])
+                except ToolError as exc:
+                    issue(errors, "receiver_plugin_metadata", INVENTORY_FILE, str(exc))
+        expected = assembled_files(manifest, sources, receiver_plugin)
         for path in (*PLUGIN_FILES, INVENTORY_FILE):
             actual = read_regular(root / path, path, errors)
             if actual is not None:

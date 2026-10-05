@@ -17,6 +17,16 @@ Optional local instance initialization, self-contained OpenAI source-bundle asse
 
 [Verification](docs/VERIFICATION.md) records exact check scope and results. The [worked example](docs/WORKED_EXAMPLE.md) is fictional and instructional. Local checks and an internal receiver exercise do not establish independent adoption or continuing autonomous operation.
 
+## Receiver preparation — 2026-10-05
+
+The current receiver continuation adds optional identity/presentation metadata
+to the bundle builder, preserving an existing plugin's name and version history
+without changing the public method's identity. Portable and compatibility
+manifests preserve the same presentation and prompt values. See the
+[adapter method](docs/OPENAI_PLUGIN_INCARNATION.md) and the qualified
+[Windows checks](docs/VERIFICATION.md#windows-receiver-mechanics--2026-10-05).
+This source correction does not itself update an installed plugin.
+
 ## Historical preview
 
 The earlier skills-only private preview had source identity 0.2.1. Its incomplete source snapshot remains under `plugin-adapters/openai/private-preview/` as genealogy. It is not the current public entry or a package assembled from these new owners. Its installed state and effects are not changed or re-proved here. The public source identity is separate from that preview's numbering.

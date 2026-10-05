@@ -77,4 +77,27 @@ Private living work also informed the generalized method. Private source identit
 
 ## Remaining receiving work
 
+### Windows receiver mechanics — 2026-10-05
+
+The source was subsequently exercised on Windows with Python 3.13.2. The
+original suite completed 21 tests and encountered four fixture-creation errors:
+the host process cannot create symbolic links (`WinError 1314`). Those errors
+did not establish a failure or success of the product's symlink behavior.
+
+The suite now separates ordinary file/directory preservation and direct
+source-destination checks from symlink-dependent cases. It explicitly skips
+only the unavailable symlink fixtures for that Windows privilege error;
+unexpected errors still fail. The adapted suite runs 29 tests here: 25 pass,
+four are skipped. The original Python 3.12.14 result above retains its own
+source and platform scope.
+
+The receiving comparison also exposed distinct source and installed-plugin
+identities. The builder now accepts optional identity/presentation metadata,
+preserves ordered default prompts in portable and compatibility manifests,
+and keeps the canonical source fingerprint separate from the receiver version.
+The added fictional tests exercise deterministic custom assembly, standalone
+validation after removing the original source, tamper detection, and refusal
+of undeclared execution configuration or credential metadata. They do not
+establish native installation or account-update success.
+
 [Codex continuation](CODEX_CONTINUATION.md) identifies the loops that need a selected host, native loading, actual recurring operation or later real use. Licensing and a stable release retain their separate owner decisions. A successful Git operation makes source reachable; it does not close those receiving loops.

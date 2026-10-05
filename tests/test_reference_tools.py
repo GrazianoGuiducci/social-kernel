@@ -106,6 +106,14 @@ class ReferenceToolTests(unittest.TestCase):
     def error_codes(self, result: dict) -> set[str]:
         return {error["code"] for error in result["errors"]}
 
+    def symlink(self, link: Path, target: Path, *, directory: bool = False) -> None:
+        try:
+            link.symlink_to(target, target_is_directory=directory)
+        except OSError as exc:
+            if os.name == "nt" and getattr(exc, "winerror", None) == 1314:
+                self.skipTest("This Windows process lacks the symbolic-link creation privilege; symlink behavior is unverified here.")
+            raise
+
     def test_valid_source_is_read_only(self) -> None:
         before = snapshot(self.root)
         process, report = self.validate()
@@ -241,12 +249,12 @@ class ReferenceToolTests(unittest.TestCase):
     def test_symlink_source_reference_is_refused(self) -> None:
         outside = self.base / "fictional-outside.txt"
         outside.write_text("A fictional outside source.\n")
-        (self.root / "docs/linked.md").symlink_to(outside)
+        self.symlink(self.root / "docs/linked.md", outside)
         report = self.validate()[1]
         self.assertIn("symlink", self.error_codes(report))
 
     def test_route_through_a_symlink_ancestor_cannot_falsely_pass_closure(self) -> None:
-        (self.root / "alias").symlink_to(self.root / "docs", target_is_directory=True)
+        self.symlink(self.root / "alias", self.root / "docs", directory=True)
         self.text("KERNEL.md", "# Fictional method\n\n[Guide](alias/GUIDE.md).\n")
         report = self.validate()[1]
         self.assertIn("symlink_link", self.error_codes(report))
@@ -254,7 +262,7 @@ class ReferenceToolTests(unittest.TestCase):
         self.save_manifest()
         self.assertIn("symlink", self.error_codes(self.validate()[1]))
 
-    def test_both_writers_preserve_every_existing_destination_kind(self) -> None:
+    def test_both_writers_preserve_existing_files_and_directories(self) -> None:
         existing_file = self.base / "existing-file"
         existing_file.write_bytes(b"KEEP EXACT FICTIONAL BYTES\x00\xff")
         empty = self.base / "empty-directory"
@@ -262,25 +270,42 @@ class ReferenceToolTests(unittest.TestCase):
         populated = self.base / "populated-directory"
         populated.mkdir()
         (populated / "keep.bin").write_bytes(b"DO NOT ALTER\x00")
-        link = self.base / "existing-link"
-        link.symlink_to(existing_file)
-        broken = self.base / "broken-link"
-        broken.symlink_to(self.base / "missing-link-target")
         for tool in ("init_instance.py", "build_plugin.py"):
-            for destination in (existing_file, empty, populated, link, broken):
+            for destination in (existing_file, empty, populated):
                 with self.subTest(tool=tool, destination=destination.name):
                     result = self.run_tool(tool, "--destination", destination)
                     self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
                     self.assertEqual(existing_file.read_bytes(), b"KEEP EXACT FICTIONAL BYTES\x00\xff")
                     self.assertEqual(snapshot(populated), {"keep.bin": b"DO NOT ALTER\x00"})
                     self.assertEqual(list(empty.iterdir()), [])
+
+    def test_both_writers_preserve_existing_and_broken_symlinks(self) -> None:
+        existing_file = self.base / "existing-file"
+        existing_file.write_bytes(b"KEEP EXACT FICTIONAL BYTES\x00\xff")
+        link, broken = self.base / "existing-link", self.base / "broken-link"
+        self.symlink(link, existing_file)
+        self.symlink(broken, self.base / "missing-link-target")
+        for tool in ("init_instance.py", "build_plugin.py"):
+            for destination in (link, broken):
+                with self.subTest(tool=tool, destination=destination.name):
+                    result = self.run_tool(tool, "--destination", destination)
+                    self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
+                    self.assertEqual(existing_file.read_bytes(), b"KEEP EXACT FICTIONAL BYTES\x00\xff")
                     self.assertTrue(link.is_symlink())
                     self.assertTrue(broken.is_symlink())
                     self.assertFalse(broken.exists())
 
-    def test_both_writers_reject_product_destinations_including_parent_aliases(self) -> None:
+    def test_both_writers_reject_product_destinations(self) -> None:
+        before = snapshot(self.root)
+        for tool in ("init_instance.py", "build_plugin.py"):
+            destination = self.root / "new-field"
+            self.assertEqual(self.run_tool(tool, "--destination", destination).returncode, 1)
+            self.assertFalse(destination.exists())
+        self.assertEqual(snapshot(self.root), before)
+
+    def test_both_writers_reject_product_destinations_through_parent_aliases(self) -> None:
         alias = self.base / "alias-to-product"
-        alias.symlink_to(self.root, target_is_directory=True)
+        self.symlink(alias, self.root, directory=True)
         before = snapshot(self.root)
         for tool in ("init_instance.py", "build_plugin.py"):
             for destination in (self.root / "new-field", alias / "new-field"):
@@ -288,6 +313,57 @@ class ReferenceToolTests(unittest.TestCase):
                     self.assertEqual(self.run_tool(tool, "--destination", destination).returncode, 1)
                     self.assertFalse(destination.exists())
         self.assertEqual(snapshot(self.root), before)
+
+    def test_receiver_plugin_preserves_identity_prompts_and_source_fingerprint(self) -> None:
+        metadata = {"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+                    "name": "fictional-existing-plugin", "version": "0.3.0-dev.1",
+                    "description": "Fictional receiver-owned identity.",
+                    "extensions": {"com.openai": {"interface": {
+                        "displayName": "Fictional receiver", "shortDescription": "Continuing public work",
+                        "defaultPrompt": ["First unchanged prompt", "Second unchanged prompt"]}}}}
+        path = self.base / "receiver-metadata.json"
+        write_json(path, metadata)
+        bundles = []
+        for name in ("receiver-one", "receiver-two"):
+            destination = self.base / name
+            result = self.run_tool("build_plugin.py", "--destination", destination, "--plugin-manifest", path)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertTrue(self.validate(root=destination)[1]["ok"])
+            bundles.append(destination)
+        self.assertEqual(snapshot(bundles[0]), snapshot(bundles[1]))
+        portable = json.loads((bundles[0] / "plugin.json").read_text())
+        legacy = json.loads((bundles[0] / ".codex-plugin/plugin.json").read_text())
+        self.assertEqual(portable, metadata)
+        self.assertEqual(legacy["interface"], metadata["extensions"]["com.openai"]["interface"])
+        self.assertEqual((legacy["name"], legacy["version"]), (metadata["name"], metadata["version"]))
+        standard = self.build("standard-comparison")
+        original = json.loads((standard / "BUNDLE_INVENTORY.json").read_text())
+        custom = json.loads((bundles[0] / "BUNDLE_INVENTORY.json").read_text())
+        self.assertEqual(custom["source_fingerprint"], original["source_fingerprint"])
+        self.assertEqual(custom["source_version"], VERSION)
+        # The delivered validator must keep working without the original source.
+        self.root.rename(self.base / "origin-unavailable")
+        self.assertTrue(self.validate(root=bundles[0])[1]["ok"])
+        portable["version"] = "0.3.0-dev.2"
+        write_json(bundles[0] / "plugin.json", portable)
+        self.assertIn("bundle_metadata", self.error_codes(self.validate(root=bundles[0])[1]))
+
+    def test_receiver_metadata_cannot_add_execution_or_leak_credential_values(self) -> None:
+        base = {"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+                "name": "fictional-plugin", "version": "0.3.0", "description": "Fictional metadata."}
+        cases = [dict(base, extensions={"com.openai": {"hooks": "undeclared.json"}}),
+                 dict(base, access_token="FICTIONAL_TOKEN_NEVER_ECHO"),
+                 dict(base, extensions={"com.openai": {"interface": {"shortDescription": "x" * 31}}}),
+                 dict(base, name="../escape"), None]
+        for i, metadata in enumerate(cases):
+            with self.subTest(case=i):
+                path = self.base / "receiver-metadata.json"
+                write_json(path, metadata)
+                destination = self.base / f"refused-receiver-{i}"
+                result = self.run_tool("build_plugin.py", "--destination", destination, "--plugin-manifest", path)
+                self.assertEqual(result.returncode, 1)
+                self.assertFalse(destination.exists())
+                self.assertNotIn("FICTIONAL_TOKEN_NEVER_ECHO", result.stdout + result.stderr)
 
     def test_both_writers_require_absolute_paths_and_existing_parents(self) -> None:
         for tool in ("init_instance.py", "build_plugin.py"):
