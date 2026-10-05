@@ -13,7 +13,7 @@ installed_receiver_update: none from this source change
 
 ## Current source
 
-The public candidate supplies a native [entry](BOOT.md), [kernel](KERNEL.md), [competence field](COMPETENCES.md), [evolution method](EVOLUTION.md) and eleven portable competence bodies. The current extension brings practical writing and revision, concept-to-media formation plus actual production, field research and listening, and learning that changes later work. A new receiver can use these sources without the private history that formed them. [Adoption](docs/ADOPTION.md) connects the method to the user's existing knowledge, private continuity and actual capabilities.
+The public development source supplies a native [entry](BOOT.md), [kernel](KERNEL.md), [competence field](COMPETENCES.md), [evolution method](EVOLUTION.md) and eleven portable competence bodies. The current extension brings practical writing and revision, concept-to-media formation plus actual production, field research and listening, and learning that changes later work. A new receiver can use these sources without the private history that formed them. [Adoption](docs/ADOPTION.md) connects the method to the user's existing knowledge, private continuity and actual capabilities.
 
 Optional local instance initialization, self-contained OpenAI, Claude Code and portable source projections, and structural validation provide bounded file mechanics. The profiles assemble the same canonical method for different receiving layouts. Native loading and actual capability retain their own evidence.
 
