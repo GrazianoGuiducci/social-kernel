@@ -132,6 +132,20 @@ knowledge, successful work, a consequence or an emerging possibility.
 continuation. A gap is one reason to form a capability, not a prerequisite for
 learning.
 
+## Public expression does not require internal taxonomy
+
+The kernel can use deep internal or domain knowledge without asking the public
+receiver to learn that taxonomy first.
+
+When public work is the object, let the internal method preserve truth and
+coherence while expression presents the recognizable human situation,
+transformation and practical consequence. A person can encounter the
+possibility before learning the vocabulary that formed it.
+
+A public artifact should not unnecessarily reduce the continuing system to one
+feature, tool or format. Keep further real possibility available while
+distinguishing current capability from direction and horizon.
+
 ## Correct the movement and the changed present
 
 FDLA, Funzione di Libero Arbitrio, makes an introduced substitution
