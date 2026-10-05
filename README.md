@@ -31,9 +31,11 @@ The public source includes connected methods for:
 - **Conceiving and writing.** Turn a source, idea or live question into a post,
   reply, announcement or connected content. Build the argument, preserve the
   author's voice and revise it for the actual reader and surface.
-- **Producing media.** Choose a useful image, diagram, carousel or audiovisual
-  form; compose it with the text; produce it through an available tool; inspect
-  the actual output and preserve the selected files.
+- **Producing media.** Start from the concept and real use case when the form
+  is not already selected; make the dynamic and practical consequence
+  perceptible, then choose a useful image, diagram, carousel, presentation or
+  audiovisual form. Compose it with the text, produce it through an available
+  tool, inspect the actual output and preserve the selected files.
 - **Listening and researching.** Investigate relevant conversations and sources,
   understand what is being asked, and examine uncertain, repetitive or
   misleading incoming information according to your goals.
@@ -136,7 +138,7 @@ after the facts change. See
 
 ## Current source and evidence
 
-This is the **0.2.0-dev.1 source candidate**. It includes the operating core,
+This is the **0.2.0-dev.2 source candidate**. It includes the operating core,
 public competence bodies, editorial and media methods, receiver guidance and
 optional file tools. [CURRENT.md](CURRENT.md) carries its exact state and
 [Verification](docs/VERIFICATION.md) records which checks and exercises have
