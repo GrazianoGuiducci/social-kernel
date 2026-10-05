@@ -70,6 +70,12 @@ the method unobserved.
 
 ## 2. Complete a real bounded movement and a later different one
 
+The verification record now distinguishes one assisted direct-source movement
+completed at exact revision `9bc71a5...` from the later current source
+resultant `cb380b5...`. Do not repeat the earlier movement merely to increase
+the exercise count, and do not transfer its proof to source knowledge added
+afterward.
+
 Use a separate private field or the user's existing owner. A useful trial can
 begin with one real source, a selected contribution and the actual available
 tools. Preserve local methods that already know the work. Do not import the
@@ -91,10 +97,13 @@ completed copy, editable work and independent preparation useful while the
 missing operation is supplied.
 
 Resume in a new session after a material change in purpose, source, audience or
-relationship. Give that session the saved current entry and reachable method,
-without the previous construction conversation. Observe which saved knowledge
-changes the next decision and which earlier artifacts stay valid. No method
-change is required if the existing knowledge suffices.
+relationship. Give that session the saved current entry and reachable current
+method, without the previous construction conversation. Observe which saved
+knowledge changes the next decision and which earlier artifacts stay valid. If
+the current source includes the later public-possibility projection, observe
+whether it actually changes public formation rather than assuming its presence
+in the file did so. No method change is required if the existing knowledge
+suffices.
 
 **Completion:** real artifacts and inspection are retained; the later session
 can recover and use the relevant result or learning; any additional operator
