@@ -3,6 +3,7 @@
 ```text
 updated: 2026-10-05
 source_version: 0.2.0-dev.2
+source_resultant: cb380b59784e9b10e40090400fa8efcc02b64510
 state: PUBLIC_SOURCE_CANDIDATE / LOCALLY_VERIFIED
 stable_release: none
 license: operator decision pending
@@ -49,8 +50,39 @@ media formation pertinent, but the schedule does not select the topic, format
 or effect.
 
 The completed creative exercise remains evidence for its frozen
-`0.2.0-dev.1` source. This new source-level generalization has not yet been
-exercised in a later non-identical public receiver or recurring run.
+`0.2.0-dev.1` source. A later assisted direct-source receiver movement was
+completed against exact public revision
+`9bc71a5f422bfc516b741c9490edadfd136bb022`: concept-to-representation
+formation preceded medium choice, actual media were produced and inspected, and
+the public method returned `no_change`. That observation belongs to that exact
+revision. It does not establish native plugin discovery, recurring execution or
+the behavior of later source changes.
+
+## Public possibility projection — post-exercise resultant
+
+After that receiver movement, `main` advanced to
+`cb380b59784e9b10e40090400fa8efcc02b64510` without adding another competence
+or changing the `0.2.0-dev.2` source family. The existing media competence now
+also carries this source-grounded public-expression relation:
+
+```text
+internal / source depth
+-> understand the dynamic
+-> show a recognizable human situation
+-> show what becomes different
+-> keep further supported possibility open
+```
+
+The relation keeps internal taxonomy behind the work when the audience does not
+need it, while preserving the distinction between current capability, reachable
+direction and open horizon. It is represented in [Kernel](KERNEL.md) and
+[Social Media Composition](skills/social-media-composition/SKILL.md).
+
+No later receiver movement has yet exercised this added relation. The current
+source resultant is therefore `cb380b5...`, while the first observed
+`dev.2` concept-to-media behavior remains bound to `9bc71a5...`. The later
+source addition does not retroactively change the earlier artifacts or their
+evidence scope.
 
 ## Receiver preparation — 2026-10-05
 
@@ -68,6 +100,6 @@ The earlier skills-only private preview had source identity 0.2.1. Its incomplet
 
 ## Continuation
 
-The original three-reading source completion and the subsequent receiving fixes retain their recorded scope. This extension's source work, local mechanics and two assisted creative receiving movements are complete. The export finding also returned a reference-base distinction to the public media method; later receiving use of that new distinction remains unobserved. An equipped receiver can continue the bounded tasks in [Codex continuation](docs/CODEX_CONTINUATION.md), using current source and preserving existing user instances. Concrete choices are prepared in [License and release decisions](docs/RELEASE_DECISIONS.md). Native package loading, selected recurring execution, later real use, stable release and licensing retain their own evidence or operator decision.
+The original three-reading source completion and the subsequent receiving fixes retain their recorded scope. This extension's source work, local mechanics and two assisted creative receiving movements are complete. The export finding also returned a reference-base distinction to the public media method; later receiving use of that new distinction remains unobserved. One assisted direct-source `dev.2` movement has now been observed at exact revision `9bc71a5...`; the later public-possibility addition in current resultant `cb380b5...` remains unexercised. An equipped receiver can continue the bounded tasks in [Codex continuation](docs/CODEX_CONTINUATION.md), using current source and preserving existing user instances. Concrete choices are prepared in [License and release decisions](docs/RELEASE_DECISIONS.md). Native package loading, selected recurring execution, later non-identical use of the current resultant, stable release and licensing retain their own evidence or operator decision.
 
 The live social field belongs in the user's instance, not in this product CURRENT. Later source changes and receiver results can teach the product through [Evolution](EVOLUTION.md) without replaying completed effects.
