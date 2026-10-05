@@ -30,6 +30,9 @@ Make the appropriate competence participate while the question and action form:
   supplies only pertinent private context.
 - [Media composition](../social-media-composition/SKILL.md) participates when
   image, sound, motion or another perceptual form can change the idea or encounter.
+  When the movement begins from a concept or new learning rather than an already
+  selected artifact, let it first form the representation field from domain/use
+  case, dynamic and practical consequence before choosing the medium.
 - [Relationship continuity](../social-relationship-continuity/SKILL.md) recovers
   the person, thread and next trigger when those change the action.
 - [Cognitive integrity](../social-cognitive-integrity/SKILL.md) helps inspect
@@ -89,6 +92,9 @@ A draft or executable queue carries an earlier determination. Apply
 [executable effect freshness](../../docs/EXECUTABLE_EFFECT_FRESHNESS.md) before
 its dependent write. A recurrence is a chance to reenter and choose, as described
 in [recurrent operation](../../docs/RECURRENT_OPERATION.md); it is not a quota.
+A scheduled wake also does not preselect the creative form. If the current
+field makes media formation pertinent, use the same concept-to-representation
+method as an interactive movement before reusing an earlier image family.
 
 ## Let what happened change what comes next
 
