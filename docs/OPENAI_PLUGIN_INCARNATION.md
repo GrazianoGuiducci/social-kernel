@@ -76,7 +76,7 @@ inventory itself retain exact-byte checks; a changed metadata value still fails.
 
 Use the receiver's actually available installation or loading mechanism. Confirm what it loads, whether discovery reaches the intended skill body and whether local references remain reachable. A file check does not prove the current host accepts the package or that its model follows the method.
 
-Public source version `0.2.0-dev.1` is a development identity. Native installation, activation and post-interruption use remain separate checks in [Codex continuation](CODEX_CONTINUATION.md). Preserve existing configured skills and user state until a selected update has its own recovery path.
+Public source version `0.2.0-dev.2` is a development identity. Native installation, activation and post-interruption use remain separate checks in [Codex continuation](CODEX_CONTINUATION.md). Preserve existing configured skills and user state until a selected update has its own recovery path.
 
 ## Earlier probe
 
