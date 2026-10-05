@@ -1,45 +1,140 @@
-# Continue in an equipped receiver
+# Continue in Codex or another equipped receiver
 
-This packet carries work that needs an actual receiving host or later use. It does not grant publication, messaging, installation or recurring-execution authority. The source implementation can be read and checked before any of those effects are selected.
+This packet starts from the completed public source work described in
+[CURRENT](../CURRENT.md) and [Verification](VERIFICATION.md). Use it for the
+specific receiving operations that need the real host, its tools or later
+observations. Preserve the valid source and receiver work already completed.
+It selects no personal installation, social effect, recurring job or release
+by itself.
 
-## Enter from current source
+## Recover the actual source and receiver
 
-Resolve the current product branch/revision and read [CURRENT](../CURRENT.md), [BOOT](../BOOT.md), [Receiver contract](RECEIVER_CONTRACT.md) and [Verification](VERIFICATION.md). Preserve advances made since this packet was written. Compare a prepared bundle with the exact current source before relying on its identity.
+Resolve the current product revision and read [BOOT](../BOOT.md),
+[host integration](HOST_INTEGRATION.md) and the [receiver contract](RECEIVER_CONTRACT.md).
+Compare any prepared bundle with that revision. Keep an existing receiver's
+identity, integrations, configured entry, useful skills and learned state.
+Public source `0.2.0-dev.1`, a private instance's provenance and an installed
+plugin's version identify different objects.
 
-Use the real receiver's native entry, tools and skill-loading knowledge. If an existing private Social Kernel instance is available, enter its current owner sources and preserve its local learning, records and authority. The public product's defaults do not replace a living instance's current policy. A private instance is optional; essential public method is supplied here.
+The public method already includes writing and revision, media composition
+and production, field research, relationships and evolution. Use its supplied
+creative example and evidence to understand what was exercised. Do not replace
+finished creative work with another brief or reopen source construction merely
+because this task runs in a new host.
 
-## 1. Exercise a fresh receiving context
+## 1. Exercise native discovery in the selected host
 
-Use the assembled source and a separate instance or the receiver's own equivalent private continuity. Bring a small real purpose, a reachable source and one bounded movement. Keep the setup small enough that the product, rather than an architect's unrecorded intervention, supplies the operating knowledge.
+The construction shell did not expose a `codex` or `claude` executable.
+Consequently, no native CLI loading or host discovery is claimed for these
+profiles. The missing observation is the real host reaching and using the
+packaged method, including its linked depth.
 
-Make a useful result; preserve its actual consequence or uncertainty; return any reusable difference to the acting method and its real entry. Resume in a later, non-identical situation using only reachable source and saved continuity. Record any additional instruction or source a person had to provide, because that help qualifies the product result.
+Build the required target into a new directory outside the checkout:
 
-Return the source/bundle identity, actual receiver and means, starting conditions, observed result, learned difference, the consumer that now reaches it, and the later decision. A good first result may produce no method change. Do not manufacture an error or public effect to complete a story.
+```sh
+python3 scripts/build_plugin.py --target openai --destination "/absolute/new/social-kernel-openai"
+python3 scripts/build_plugin.py --target claude-code --destination "/absolute/new/social-kernel-claude"
+python3 scripts/build_plugin.py --target portable --destination "/absolute/new/social-kernel-portable"
+```
 
-**Stop condition:** the receiver can recover and use the method with its own context, or the first precise missing relation is exposed with a source-level correction. A fictional exercise remains qualified as such. This step does not establish broad effectiveness or independent adoption.
+These are alternatives, not an installation sequence. Validate the selected
+bundle with its own copied `scripts/validate.py`. Record the actual host
+version, target and inventory fingerprint.
 
-## 2. Verify native source-bundle loading when selected
+**In Codex:** use the actual supported plugin or local skill route described
+in [host integration](HOST_INTEGRATION.md). The repository's `skills/` folder
+is source; it does not itself establish local skill discovery. If an entry or
+installation change is selected, preserve the existing configuration and make
+the whole linked method reachable. Observe the selected skill in the native
+selector or loading result, then inspect what body and references are read.
+An explicit read of BOOT is useful source use, with a different scope from
+native automatic discovery.
 
-Prepare the current bundle through `scripts/build_plugin.py` and validate it independently from its output directory. Then, only if installing or updating that receiver is selected, use the host's actual supported loading mechanism. Preserve the previous package and any local state so the change can be recovered.
+**In Claude Code:** when a bounded native loading exercise is selected, run:
 
-Observe which entry and skills the host actually discovers, whether their local references resolve, and what survives a fresh conversation or interruption. Source files, accepted upload, installed version, activation and use are separate receipts. If the host requires another layout, update the source adapter/build method and rerun only its affected checks; do not fork canonical social knowledge into the package.
+```sh
+claude --version
+claude plugin validate "/absolute/new/social-kernel-claude"
+claude --plugin-dir "/absolute/new/social-kernel-claude"
+```
 
-**Stop condition:** precise loading/discovery/reentry evidence for the selected host, or its exact unresolved limitation. No stable native-support claim follows from local file assembly alone.
+Inspect the actual `/social-kernel:social-kernel-operating-cycle` entry, or its
+name under the selected receiver identity. A plugin-root `CLAUDE.md` is not the
+entry supplied by this package. Read the linked core and practical references
+through the plugin and retain the native validation result. The command is a
+receiving instruction; it has not run in the construction environment.
 
-## 3. Reconcile an existing recurring operation when selected
+**Completion:** the selected host's entry, full body and references are
+observably reachable, or the first concrete delivery/discovery gap is recorded
+and corrected in its source owner. A native schema result alone leaves use of
+the method unobserved.
 
-Use [Recurrent operation](RECURRENT_OPERATION.md). Compare the actual scheduler/controller configuration with the private owner's current policy and current entry, not only with an old setup receipt. Preserve a source correction that has not yet been installed as pending.
+## 2. Complete a real bounded movement and a later different one
 
-The wake should recover current field and learned method, choose useful work, resolve current eligibility and authority, avoid duplicate attempts and notifications, and return meaningful outcomes. An uncertain effect must be read on the native surface before another attempt. A new post, reply, email and account change can have different permissions.
+Use a separate private field or the user's existing owner. A useful trial can
+begin with one real source, a selected contribution and the actual available
+tools. Preserve local methods that already know the work. Do not import the
+fictional example's studio, voice, palette, decisions or authorities as product
+defaults.
 
-Where a broad old prompt conflicts with a newer owner decision, the current qualified policy governs. Change an installed job only within the selected scope, preserve its former configuration, and read back the actual installed result. Do not create a second controller for the same effect merely to bypass an existing limitation.
+Ask the receiving assistant:
 
-**Stop condition:** current installed configuration and one bounded observed wake agree, including no-action and interruption/recovery handling as applicable. If no job change is selected, return the exact proposed delta without activating it.
+> Continue the selected public work from my current entry, using Social
+> Kernel and the useful competences already present here. Read the actual
+> sources, produce the selected content and media through available tools,
+> inspect the resulting artifacts, and preserve the exact files, reasons and
+> useful learning where my next session can reach them.
 
-## 4. Return learning and qualify any release
+If the required media operation is missing, resolve the callable tool or
+provide the exact source, operation, input and expected retrievable output to
+its implementation owner. A key or integration name is insufficient. Keep
+completed copy, editable work and independent preparation useful while the
+missing operation is supplied.
 
-Return a public method or adapter correction to this repository. Keep private facts and receipts with their private owner; use [Public derivation](PUBLIC_DERIVATION.md) for the transferable relation. Compare upstream source, local evolution and target meaning before an update replaces anything.
+Resume in a new session after a material change in purpose, source, audience or
+relationship. Give that session the saved current entry and reachable method,
+without the previous construction conversation. Observe which saved knowledge
+changes the next decision and which earlier artifacts stay valid. No method
+change is required if the existing knowledge suffices.
 
-Licensing is an outstanding product-owner decision. Codex should surface it before a release and must not infer a license from neighboring projects. A stable release likewise needs its own selection, finalized source identity, relevant checks, receiving-use evidence appropriate to the claimed support and release readback. The current source task does not supply those decisions by implication.
+**Completion:** real artifacts and inspection are retained; the later session
+can recover and use the relevant result or learning; any additional operator
+prompt, review or tool assistance is disclosed. Report the exact source,
+receiver and means. This bounded observation does not establish universal
+adoption, long-term effectiveness or a social outcome that was not observed.
 
-**Stop condition:** the selected receiver loop is closed at its observed scope, reusable learning is reachable in the owner that must behave differently, and remaining external decisions or capability gaps are explicit.
+## 3. Reconcile recurring execution only if it is selected
+
+Use [Recurrent operation](RECURRENT_OPERATION.md) with the actual private
+owner's current policy and controller. Read the installed job rather than
+inferring it from an old receipt. Compare its entry, source refresh, allowed
+actions, deduplication, uncertainty recovery and notification behavior with
+that current policy. Do not create a second controller for the same effect.
+
+A selected job update needs a recoverable former configuration, actual update
+and native readback. A bounded observed wake should recover the field, choose
+useful work, respect current authority, avoid replaying an uncertain effect
+and preserve its actual outcome or no-action reason. An old source change that
+has not reached the installed job remains pending at that receiving boundary.
+
+**Completion:** the installed configuration and observed wake agree at their
+actual scope, or the exact missing capability/decision remains explicit.
+This source task activates no recurrence.
+
+## 4. Return learning and apply a selected release decision
+
+Return a reusable method, packaging or discovery correction to the public
+owner through [Evolution](../EVOLUTION.md). Preserve private facts and receipts
+with their private owner. Compare the earlier shared base, local evolution and
+incoming change before replacing any learned method.
+
+[License and release decisions](RELEASE_DECISIONS.md) now provides concrete
+options: a proposed permissive license and development pre-release, with the
+remaining scope, holder and distribution choices. Obtain the owner's actual
+selection before adding a license grant or publishing a release. Do not infer
+it from a neighboring repository or the successful source push.
+
+**Completion:** the selected receiving loop is closed, the owner that must act
+differently can reach its learning, and any remaining native operation or
+product decision is precise. A successful source save is evidence of source
+persistence; installation and release retain their own readbacks.

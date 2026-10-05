@@ -25,6 +25,7 @@ another table.
 | --- | --- |
 | Current entry | Purpose, material present, open reason and next trigger |
 | Source | Product/research fact, attributed direction or originating meaning |
+| Creative artifact | Actual copy/media, editable source when available, selected revision and its source/inspection relation |
 | Effect record | Action occurred, attempted or still unexecuted |
 | Observation | Who inspected what, when, with which coverage and limitation |
 | Consequence | Observed difference and qualified interpretation |
@@ -53,6 +54,13 @@ repair the present and the entry that replays it; preserve earlier occurrence.
 Keep an approved aspect, a candidate revision and a separate experiment distinct.
 A more recent visual experiment does not automatically replace the selected
 post asset; appreciation of its style does not approve its message or use.
+
+For creative work, keep the actual files reachable from that selection. The
+[media production and continuity method](../skills/social-media-composition/references/production-and-continuity.md)
+connects source, master or input assets, production instruction, inspected
+revision, useful alternatives and selected output. Use the existing record
+that can carry these relations. A later source or audience change should make
+the dependent artifacts identifiable without replacing valid unrelated work.
 
 An old product version, later conversation and expired permission do not
 necessarily belong to one present. Time and applicability matter when they

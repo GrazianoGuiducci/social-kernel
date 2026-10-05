@@ -1,0 +1,222 @@
+{
+  "schema_version": "social-kernel.bundle-inventory.v2",
+  "target": "portable",
+  "source_name": "social-kernel",
+  "source_version": "0.2.0-dev.1",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "610b1c9a98bd31714329492485f8842699e0c1dbe61dd15f1f0064044751f6de",
+    "file_count": 41,
+    "qualification": "Identifies the local manifest-declared source bytes only. It is not a Git commit, signed release, authenticity proof, update guarantee, or evidence of installation, host compatibility, or social operation.",
+    "scope": "SHA-256 of the sorted source_files inventory encoded as UTF-8 JSON with sorted object keys, separators ',' and ':', and no trailing newline. Each entry contains its relative path, byte size, and file SHA-256."
+  },
+  "source_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "ece70d6eaefd8763fb093fd5f47406bff7c8ad675bd993a19c2817a99166b287",
+      "size": 3074
+    },
+    {
+      "path": "BOOT.md",
+      "sha256": "1c0c5a7a45e4ed54eb99a07a27eddd40b5b216eee2267ab87237a6f72b682a42",
+      "size": 5003
+    },
+    {
+      "path": "COMPETENCES.md",
+      "sha256": "b2fd73fcfd0dfbab464fd9f39711a594ea0b8bfdb5acce68232c0649da2d080d",
+      "size": 4741
+    },
+    {
+      "path": "CURRENT.md",
+      "sha256": "ee8fa4d96b6fe9dba78679886e806d5372491989b4482d258126a1f1f351af6c",
+      "size": 3252
+    },
+    {
+      "path": "EVOLUTION.md",
+      "sha256": "30186bbedf9c9c8cc3bc13968922c46744d07ecfa9252fc97f291fe515450ab0",
+      "size": 12531
+    },
+    {
+      "path": "KERNEL.md",
+      "sha256": "9033e3f950a97caa90526a41de9895afad790300f661a7fccff2da7bfdd6fb02",
+      "size": 12646
+    },
+    {
+      "path": "KERNEL_MANIFEST.json",
+      "sha256": "9c12ad0490825a430229dbd43dfe4660966da3e91682a7682054d20193e925f5",
+      "size": 2387
+    },
+    {
+      "path": "PRIVACY_AND_COGNITIVE_INTEGRITY.md",
+      "sha256": "60ed139bcadb62faa0742925455557aa1531c5922f487434903e84a1f8ff88e3",
+      "size": 2340
+    },
+    {
+      "path": "PRODUCT.md",
+      "sha256": "e1918a54565ce75dc7f27bc3f02625680fe8da4d7ceb1ead96335964caa706eb",
+      "size": 8819
+    },
+    {
+      "path": "README.md",
+      "sha256": "e3fd769caa6ba55554854009fe434a5b7a906aa2799f6007609b4ed50be581c7",
+      "size": 7896
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "75fe50625c7fa9f2dc73e2da15235f235809900e17ad4db86a1bc52b8332d5f7",
+      "size": 3796
+    },
+    {
+      "path": "docs/ADOPTION.md",
+      "sha256": "a4da4c9d486478524be76f707f56a3b49919d1bfa453d2ad6a6814d7e37add76",
+      "size": 8233
+    },
+    {
+      "path": "docs/CODEX_CONTINUATION.md",
+      "sha256": "fae6935587f758b8d8b4ee430f8ee1688fa790d32463ba0108ad109d50c7d789",
+      "size": 5522
+    },
+    {
+      "path": "docs/EXECUTABLE_EFFECT_FRESHNESS.md",
+      "sha256": "fe7e16062b3a6517d7153617ef75e0aa6bbaf58a80040863a1af4ce74cffc608",
+      "size": 5321
+    },
+    {
+      "path": "docs/HOST_INTEGRATION.md",
+      "sha256": "27a02d13944ab57a2558bc9583a2b48cb85cf6db89e5891914fae82ea6643544",
+      "size": 10044
+    },
+    {
+      "path": "docs/OPENAI_PLUGIN_INCARCATION.md",
+      "sha256": "a33417725b09152df3e6469574ad05832a54be3c34e070da407e395804191f9e",
+      "size": 342
+    },
+    {
+      "path": "docs/OPENAI_PLUGIN_INCARNATION.md",
+      "sha256": "00afc3ce704141f13c783b8aecb502634cb55fe98e6d8cec912db6fcb96fc9c5",
+      "size": 5329
+    },
+    {
+      "path": "docs/PUBLIC_DERIVATION.md",
+      "sha256": "1501ae3f43f4f19f259f8a45afeb12acaf1510700663e745592343400d1050ec",
+      "size": 8134
+    },
+    {
+      "path": "docs/RECEIVER_CONTRACT.md",
+      "sha256": "7545ef8fc4ec1259b53e30af5b614191047c2c07c59b967a72c67de9415bea9a",
+      "size": 8558
+    },
+    {
+      "path": "docs/RECURRENT_OPERATION.md",
+      "sha256": "a6534053d2d3639af7ec1a8c6f36c9121420c3024aa2a05b18950b684c8cd77c",
+      "size": 5230
+    },
+    {
+      "path": "docs/STATE_AND_RECORDS.md",
+      "sha256": "bbdac4018cc85a0e0ae821c4b4287674bce5137bd552dc7ca1d3caf7e9ff363c",
+      "size": 7308
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "dd734c0f278593fa92a4eb9744d7f9d7ab40be540a0e3d32c6a571b6b3e5b8b2",
+      "size": 13002
+    },
+    {
+      "path": "docs/WORKED_EXAMPLE.md",
+      "sha256": "2f89a458298850e2734a4e90187ca5d8a1306f45188b0fd421caf07f88ffa5db",
+      "size": 8903
+    },
+    {
+      "path": "scripts/_common.py",
+      "sha256": "497424d6cde5318208e391fb723f9e0f6878bd96916c1ed59432a9df0b3c9047",
+      "size": 37347
+    },
+    {
+      "path": "scripts/build_plugin.py",
+      "sha256": "5d401d7dcb52067c4300004442c3b0a5115d9416bf6dd740f1d4cd856cecb0b3",
+      "size": 2577
+    },
+    {
+      "path": "scripts/init_instance.py",
+      "sha256": "48aeacca8dd3923f1d8af82106b028e6cb462b1f425741dd0e39d554da6a4e3e",
+      "size": 3098
+    },
+    {
+      "path": "scripts/validate.py",
+      "sha256": "539191a82397137cc8587d6321dfb63af7aea44c1530dc03a0fe09f92f2ae0d4",
+      "size": 1917
+    },
+    {
+      "path": "skills/social-cognitive-integrity/SKILL.md",
+      "sha256": "b3fed6fdf4ab13cb3adb45eb14e033a6fb1a57ffbe66d1d5222df45af51bd3ba",
+      "size": 4859
+    },
+    {
+      "path": "skills/social-competence-evolution/SKILL.md",
+      "sha256": "8d35e3518e3e245da7351df74bda469d54045062a55892ddc62494ac6d51a436",
+      "size": 7978
+    },
+    {
+      "path": "skills/social-effect-boundary/SKILL.md",
+      "sha256": "0a00aa49561d7e55536d4e9224602d2e2433be0c88e1545cceca89e71fa68a40",
+      "size": 4553
+    },
+    {
+      "path": "skills/social-effect-consequence/SKILL.md",
+      "sha256": "4f24884c6bac6d7b9ae9c6caaca720fa954ab587df828c97b33efd94b364779f",
+      "size": 3750
+    },
+    {
+      "path": "skills/social-field-reentry/SKILL.md",
+      "sha256": "a57dda100e71a602b7495944ee5c023abcb737a44aacf2617eecb9a80e4b2ac1",
+      "size": 3517
+    },
+    {
+      "path": "skills/social-kernel-operating-cycle/SKILL.md",
+      "sha256": "eedd14c2990a44c45b1352b3a822b1fd0411e387e19d395249d1598f865f1ff3",
+      "size": 6271
+    },
+    {
+      "path": "skills/social-media-composition/SKILL.md",
+      "sha256": "6e03724dab21955bdd43ab223a85a95ce3f00dccdb3e509b288ac1fafc5dd0d9",
+      "size": 10759
+    },
+    {
+      "path": "skills/social-media-composition/references/production-and-continuity.md",
+      "sha256": "3003f92994837ffb3325e83a38850b36b599b805beb83250adf33a256b87b8f0",
+      "size": 8526
+    },
+    {
+      "path": "skills/social-opportunity-formation/SKILL.md",
+      "sha256": "ae1fd91b012c906b117a3239f01a19dee71e71d7ac4ccf630f0111bcbb8aa18c",
+      "size": 8067
+    },
+    {
+      "path": "skills/social-opportunity-formation/references/field-research-and-listening.md",
+      "sha256": "56083fd5b244dc384e3da62b4573102b0f513a5cd7b63bb97f98864718715c1e",
+      "size": 5527
+    },
+    {
+      "path": "skills/social-relationship-continuity/SKILL.md",
+      "sha256": "6e78f5584ca69fd82a1ce38768aa832bfa6af9872601fac002ce1c25c2c76e0b",
+      "size": 4123
+    },
+    {
+      "path": "skills/social-surface-expression/SKILL.md",
+      "sha256": "40aae4a893c26ab6869cab1d2591d76c99772c21005af03e4ee7d94c4c208199",
+      "size": 8383
+    },
+    {
+      "path": "skills/social-surface-expression/references/writing-and-revision.md",
+      "sha256": "1757b4fde755f130ee6aab479e0c926fa074f05cff77da1ddf5afd7206924f0c",
+      "size": 12919
+    },
+    {
+      "path": "skills/social-user-field-projection/SKILL.md",
+      "sha256": "afaa4e50d62ef5bfae9ddb5da87884d32a7faca6f1f28a85eabdff606492c703",
+      "size": 4350
+    }
+  ],
+  "source_commit": "08d61bec187e384a89d700dd81ee407f5faad133",
+  "scope": "Frozen source supplied to both internal creative receivers; not the later final bundle identity."
+}

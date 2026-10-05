@@ -123,6 +123,20 @@ Keep the smallest record that explains:
 This is a semantic record. A Markdown note, existing asset manager or local
 project convention can carry it without a new database or mandatory schema.
 
+When preserving a snapshot, retain its source identity and original location
+or reference base. Relative links derive their meaning from that base; copying
+the same bytes to another folder can change what they reach. Keep historical
+archives distinguishable from active navigation. An archive can preserve its
+original references with their base made explicit, while an active index or
+adapted projection supplies usable routes from the new location.
+
+After copying, moving or transferring a family, follow its material references
+from the receiving entry, including the linked assets, methods and source
+projections. Verify the routes the consumer actually exposes. A check of the
+original tree or only the top-level index does not establish reachability of
+the copied material. State the inspected coverage and any unresolved route;
+preserve the historical record when correcting its active projection.
+
 A selection applies to a named purpose and situation. Preserve accepted
 features separately from a decision about the whole artifact. A recently
 generated variant remains an experiment until the current selection changes.

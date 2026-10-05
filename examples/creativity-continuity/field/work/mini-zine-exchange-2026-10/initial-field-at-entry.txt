@@ -1,0 +1,9 @@
+# Riva Print Room — current work
+
+This is a fictional local field for an internal receiving exercise. All studio, event and conversation details are supplied fixture facts, not observed public activity.
+
+The studio wants nearby adults to discover an approachable way to make and share something. The new selected work is a complete social contribution for the Mini-zine Exchange, including the media useful to it, and a draft answer to the participant question. Concept, wording, medium and local artifact creation are delegated to the receiving assistant. Preserve the finished work so a later session can continue from it.
+
+Read [the new event and question](sources/mini-zine-exchange.md) and [our continuing working method](methods/studio-voice.md). This directory remains the studio's chosen continuity location. You may update it and preserve useful assets, versions, reasons and learned methods here. Social posting and messaging are outside this exercise; no real account or recipient is supplied.
+
+Prior work: [Open Print Table local contribution](work/open-print-table-2026-10/README.md) is complete. Its source and selected files are retained. The [prior current entry](history/current-after-open-print-table.txt) preserves the exact earlier preparation state as historical text. No publication or audience consequence was observed.

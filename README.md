@@ -18,6 +18,12 @@ original and answer the actual question. Its next session should find the
 selected files and understand why the invitation changed. A reusable lesson
 should also change how the next invitation is formed.
 
+See the [Riva Print Room creative case](examples/creativity-continuity/README.md)
+for two fictional studio assignments with actual generated cards, copy and a
+later use of the saved method. It preserves the files, local inspections and
+additional assistance. This is an internal exercise without publication or
+audience outcomes.
+
 ## What you receive
 
 The public source includes connected methods for:
@@ -136,8 +142,9 @@ optional file tools. [CURRENT.md](CURRENT.md) carries its exact state and
 [Verification](docs/VERIFICATION.md) records which checks and exercises have
 actually been completed.
 
-The [worked example](docs/WORKED_EXAMPLE.md) is a fictional explanation of
-continuity. Local contract checks, internal exercises, native-host use and
+The separate [instructional worked example](docs/WORKED_EXAMPLE.md) explains
+continuity through a fictional narrative. Local contract checks, internal
+exercises, native-host use and
 real social effects have different scopes; their records preserve that
 difference. Licensing and a stable release remain decisions to make with the
 project owner.

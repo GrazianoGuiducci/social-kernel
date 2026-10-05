@@ -1,0 +1,7 @@
+# Riva Print Room — current work
+
+This is a fictional local field for an internal receiving exercise. All studio, event and conversation details are supplied fixture facts, not observed public activity.
+
+The studio wants nearby adults to discover an approachable way to make and share something. Our selected work is a complete social contribution for the Open Print Table, including the media useful to it. Concept, wording, medium and local artifact creation are delegated to the receiving assistant. Preserve the finished work so a later session can continue from it.
+
+Read [the current event](sources/open-print-table.md) and [our existing working note](methods/studio-voice.md). This directory is the studio's chosen continuity location. You may update it and preserve useful assets, versions, reasons and learned methods here. Social posting and messaging are outside this exercise; no real account or recipient is supplied.

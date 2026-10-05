@@ -4,11 +4,49 @@ Current source family: `0.2.0-dev.1`. Updated on 2026-10-05.
 
 This document separates source construction, local mechanics, receiving behavior and external use. A material change has its own applicable proof; an earlier preview or upstream product's result does not prove this source.
 
-## Current extension — verification in progress
+## Current extension — 0.2.0-dev.1
 
-The extension preserves the Codex receiving fixes at `a4db74d4d9804233f4a07e63c1219b0ddf467e47`. Before editing, its 30-test suite passed on Linux with Python 3.12.14, without skips. This is a new observation of that baseline, separate from its recorded Windows result below.
+The extension preserves the receiving fixes at `a4db74d4d9804233f4a07e63c1219b0ddf467e47`. Before editing, its 30-test suite passed on Linux with Python 3.12.14, without skips. This is a new observation of that baseline, separate from its recorded Windows result below.
 
-The current work adds practical editorial and media methods, deeper listening and competence formation, and explicit OpenAI, Claude Code and portable source projections. The method and receiving mechanics are being checked with their own source identities. An internal creative use and later changed situation are in preparation; they have no observed result yet.
+### Source and local mechanics
+
+The new source carries eleven competence bodies with practical writing/revision, media conception/production/inspection, field research/listening and deeper competence formation. The builder now supplies explicit `openai`, `claude-code` and `portable` projections of the same canonical source. A private instance's helper schema remains v1; bundle inventory v2 records the chosen target and source identity separately from receiver metadata.
+
+**37 tests passed** on Linux with **Python 3.12.14**, with no failures or skips. The run completed in 11.814 seconds. It preserves the 30 baseline cases and adds seven tests covering the three profiles, repeatable assembly, standalone validation without the original source, binary asset inclusion, existing configuration/state preservation, incompatible or ambiguous metadata and target/schema distinctions. The Windows fixture exception remains limited to `WinError 1314`; this new suite was not run on Windows in this environment.
+
+A separate read-only review inspected the projection branches and preservation of the receiving fixes. It found no material defect. One temporary experiment clarified a reporting limit: without an inventory, a portable directory is classified as product source rather than an inventory-verified bundle. The checker tests inventory consistency when present; it is not a signature or a tamper-proof system. Equivalent JSON serialization is qualified only for generated plugin manifests; source bodies and the inventory retain exact-byte comparison.
+
+The completed source, including the creative case, validates with **79 declared source files and 11 competences**. Its assembled projections contain:
+
+| Target | Complete bundle files | Receiving metadata |
+| --- | --- | --- |
+| `openai` | 82 | Portable plugin manifest, OpenAI compatibility manifest and inventory. |
+| `claude-code` | 81 | Claude Code plugin manifest and inventory. |
+| `portable` | 80 | Source and inventory, without plugin metadata. |
+
+Each target was assembled twice in separate absent directories. The two full file maps were byte-identical within each target, and all six bundles passed their own copied validators. All targets have the same source inventory and fingerprint; target metadata has its own bytes. The exact frozen source used for the creative exercise has a separate identity below. The final bundle's inventory supplies its current identity without embedding a self-referential digest in this source document.
+
+The exported second contribution's 14-file asset map was checked against the actual retained bytes. All eight files present in the baseline historical-preview directory remain byte-identical. A contextual review of the current public additions found no selected private source coordinates or volatile absolute filesystem locations. Generic tool locations and disclosed internal task labels remain identified as such. Those bounded checks do not certify arbitrary future input.
+
+To reproduce the current source and receiving mechanics, run the suite and source validator, then build and validate the desired profile using the commands in [host integration](HOST_INTEGRATION.md). Compare two new output directories if repeatable assembly is pertinent. The checker does not fetch external URLs, validate fragment anchors, render HTML or establish semantic, native-host or social behavior.
+
+### Creative receiving exercise
+
+The [Riva Print Room case](../examples/creativity-continuity/README.md) uses actual generated media with explicitly fictional studio/event facts. The two fresh internal receivers receive the portable source at [commit 08d61be](https://github.com/GrazianoGuiducci/social-kernel/commit/08d61bec187e384a89d700dd81ee407f5faad133): 41 declared source files and one inventory, fingerprint `610b1c9a98bd31714329492485f8842699e0c1dbe61dd15f1f0064044751f6de`.
+
+The first receiver produced and inspected an illustrated invitation, retained its exact PNG/copy/alt text/prompt/source/selection, and deepened an existing local method with a conditional perceptual precedent. A fresh second receiver entered that saved field after a materially different event and participant question. It used the saved object-recognition guidance while the sharing purpose and supported beginner route changed the invitation, illustrated subject and palette. It produced another actual card, caption, alternative text and a direct draft answer, retaining the first contribution and original local voice. Both native 1122 × 1402 PNGs and their 375-pixel-wide previews were opened and visually inspected by the respective receiver and parent author. These are local visual readings; one raster revision was selected per movement.
+
+The second receiver also added a conditional joining-route precedent to the existing studio method. Its later use in another situation remains unobserved. The first saved precedent's non-identical use in the second movement was observed at the scope described above.
+
+The [actual receiving tasks](../examples/creativity-continuity/RECEIVING_TASKS.md) and contribution records retain additional assistance. Generic host knowledge, an image-generation tool, one bounded text-only copy reviewer per receiver and parent author review participated. The first review added the year to a standalone caption; the second offered the participant answer, to which the receiver added the venue. Neither text reviewer inspected the generated image. The optional HTML browser preview encountered a missing Chromium executable; a separate image downscale and actual visual inspection supplied the usable small preview. The HTML render remains unobserved. The cards are flattened rasters without a layered typography master or a claim of deterministic image regeneration.
+
+The final public export normalized volatile runtime locations. It preserves the selected media, copy, alternative text, production prompts and retained review inputs/returns byte-for-byte. The source validator exposed one relocated historical method snapshot whose relative links assumed its original base. The export preserved its exact bytes as historical text, identified that base and corrected the active route. The receiving check had covered the entry, method and contribution index; it had not checked every archived copy. The resulting public media-reference correction teaches snapshot identity/base and route verification from the consumer's actual position. This change follows the frozen exercise, and its later receiving use remains unobserved. Final exported local routes passed the declared checker.
+
+The case does not isolate the public method's causal contribution from the model and host assistance, establish native plugin loading or independent adoption, or measure real audience comprehension or social effectiveness. No real social effect occurred. The exact exercised source remains recoverable independently of the later evidence, navigation, example and media-reference changes.
+
+### Native receiving scope
+
+The shell did not expose a `codex` or `claude` executable. Current official documentation informed the receiving layouts and commands in [host integration](HOST_INTEGRATION.md). No native Codex or Claude Code loading, installation or discovery was performed here. The concrete remaining operations are in [Codex continuation](CODEX_CONTINUATION.md). License and release form are prepared as [owner decisions](RELEASE_DECISIONS.md).
 
 ## Historical source construction — 0.1.0-dev.1
 
@@ -26,7 +64,7 @@ The useful founding, product, editorial and operating sources were read in three
 
 Each pass retained useful prior work and recorded no change where another edit was not justified. The three readings did not transfer private permissions, source identities, contacts or effect receipts into this product. The method needed for first use is in the public bodies.
 
-## Observed local mechanics
+### Observed local mechanics
 
 The standard-library reference tools were exercised with **Python 3.12.14**. This names the observed interpreter, not an untested support range.
 
@@ -38,15 +76,15 @@ The standard-library reference tools were exercised with **Python 3.12.14**. Thi
 
 The validator does not fetch external links or check fragment anchors. It is a bounded file/metadata checker, not a full Markdown renderer, semantic evaluator, private-content classifier, signed-release verifier or native-host compatibility test. Contextual review of the new public source found no selected private identifiers or source coordinates; that observation cannot certify arbitrary future input.
 
-## Internal receiving observations
+### Internal receiving observations
 
-### Entry comprehension
+#### Entry comprehension
 
 One local receiver with no conversation history received the README path and neutral questions about the object, its relation to the available environment and a first useful action. It read seven entry/core/adoption files. It understood the continuing public-work method, distinguished source from available host capability and found a bounded first use without requiring installation.
 
 It did not read individual competence bodies or perform a functional task. File hashes were captured after its reads while construction was concurrent; they do not establish one atomic source cut. The host's generic instructions and advertised skill catalog remained available.
 
-### Bounded use and continuation
+#### Bounded use and continuation
 
 A separate, frozen **39-file source bundle** was given to a receiver with no project conversation, together with a fictional community-workshop field. The source inventory fingerprint was:
 
@@ -66,7 +104,9 @@ The exercise shows bounded use of this delivered method and saved continuity und
 
 After the frozen exercise, the product-current and verification records were updated and one terminal blank line was removed from the relationship skill. No operating wording changed. The final source and newly assembled bundles received the mechanical checks above. The exercise's source identity is retained rather than silently renamed as the final bundle identity.
 
-## Reproduce the local mechanics
+### Reproduce the historical local mechanics
+
+Use the corresponding historical source revision for these observations. Current commands and targets are in [host integration](HOST_INTEGRATION.md).
 
 ```bash
 python3 scripts/validate.py --root .
@@ -79,13 +119,11 @@ python3 /absolute/new/social-kernel-bundle/scripts/validate.py --root /absolute/
 
 Each destination must be absent, outside the source root and within an existing parent. The source method itself does not require Python or the reference initializer.
 
-## Public research and product sources
+### Public research and product sources
 
 The operating relations were read against the [SSK stable body 0.10](https://github.com/GrazianoGuiducci/maios-ssk-paper/blob/99486985f28dff355a1851ec84d7b33947cbabbc/paper/SYSTEM_SEMANTIC_KERNEL_SSK_WORKING_PAPER_0_10.md), the [kernel-emergence source development](https://github.com/GrazianoGuiducci/maios-ssk-paper/blob/99486985f28dff355a1851ec84d7b33947cbabbc/paper/HOW_A_KERNEL_EMERGES_2026_10_02.md), the [MAIOS Project Kernel's competence-formation method](https://github.com/GrazianoGuiducci/maios-project-kernel/blob/af333b106a34601c03a5c4854eb0e45f89af44f3/skills/maios-project-competence-formation/SKILL.md), and its portable [FDLA operating knowledge](https://github.com/GrazianoGuiducci/maios-project-kernel/blob/af333b106a34601c03a5c4854eb0e45f89af44f3/skills/maios-project-system/references/fdla-operating-knowledge.md). They provide source depth, not transferred proof of this product.
 
 Private living work also informed the generalized method. Private source identities, account state and effect records are not distributed in the public package. The canonical public bodies carry the knowledge needed to use it.
-
-## Remaining receiving work
 
 ### Windows receiver mechanics — 2026-10-05
 

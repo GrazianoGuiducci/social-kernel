@@ -1,0 +1,24 @@
+Use case: ads-marketing
+Asset type: a finished illustrated social invitation, portrait 4:5 composition, readable at phone-feed scale.
+
+Create an original invitation for the fictional Riva Print Room's Mini-zine Exchange. The main perceptual relation is sharing handmade mini-zines, with a clear invitation for someone to make their first one at the event. This is an editorial illustration, not a photograph of an actual event.
+
+Composition: calm but lively paper-collage notice. A spacious title group at top, a large central overhead illustration, then a clearly separated lower information group. Dominant title "Mini-zine Exchange" may occupy two lines. Keep every consequential word comfortably large, high contrast, and wholly inside generous margins.
+
+Central illustration: a shared tabletop with two very small, visibly thin handmade folded paper booklets, one being offered by an adult hand entering from the left and another resting open near an adult hand entering from the right. Make the visible pages and folds unmistakably booklet-like; these are modest handmade mini-zines, not hardback books, loose prints, or cards. Distinct simple cut-paper collage marks on the pages, with ample blank paper and uneven cut edges. The gesture should feel like sharing or looking at each other's mini-zines, not a guaranteed one-for-one transaction. No additional people or faces. No tools, machines, food, signs, or photographs.
+
+Visual treatment: tactile cut-paper illustration with slightly irregular paper edges and restrained print texture; warm pale apricot paper background, dark plum lettering and a few moss-green and ochre paper shapes. These are situated design choices for this event, not an invented logo or permanent studio identity. Adult-oriented, approachable, materially simple; avoid glossy craft perfection, childish cartoon styling, busy decorative motifs, and tiny explanatory text.
+
+Render exactly the following visible text, with no added words, labels, numbers, logos, QR codes or URLs:
+"Riva Print Room"
+"Mini-zine Exchange"
+"Bring one to share."
+"Or make your first here."
+"31 October 2026"
+"15:00–17:00"
+"Free drop-in"
+"Beginners welcome"
+
+Typography: strong readable lettering with some handmade editorial character. The title is largest. The two invitation lines belong together and are readable before the illustration's fine detail. Date and time form a clear group below the illustration; participation lines beneath. All wording must be spelled exactly, and the long dash between the times must be readable.
+
+Constraints: no claim of instruction or a guided workshop; no reservation, booking, address, or extra event facts. No Halloween motif. Both complete beginners and practiced makers should recognize an attainable handmade booklet. No reference image is supplied; create a new scene and composition.

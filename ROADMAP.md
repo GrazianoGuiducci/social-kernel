@@ -22,18 +22,23 @@ discovery, available integrations and exercised behavior have separate
 evidence. See [Adoption](docs/ADOPTION.md) and the
 [receiver contract](docs/RECEIVER_CONTRACT.md).
 
-## Current exercise
+## Completed creative receiving exercise
 
-The creative and continuity exercise is being prepared under
-`examples/creativity-continuity/`. It is intended to carry a fictional case
-outside the product's originating context through actual editorial and media
-work, retained assets and reasons, then a changed situation.
+The [creative and continuity case](examples/creativity-continuity/README.md)
+carried a fictional studio outside the product's originating context through
+two completed contributions. Each includes actual generated and inspected
+media, copy, source snapshots, exact prompts, selected revisions and reasons.
+A fresh later receiver used the earlier saved studio guidance while a
+different sharing purpose and beginner question changed the image and words.
+The original local voice and valid first contribution remained useful.
 
-Its results must record the receiver, available means, additional help,
-generated artifacts, observations and later use actually obtained. Preparation
-of the case is not a completed exercise. Earlier tests and receiver cases
-retain the scope and source identities already recorded in
-[Verification](docs/VERIFICATION.md).
+The case records the frozen public source, tools and additional assistance.
+An actual export-route defect also returned knowledge about snapshot
+reference bases and receiving navigation to the public media method. Later
+use of that new public distinction and of the second local studio precedent
+remains unobserved. The internal exercise establishes neither native host
+loading nor real audience effects. Earlier tests and receiver cases retain
+their own source identities and scope in [Verification](docs/VERIFICATION.md).
 
 ## Observations still needed in receiving environments
 
@@ -59,10 +64,12 @@ qualified earlier observations remain preserved.
 
 ## Product decisions
 
-The owner still selects the license and release form. Prepare the exact
-source identity, included files, dependency and source notices, supported
-claims and unresolved receiver limits needed for that choice. A source push
-does not select a stable release or update personal installations.
+The owner still selects the license and release form. The
+[prepared decision document](docs/RELEASE_DECISIONS.md) proposes Apache-2.0
+with MIT as an alternative, identifies the holder and material scope to select,
+and proposes a development pre-release tied to an exact source commit and its
+three projections. A source push does not select a license, publish a stable
+release or update personal installations.
 
 Personal, organizational and community uses remain possible. A chosen
 distribution or business model can develop from actual use without defining

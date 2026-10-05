@@ -38,7 +38,7 @@
     "include": [
       "README.md", "PRODUCT.md", "BOOT.md", "AGENTS.md", "KERNEL.md",
       "EVOLUTION.md", "COMPETENCES.md", "KERNEL_MANIFEST.json", "CURRENT.md",
-      "PRIVACY_AND_COGNITIVE_INTEGRITY.md", "ROADMAP.md", "docs/", "skills/", "scripts/"
+      "PRIVACY_AND_COGNITIVE_INTEGRITY.md", "ROADMAP.md", "docs/", "skills/", "scripts/", "examples/"
     ]
   },
   "evidence": {

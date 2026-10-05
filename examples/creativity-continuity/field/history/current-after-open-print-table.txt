@@ -1,0 +1,25 @@
+# Riva Print Room — current work
+
+Updated: 2026-10-05. State: first selected contribution complete as local preparation.
+
+This is a fictional local field for an internal receiving exercise. All studio, event and conversation details are supplied fixture facts, not observed public activity. The readable frozen [public entry](../public-bundle/BOOT.md) supplies the social method; this directory is the operator-selected continuity location. This is assisted internal use, not native installation or independent adoption.
+
+## Direction and current selection
+
+The operator wants nearby adults to discover an approachable way to make and share something. The operator selected a complete social contribution for Open Print Table, including useful media, and delegated concept, wording, medium and local artifact creation to the receiving assistant. That mandate produced the assistant's selected invitation, “Make a print. Take it home.”, and its illustrated event card. These creative choices belong to this event; they are not newly attributed enduring operator preferences.
+
+Read [the current event](sources/open-print-table.md) and [the studio working method](methods/studio-voice.md) when the work becomes pertinent. The method preserves the original voice guidance and now reaches a conditional, locally inspected making-invitation precedent.
+
+The finished [Open Print Table contribution](work/open-print-table-2026-10/README.md) contains the selected full-resolution [card v1](work/open-print-table-2026-10/open-print-table-card-v1.png), [caption v1](work/open-print-table-2026-10/caption-v1.txt) and [alternative text v1](work/open-print-table-2026-10/alt-text-v1.txt). Its [execution record](work/open-print-table-2026-10/execution-record.md) preserves actual tools, source reads, exact prompts, source snapshots, inspection, assistance and scope of learning.
+
+## What is known now
+
+The generated card exists in this field and was inspected from the saved file at native dimensions and at 375 pixels wide. Its exact event details agree with the source as supplied. One image revision was sufficient; the smaller preview is an inspection derivative. No real platform, audience response, publication effect or installation was observed. Local readability is the scope of the visual observation.
+
+The contribution is complete for the present preparation task. Social posting and messaging remain outside the exercise; no real account, recipient or publication controller is supplied. There is no executable posting queue or recurrence.
+
+## Next entry
+
+Reenter when the operator supplies the next situation or a material source/encounter change. Recover the current source and this explicit selection before reusing or editing any asset. Decide what the new situation makes useful, preserve the earlier then-valid v1, and revise the affected wording, media and accessible reading together when their source relation changes. The source snapshots and original field are retained with v1 so later knowledge does not rewrite this earlier occurrence.
+
+The local visual precedent is available for a later different use; such use and its consequences have not yet been observed. No further action is selected by this saved next-entry note alone.

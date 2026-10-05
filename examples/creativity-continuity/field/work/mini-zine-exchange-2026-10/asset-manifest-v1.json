@@ -1,0 +1,111 @@
+{
+  "schema": "fictional-studio.asset-record.v1",
+  "selected_revision": "v1",
+  "status": "complete_local_preparation",
+  "selected_files": [
+    "mini-zine-exchange-card-v1.png",
+    "caption-v1.txt",
+    "participant-reply-v1.txt",
+    "alt-text-v1.txt",
+    "local-preview-v1.png"
+  ],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "mode": "built-in",
+    "transparent_background": false,
+    "reference_images": [],
+    "model_identity": "not exposed by tool result",
+    "prompt": "production-prompt-v1.txt",
+    "original_output_path": "<runtime-generated-output>/exec-13b24c6c-976c-454f-88c5-ede74d95cebe.png",
+    "copied_master_matches_original_bytes": true,
+    "creative_raster_calls": 1
+  },
+  "inspection": {
+    "master_dimensions_px": [
+      1122,
+      1402
+    ],
+    "local_preview_dimensions_px": [
+      375,
+      469
+    ],
+    "means": [
+      "view_image original detail",
+      "ImageMagick convert -resize 375x",
+      "ImageMagick identify"
+    ],
+    "platform_readback": false,
+    "additional_review": "author-review.txt"
+  },
+  "files": {
+    "README.md": {
+      "bytes": 7136,
+      "sha256": "402d6fe0646a727043bd7ac91c07ec17fcda693414af3948a46b4ab85c4b1d7e"
+    },
+    "alt-text-v1.txt": {
+      "bytes": 301,
+      "sha256": "dc142daf86284afbd0ffd53b07ca952b73cc37869d8a2a593b3ed127e93a9251"
+    },
+    "author-review.txt": {
+      "bytes": 510,
+      "sha256": "e7c409e42024130827ff98bb2e08070d3eb91133efea458262301958e51cf457"
+    },
+    "caption-v1.txt": {
+      "bytes": 269,
+      "sha256": "1bcfd41b9423dd01ea2d5a68d5a252fd839d5ae62955bf7177ad06602be472fe"
+    },
+    "delegation-prompt.txt": {
+      "bytes": 1890,
+      "sha256": "ccfb4d050afb6a8767ae8caf407816bbd728834f39914c8581180039612f5815"
+    },
+    "delegation-result.txt": {
+      "bytes": 1382,
+      "sha256": "4be439a7b4c14c40134050367b72a5a0f9c386b477b8f517e5ecaeb1ef33b2f8"
+    },
+    "execution-record.md": {
+      "bytes": 7379,
+      "sha256": "89685833324cf9403857fccd8bb8cc40bcfa31268d154871a587d7c769d014b2"
+    },
+    "initial-field-at-entry.txt": {
+      "bytes": 1345,
+      "sha256": "b66cc86396b9c35e5d2c93148ef84b628e7a0e41f9aae9d01942a60d88e921c1"
+    },
+    "local-preview-v1.png": {
+      "bytes": 309376,
+      "sha256": "72384ef308fd5c38fb80bf2089e6a17478bae107684e88e824579ca2f46d4565",
+      "dimensions_px": [
+        375,
+        469
+      ]
+    },
+    "mini-zine-exchange-card-v1.png": {
+      "bytes": 2662950,
+      "sha256": "e9182efec284b0b12c5d8af8a4f215759ab4145c9c145d855f7aab3003bf8bac",
+      "dimensions_px": [
+        1122,
+        1402
+      ]
+    },
+    "participant-reply-v1.txt": {
+      "bytes": 246,
+      "sha256": "b14cea22ff6916cf905f9f888269aeb554519183d0f509634fbbb4c3e3dafa09"
+    },
+    "production-prompt-v1.txt": {
+      "bytes": 2842,
+      "sha256": "b0e47f0db34518f4ffce29071e924950059060734c517e4a4fa11f181b88b2cc"
+    },
+    "source-event-at-v1.md": {
+      "bytes": 799,
+      "sha256": "80c131ef09eb8b66544b7196d241e898c402b772a77f2bb40d8c6f9c0e4d64f3"
+    },
+    "source-studio-voice-at-entry.txt": {
+      "bytes": 1917,
+      "sha256": "7e443e867432c74bab3bfa5e5d5eb9a1667cdef0b80e613595b6fd0eab531310"
+    }
+  },
+  "public_export": {
+    "scope": "Generated images, previews, copy, replies and production/review prompts retain their receiving bytes. Runtime output/cache/skill locations are normalized; the archived method keeps identical bytes under a .txt name; active documentation paths and this file inventory are reconciled with the public layout.",
+    "historical_method_origin": "field/methods/studio-voice.md at entry to the second movement",
+    "initial_receiver_manifest_sha256": "1674b41449fa4fb022b8026648a3eda51d1499f6e0476e42e52112208b44f08b"
+  }
+}

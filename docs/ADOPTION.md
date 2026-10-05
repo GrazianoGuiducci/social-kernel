@@ -71,7 +71,16 @@ result; a returned file still needs its applicable visual and semantic review.
 
 If an external effect is selected, use the actual controller and applicable authority, check the current source and target relation, then preserve native readback. If the purpose is only preparation, stop at the useful artifact. [Recurring operation](RECURRENT_OPERATION.md) is available when a later task actually calls for scheduled work; no cadence is inherited by adoption.
 
-Read what the result changes. Teach a reusable difference to the owning competence and keep a compact current continuation pointing to it. At the next relevant situation, inspect whether that knowledge changes the question or decision. The [worked example](WORKED_EXAMPLE.md) carries this through two different encounters.
+Read what the result changes. Teach a reusable difference to the owning competence and keep a compact current continuation pointing to it. At the next relevant situation, inspect whether that knowledge changes the question or decision.
+
+The [Riva Print Room creative case](../examples/creativity-continuity/README.md)
+shows two internal receivers doing this with a fictional studio field. It
+includes actual generated cards, captions, alternative text, production and
+inspection records, and later non-identical use of the saved studio method.
+Text-review assistance and additional author-side visual review are disclosed;
+native installation and real audience effects were not exercised. The separate
+[instructional worked example](WORKED_EXAMPLE.md) explains continuity through
+two fictional encounters without claiming actual creative production.
 
 ## Return after an interruption or source change
 
