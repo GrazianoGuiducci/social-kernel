@@ -140,7 +140,7 @@ after the facts change. See
 
 ## Current source and evidence
 
-This is the **0.2.0-dev.2 source candidate**. It includes the operating core,
+This is the **0.2.0-dev.2 public development source**. It includes the operating core,
 public competence bodies, editorial and media methods, receiver guidance and
 optional file tools. [CURRENT.md](CURRENT.md) carries its exact state and
 [Verification](docs/VERIFICATION.md) records which checks and exercises have
