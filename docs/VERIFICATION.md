@@ -1,10 +1,39 @@
 # Verification and evidence
 
-Current source family: `0.2.0-dev.1`. Updated on 2026-10-05.
+Current source family: `0.2.0-dev.2`. Updated on 2026-10-05.
 
 This document separates source construction, local mechanics, receiving behavior and external use. A material change has its own applicable proof; an earlier preview or upstream product's result does not prove this source.
 
-## Current extension — 0.2.0-dev.1
+## Current source delta — 0.2.0-dev.2
+
+The source adds a generalized **concept-to-media** relation to the existing
+Social Media Composition competence and makes the same relation reachable from
+ordinary Boot, the operating cycle and receiver-neutral recurrent operation.
+
+The method now forms a representation field from:
+
+```text
+concept
++ domain / concrete use case
++ cognitive or operational dynamic
++ practical consequence
++ receiving situation
+-> representation field
+-> selected medium
+```
+
+It does not add a twelfth competence, renderer, scheduler or publication
+authority. The eleven declared competence identities remain unchanged.
+
+Evidence boundary for this delta: the source relation and local routes are
+represented, but the completed creative receiving exercise predates this
+change and therefore does not prove its use. The first later non-identical
+media movement or recurring wake that forms a new representation through this
+method is still needed as behavioral evidence. Historical exercised-source
+identities and fingerprints remain `0.2.0-dev.1` and are intentionally not
+renamed.
+
+## Verified predecessor — 0.2.0-dev.1
 
 The extension preserves the receiving fixes at `a4db74d4d9804233f4a07e63c1219b0ddf467e47`. Before editing, its 30-test suite passed on Linux with Python 3.12.14, without skips. This is a new observation of that baseline, separate from its recorded Windows result below.
 

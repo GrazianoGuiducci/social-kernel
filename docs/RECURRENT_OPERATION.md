@@ -44,6 +44,36 @@ makes every discussion more important than a useful original idea.
 Read only depth that can change the movement. When knowledge is sufficient,
 act; repeated loading does not prove better judgment.
 
+## Let a scheduled wake form media from the current concept
+
+A scheduled trigger wakes the current field; it does not select a topic,
+campaign slot, image style, video format or previous artifact family.
+
+When the current movement contains a concept, source change or learning that
+should become visual or audiovisual, use
+[Social Media Composition](../skills/social-media-composition/SKILL.md) before
+the medium hardens.
+
+```text
+scheduled wake
+-> current field / current sources
+-> concept and receiving situation
+-> domain / concrete use case
+-> dynamic that produces the difference
+-> practical consequence
+-> representation field
+-> selected media form
+```
+
+A previous run's successful carousel, diagram or video remains available but
+does not become the grammar of the next concept. If the field changed, reform
+the representation before reusing it.
+
+The same rule applies to newly discovered concepts. A recurring controller can
+prepare or produce a media artifact through its actual means, but publication
+still follows the current effect authority. The schedule itself grants neither
+creative selection nor effect permission.
+
 ## Coordinate receivers
 
 Keep one current execution controller per selected effect. Other receivers can

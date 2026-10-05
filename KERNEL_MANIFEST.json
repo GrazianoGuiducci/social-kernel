@@ -1,6 +1,6 @@
 {
   "schema_version": "social-kernel.manifest.v1",
-  "source_version": "0.2.0-dev.1",
+  "source_version": "0.2.0-dev.2",
   "product": "Social Kernel",
   "source_role": "generalized_public_operating_method",
   "release_state": "development_source",

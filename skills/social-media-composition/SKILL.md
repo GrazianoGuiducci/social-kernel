@@ -1,6 +1,6 @@
 ---
 name: social-media-composition
-description: Conceive, produce, inspect and continue visual or audiovisual media for a social movement. Use when selecting or revising images, diagrams, carousels, short sequences or other media, so source meaning, editorial form, actual tools and the produced artifact develop together.
+description: Form, produce, inspect and continue visual or audiovisual media from a source-bound concept and real social situation. Use when an image, diagram, carousel, presentation, short sequence or other media can change understanding, so concept, domain/use case, practical consequence, perceptual form, actual tools and the produced artifact develop together.
 ---
 
 # Social Media Composition
@@ -43,6 +43,110 @@ Inspect the actual image, slide or sequence, including labels, dates, marks,
 captions and destinations that can change attribution. The asset records an
 earlier transformation. Current evidence or intent may require a targeted
 correction while the rest remains useful.
+
+## Form the representation field before choosing the medium
+
+When the work starts from a concept, new learning or an emerging relation,
+do not begin by asking which familiar format to produce. First understand
+**where the concept becomes real and what changes there**.
+
+A useful formation relation is:
+
+```text
+source-bound concept
++ domain or real receiving field
++ concrete use case
++ cognitive / operational dynamic
++ practical consequence
++ receiving situation
+-> representation field
+-> medium and artifact
+```
+
+These are coordinates for understanding, not a mandatory form.
+
+**Domain / receiving field** asks where the concept is actually encountered:
+a team, professional practice, research group, organization, software project,
+community, public presence or another situated field.
+
+**Use case** asks what someone is doing: correcting an interpretation, teaching
+a method, delegating work, comparing evidence, returning after interruption,
+changing tools, coordinating several contributors or another real movement.
+
+**Dynamic** asks what produces the difference: a source becoming pertinent,
+a correction changing the method, experience becoming reusable knowledge,
+several competences composing, a consequence altering later work, or another
+relation supported by the source.
+
+**Practical consequence** asks what is different afterward. It may be less
+reconstruction, a reusable method, clearer responsibility, a different next
+decision, more selective supervision or another supported result. Do not turn
+a plausible consequence into measured performance without evidence.
+
+The representation should let a receiver perceive that relation before
+internal vocabulary is required. A new concept may therefore need a different
+visual grammar from the last successful post.
+
+### Reusable representation possibilities
+
+The following are learned possibilities, not templates or a required taxonomy:
+
+- **temporal phases** when roles or participation visibly change over time;
+- **causal / expanding spiral** when a consequence returns and changes later work;
+- **non-identical before / after** when learning is shown by a later different case;
+- **operating field** when several simultaneous actors, sources or constraints matter;
+- **supervision gradient** when human involvement changes continuously;
+- **possibility -> resultant -> next field** when open alternatives contract into
+  a determination that changes what follows;
+- **surface / depth** when visible work depends on deeper reasons, sources or methods;
+- **one work object / multiple receivers** when tools or agents change around a
+  continuing project;
+- **present -> direction -> horizon** when current capability and future possibility
+  must remain distinct;
+- **real-case demonstration** when a concrete movement explains the concept better
+  than an abstract diagram;
+- **3D, motion or interaction** when viewpoint, transformation or exploration
+  contributes meaning that a simpler static form would lose.
+
+If none of these preserve the source relation, form another representation.
+A recurring new grammar can become reusable learning through
+[competence evolution](../social-competence-evolution/SKILL.md).
+
+### Correct the representation while it forms
+
+A representation itself can distort the object. A central node can invent
+authority; a loop can imply repetition; an unattended agent can imply
+unbounded autonomy; a shield can reduce a source/coherence relation to generic
+security; a line can imply automatic synchronization.
+
+When a visual form changes the source, object, status or possibility, correct
+the representation before polishing it.
+
+Changing representation can also expose a hidden relation:
+
+```text
+same source/object + representation A -> perceived relation A
+same source/object + representation B -> perceived relation B
+
+difference
+-> source-grounded relation
+ | representation artifact
+ | no_change
+```
+
+The second representation is not automatically more true. Return the
+difference to the source and current movement.
+
+### Mother visual and media family
+
+When one concept supports several public forms, a **mother visual** or media
+nucleus can preserve the central relation while derivatives change density,
+sequence and carrier.
+
+Possible derivatives include a social image, pill, carousel, presentation,
+short video, longer explainer or interactive surface. Produce only the forms
+that serve a real receiving situation. Derivatives preserve the source relation,
+not merely the crop or style of the first artifact.
 
 ## Choose and compose the medium
 

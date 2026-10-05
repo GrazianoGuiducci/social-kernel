@@ -31,9 +31,15 @@ gives them an appropriate argument, language and voice. Fluency alone does not
 show that a text preserves its subject or becomes understandable to someone
 without the author's private context.
 
-The media method chooses a perceptual form for what should become recognizable
-or understandable. It composes hierarchy, image, exact words, spatial or
-temporal relations and actual production means. Text and visual form can
+When the work begins from a concept or new learning, the media method first
+forms the representation field: where the concept becomes real, the concrete
+use case, the dynamic that produces the difference, the practical consequence
+and the receiving situation. This prevents an earlier successful format from
+becoming the answer before the new object is understood.
+
+The media method then chooses a perceptual form for what should become
+recognizable or understandable. It composes hierarchy, image, exact words,
+spatial or temporal relations and actual production means. Text and visual form can
 develop together: a necessary verbal distinction may change the layout, and
 a produced image may reveal an ambiguity in the initial wording.
 
@@ -159,7 +165,7 @@ recoverable files and a practical way to preserve or export local knowledge
 support that direction. A service or business model should earn continued use
 through accumulated usefulness.
 
-The **0.2.0-dev.1 source candidate** develops the public method and its receiving
+The **0.2.0-dev.2 source candidate** develops the public method and its receiving
 projections. Licensing and stable-release form remain owner decisions.
 [Roadmap](ROADMAP.md) keeps further development and evidence needs reachable
 without making them current delivered capability.

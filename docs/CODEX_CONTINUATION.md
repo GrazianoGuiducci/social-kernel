@@ -13,11 +13,10 @@ Resolve the current product revision and read [BOOT](../BOOT.md),
 [host integration](HOST_INTEGRATION.md) and the [receiver contract](RECEIVER_CONTRACT.md).
 Compare any prepared bundle with that revision. Keep an existing receiver's
 identity, integrations, configured entry, useful skills and learned state.
-Public source `0.2.0-dev.1`, a private instance's provenance and an installed
+Public source `0.2.0-dev.2`, a private instance's provenance and an installed
 plugin's version identify different objects.
 
-The public method already includes writing and revision, media composition
-and production, field research, relationships and evolution. Use its supplied
+The public method already includes writing and revision, concept-to-media formation, media composition and production, field research, relationships and evolution. Use its supplied
 creative example and evidence to understand what was exercised. Do not replace
 finished creative work with another brief or reopen source construction merely
 because this task runs in a new host.
@@ -110,6 +109,11 @@ owner's current policy and controller. Read the installed job rather than
 inferring it from an old receipt. Compare its entry, source refresh, allowed
 actions, deduplication, uncertainty recovery and notification behavior with
 that current policy. Do not create a second controller for the same effect.
+
+When a bounded wake forms or revises media, observe whether it first recovers
+the current concept/use case and forms a representation field rather than
+mechanically repeating the previous run's format. The same receiver may decide
+that no media are useful.
 
 A selected job update needs a recoverable former configuration, actual update
 and native readback. A bounded observed wake should recover the field, choose

@@ -17,7 +17,7 @@ from urllib.parse import unquote, urlsplit
 import uuid
 
 
-SOURCE_VERSION = "0.2.0-dev.1"
+SOURCE_VERSION = "0.2.0-dev.2"
 MANIFEST_SCHEMA = "social-kernel.manifest.v1"
 INSTANCE_SCHEMA = "social-kernel.instance.v1"
 INVENTORY_SCHEMA = "social-kernel.bundle-inventory.v2"

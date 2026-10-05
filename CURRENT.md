@@ -2,7 +2,7 @@
 
 ```text
 updated: 2026-10-05
-source_version: 0.2.0-dev.1
+source_version: 0.2.0-dev.2
 state: PUBLIC_SOURCE_CANDIDATE / LOCALLY_VERIFIED
 stable_release: none
 license: operator decision pending
@@ -11,11 +11,46 @@ installed_receiver_update: none from this source change
 
 ## Current source
 
-The public candidate supplies a native [entry](BOOT.md), [kernel](KERNEL.md), [competence field](COMPETENCES.md), [evolution method](EVOLUTION.md) and eleven portable competence bodies. The current extension brings practical writing and revision, media conception and actual production, field research and listening, and learning that changes later work. A new receiver can use these sources without the private history that formed them. [Adoption](docs/ADOPTION.md) connects the method to the user's existing knowledge, private continuity and actual capabilities.
+The public candidate supplies a native [entry](BOOT.md), [kernel](KERNEL.md), [competence field](COMPETENCES.md), [evolution method](EVOLUTION.md) and eleven portable competence bodies. The current extension brings practical writing and revision, concept-to-media formation plus actual production, field research and listening, and learning that changes later work. A new receiver can use these sources without the private history that formed them. [Adoption](docs/ADOPTION.md) connects the method to the user's existing knowledge, private continuity and actual capabilities.
 
 Optional local instance initialization, self-contained OpenAI, Claude Code and portable source projections, and structural validation provide bounded file mechanics. The profiles assemble the same canonical method for different receiving layouts. Native loading and actual capability retain their own evidence.
 
 [Verification](docs/VERIFICATION.md) preserves earlier checks and records the current extension's evidence separately. The [worked example](docs/WORKED_EXAMPLE.md) is fictional and instructional. The completed [creative receiving case](examples/creativity-continuity/README.md) retains two actual illustrated contributions for a fictional studio, their copy, inspections and saved methods. A fresh receiver used the first movement's conditional guidance in a materially different second situation. Its exact frozen source, additional assistance and later export correction retain their own scope. Local checks and internal exercises do not establish independent adoption or continuing autonomous operation.
+
+## Concept-to-media public generalization — 2026-10-05
+
+Source version `0.2.0-dev.2` deepens the existing
+[Social Media Composition](skills/social-media-composition/SKILL.md) rather
+than adding another competence.
+
+The public method now carries:
+
+```text
+concept / new learning
++ real domain or receiving field
++ concrete use case
++ cognitive / operational dynamic
++ practical consequence
++ receiving situation
+-> representation field
+-> selected medium / artifact
+```
+
+The method also carries an open representation repertoire — temporal phases,
+causal/expanding spiral, non-identical before/after, operating field,
+supervision gradient, possibility/resultant/next-field, surface/depth,
+multi-receiver, present/direction/horizon, real-case demonstration and richer
+motion/3D/interaction when they add meaning. These are possibilities, not
+templates.
+
+[Recurrent Operation](docs/RECURRENT_OPERATION.md) now applies the same relation
+after a scheduled wake: recurrence reenters the current field and may make
+media formation pertinent, but the schedule does not select the topic, format
+or effect.
+
+The completed creative exercise remains evidence for its frozen
+`0.2.0-dev.1` source. This new source-level generalization has not yet been
+exercised in a later non-identical public receiver or recurring run.
 
 ## Receiver preparation — 2026-10-05
 
