@@ -1,6 +1,6 @@
 ---
 name: social-opportunity-formation
-description: Form a useful next movement in a continuing public field. Use when choosing whether or how to publish, respond, contribute, investigate, correct, wait, change approach or continue a relationship from current sources, user direction, attention and consequences.
+description: Form a useful next movement in a continuing public field. Use when listening to audience questions, researching an emerging possibility, or choosing whether or how to publish, respond, contribute, investigate, correct, wait, change approach or continue a relationship from current sources, user direction, attention and consequences.
 ---
 
 # Social Opportunity Formation
@@ -39,10 +39,37 @@ label added after writing cannot supply that knowledge.
 When communication is being formed, bring
 [surface expression](../social-surface-expression/SKILL.md) into this selection.
 Writing competence participates before the hook or theme becomes fixed.
-Business, relationship, design or research competence enters when its knowledge
-changes the choice. Use available owner-native knowledge; if a necessary
+Use [media composition](../social-media-composition/SKILL.md) when a visual,
+sound, motion or another perceptual form could change what becomes
+understandable or which movement is useful. Let a material creative result
+change the question or form before the choice hardens. Business, relationship
+or research competence enters when its knowledge changes the choice.
+Use available owner-native knowledge; if a necessary
 method is missing, deepen the competence through
 [competence evolution](../social-competence-evolution/SKILL.md).
+
+## Listen where understanding can change the choice
+
+Use [field research and listening](references/field-research-and-listening.md)
+when the movement needs new knowledge of questions, conversations, source
+developments or adjacent work. Start from what a new observation could change;
+an open exploration can discover that question through its first observations.
+Reach beyond already known posts when that changes the field, without treating
+every available feed as something to monitor.
+
+Understand what people are trying to do and what their current sources let
+them encounter. An original question, an independent mention or a newly useful
+capability can open a movement before a broad trend exists. Keep observed
+content, attributed report and interpretation separate, together with the
+actual observation window. A repeated claim may be one source amplified many
+times. A connector's limited search function does not delimit the field.
+
+Return the useful difference to the choice: what became understandable or
+possible, why it matters now, and which source or uncertainty carries it.
+Research that adds no material difference can stop without producing content.
+Use [cognitive integrity](../social-cognitive-integrity/SKILL.md) when provenance,
+duplication or pressure requires closer examination; ordinary listening also
+serves curiosity, useful questions and emerging opportunities.
 
 ## Choose a movement that has a reason now
 
@@ -77,6 +104,15 @@ Repeated weak consequences can call for changing a material relation: entry
 object, evidence, carrier, form, depth, language, timing, receiver relation or
 interaction posture. Examine what the observations support before repeating
 the same approach or abandoning the field.
+
+Inspect whether the recent work stayed in one comfortable lane. Useful
+specialist discussion, a broad introduction, a demonstration and a direct
+relationship can serve different purposes. If recognition is the selected
+aim and the observed encounters rarely make the object intelligible, another
+entry may be worth making. If attention brings a recurring question, answering
+it in depth may be more useful than increasing volume. Use the observations
+that actually support the change; a small sample does not establish a single
+cause or predict the next encounter.
 
 A distinct useful encounter need not wait for a previous post to generate a
 major response. Frequency can create opportunities for contact, but a quota

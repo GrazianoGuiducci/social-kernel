@@ -29,6 +29,8 @@ def main() -> int:
         counts = report["counts"]
         print(f"{status}: {report['kind']}; {counts['source_files']} declared source files, "
               f"{counts['declared_competences']} competences; version {report['source_version']}.")
+        if report["target"] is not None:
+            print(f"Bundle target: {report['target']} (local source projection).")
         for item in report["errors"]:
             print(f"ERROR {item['code']} [{item['path']}]: {item['message']}")
         for item in report["warnings"]:

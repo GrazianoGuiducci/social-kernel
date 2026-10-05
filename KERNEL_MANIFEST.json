@@ -1,6 +1,6 @@
 {
   "schema_version": "social-kernel.manifest.v1",
-  "source_version": "0.1.0-dev.1",
+  "source_version": "0.2.0-dev.1",
   "product": "Social Kernel",
   "source_role": "generalized_public_operating_method",
   "release_state": "development_source",
@@ -16,6 +16,7 @@
     {"name": "social-field-reentry", "path": "skills/social-field-reentry/SKILL.md"},
     {"name": "social-opportunity-formation", "path": "skills/social-opportunity-formation/SKILL.md"},
     {"name": "social-surface-expression", "path": "skills/social-surface-expression/SKILL.md"},
+    {"name": "social-media-composition", "path": "skills/social-media-composition/SKILL.md"},
     {"name": "social-user-field-projection", "path": "skills/social-user-field-projection/SKILL.md"},
     {"name": "social-effect-boundary", "path": "skills/social-effect-boundary/SKILL.md"},
     {"name": "social-effect-consequence", "path": "skills/social-effect-consequence/SKILL.md"},

@@ -1,10 +1,20 @@
 # Verification and evidence
 
-Source family: `0.1.0-dev.1`. Source completion reviewed on 2026-10-05.
+Current source family: `0.2.0-dev.1`. Updated on 2026-10-05.
 
 This document separates source construction, local mechanics, receiving behavior and external use. A material change has its own applicable proof; an earlier preview or upstream product's result does not prove this source.
 
-## Three source readings and their result
+## Current extension — verification in progress
+
+The extension preserves the Codex receiving fixes at `a4db74d4d9804233f4a07e63c1219b0ddf467e47`. Before editing, its 30-test suite passed on Linux with Python 3.12.14, without skips. This is a new observation of that baseline, separate from its recorded Windows result below.
+
+The current work adds practical editorial and media methods, deeper listening and competence formation, and explicit OpenAI, Claude Code and portable source projections. The method and receiving mechanics are being checked with their own source identities. An internal creative use and later changed situation are in preparation; they have no observed result yet.
+
+## Historical source construction — 0.1.0-dev.1
+
+The following observations belong to that source family and its subsequent receiving corrections. They are preserved as history, rather than reassigned to the new extension.
+
+### Three source readings and their result
 
 The useful founding, product, editorial and operating sources were read in three successive passes. The second and third returned to the sources after the previous pass had changed the candidate. These were construction readings by collaborating receivers, not three independent replications or a required runtime ritual.
 
@@ -87,8 +97,8 @@ did not establish a failure or success of the product's symlink behavior.
 The suite now separates ordinary file/directory preservation and direct
 source-destination checks from symlink-dependent cases. It explicitly skips
 only the unavailable symlink fixtures for that Windows privilege error;
-unexpected errors still fail. The adapted suite runs 30 tests here: 26 pass,
-four are skipped. The original Python 3.12.14 result above retains its own
+unexpected errors still fail. The adapted Windows suite ran 30 tests: 26 passed,
+four were skipped. The original Python 3.12.14 result above retains its own
 source and platform scope.
 
 The receiving comparison also exposed distinct source and installed-plugin

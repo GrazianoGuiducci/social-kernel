@@ -1,109 +1,149 @@
 # Social Kernel
 
-**Keep the public side of your work connected as sources, conversations and people change.**
+**Create your public communication, and carry what you learn into what comes next.**
 
-Social Kernel gives an AI assistant a continuing method for working with a
-person's, project's or organization's public presence. It connects current
-sources, user direction, public events, relationships and learned methods so
-the next session can continue from what now matters.
+Social Kernel gives an AI assistant a continuing method for a person's,
+project's or organization's public work. It joins understanding the situation,
+creating content and media, following conversations, reviewing results and
+learning from what happens. Current sources, selected artifacts, relationship
+history and useful methods remain connected as the work changes.
 
-Consider an announcement prepared before a product changes. A useful assistant
-needs to recover the new source, understand what that changes about the
-announcement, preserve the earlier decision, and choose a useful continuation.
-If a later discussion exposes the same kind of source dependency, the learned
-method should help it recognize that dependency before forming another reply.
+The kernel supplies the knowledge for doing that work. Your AI program supplies
+the tools, storage and access through which it happens.
 
-Social Kernel carries that connection into the next task: what happened, what
-it means now, and how it changes the work that follows.
+Consider a local workshop preparing an illustrated invitation. Capacity changes,
+and someone asks whether beginners can attend. The assistant needs to recover
+the current facts, revise the affected text and graphic, preserve the useful
+original and answer the actual question. Its next session should find the
+selected files and understand why the invitation changed. A reusable lesson
+should also change how the next invitation is formed.
 
-## What it helps you do
+## What you receive
 
-- **Resume a public field.** Recover the relevant sources, open conversations,
-  previous effects and reasons that still change the work.
-- **Choose a useful movement.** Form a reply, post, investigation, contribution,
-  correction or wait from the actual situation and your direction.
-- **Express the source faithfully.** Preserve meaning and evidence while
-  adapting language and depth to the place where people encounter it.
-- **Keep relationships continuous.** Distinguish a response, explicit deferral,
-  open question and closed relation so the next contact has a reason.
-- **Handle incoming information.** Examine provenance, uncertainty, repetition
-  and attention pressure according to your chosen policy.
-- **Learn from consequences.** Return a useful correction to the competence
-  that should approach later work differently.
+The public source includes connected methods for:
 
-The assistant uses the capabilities of its actual host. Reading these files
-does not connect an account, start background work or publish anything.
+- **Conceiving and writing.** Turn a source, idea or live question into a post,
+  reply, announcement or connected content. Build the argument, preserve the
+  author's voice and revise it for the actual reader and surface.
+- **Producing media.** Choose a useful image, diagram, carousel or audiovisual
+  form; compose it with the text; produce it through an available tool; inspect
+  the actual output and preserve the selected files.
+- **Listening and researching.** Investigate relevant conversations and sources,
+  understand what is being asked, and examine uncertain, repetitive or
+  misleading incoming information according to your goals.
+- **Continuing relationships.** Understand the current exchange, who owns the
+  next step and what could make another contact useful.
+- **Managing ongoing work.** Keep direction, priorities, dependencies,
+  preparation and observed effects coherent, using the autonomy actually
+  granted for the selected work.
+- **Improving the method.** Reflect on sources, corrections, successes and
+  consequences. Deepen or compose the knowledge that should change later work
+  and make it reachable at the next entry.
+
+The [competence map](COMPETENCES.md) leads to the working methods. The writing
+and design knowledge needed for bounded social work is included in this
+repository. An adopter can use it without access to its private development
+sources.
 
 ## Start with one real situation
 
-Give your assistant access to this repository and point it to [BOOT.md](BOOT.md),
-together with the public work you want to continue. For example:
+Give your assistant access to this repository and point it to [BOOT.md](BOOT.md)
+with the work you want to do. Supply what already exists: a source or idea, a
+conversation, a draft, a visual reference, or the current state of your project.
+State any direction, voice, brand or action boundary that matters. The method
+helps identify what else is needed without asking for a complete campaign plan.
 
-> Use Social Kernel to help me continue this project's public work. Start from
-> these current sources and conversations. Tell me what changed and form the
-> next useful movement. Prepare any message for review.
+For example:
 
-The entry recovers the method and the user-local context that the situation
-needs. It does not require you to fill a campaign plan or connect every
-platform first. A narrow question can use a single competence directly.
+> Use Social Kernel from BOOT.md to prepare an invitation and image for this
+> workshop. Use the current information and visual references I provide.
+> Review the produced artifacts and preserve the selected files, their reasons
+> and any useful learning in my project context. Continue through the tools
+> available here.
 
-Choose how your assistant will reach the source and preserve your own
-continuity in [Adoption](docs/ADOPTION.md). A repository-connected assistant,
-a project with persistent files, and a session with attachments have different
-ways of continuing. The [receiver contract](docs/RECEIVER_CONTRACT.md) keeps
-those differences explicit.
+Choose a private location for your continuing context, or use an existing one.
+The [adoption guide](docs/ADOPTION.md) explains first use, returning to work and
+updating the method while preserving local knowledge. A session with attachments
+has different persistence from a project with durable files; use what your
+environment actually provides.
 
-For a complete fictional walk-through, read the
-[worked example](docs/WORKED_EXAMPLE.md). It shows the method without requiring
-access to a real account or anyone's private history.
+A narrow question can use one competence directly. An existing determination
+can be carried through to completion. Research or a draft does not require an
+account connection or authority to publish.
 
-## How the parts work together
+## Fit it into your AI environment
 
-[KERNEL.md](KERNEL.md) carries the operating relation. The
-[competence map](COMPETENCES.md) reaches the knowledge for reentry, opportunity,
-expression, private-context projection, effects, consequences, relationships,
-incoming information and competence evolution.
+Social Kernel can be received as source files or an assembled package. Its
+method is intended for Codex, Claude Code and other AI programs that can read
+the instructions and carry out the relevant work. The
+[host integration guide](docs/HOST_INTEGRATION.md) explains the available
+projections and what must be checked in the chosen receiver.
 
-These functions can enter from different situations. A product correction can
-change a prepared post. A reply can make a relationship more important than the
-content queue. Repeated weak consequences can call for another format or a
-different entry into a discussion. Waiting can be useful when a real condition
-must change.
+Three parts have different jobs:
 
-Product and research owners retain their facts. Writing, design, business and
-platform competences contribute when they change the movement. The assistant
-uses the smallest useful composition and can deepen a missing method before
-continuing.
+| Part | What it carries |
+| --- | --- |
+| Public Social Kernel source | General operating method, competences, references and source updates. |
+| Your private instance | Your direction, sources, preferences, relationships, selected files, permissions and learned local methods. |
+| The receiving AI environment | Actual tools, persistence, account access and execution mechanisms. |
 
-Before a real effect, it checks current authority, the exact artifact and
-destination, the actual controller, and whether the effect is still eligible.
-A schedule wakes current reasoning; it does not preserve an old instruction to
-post after the field has changed. See
+If you already use a kernel, skills or memory, compose this method with them.
+Recover what they already know, let each own the work it understands, and add
+the missing entry or capability without replacing valid local knowledge.
+MAIOS Project Kernel and kernel_chat can participate when useful; neither is a
+required installation step.
+
+A receiver may create media or reach a platform through a suitable generator,
+editor, browser, MCP server, API integration or connector. The operation needs a
+real callable tool and the relevant access. Possessing an API key or reading an
+integration's name does not create that tool.
+
+The optional bundle builder provides `openai`, `claude-code` and `portable`
+profiles. These arrange the source for a receiving environment. Their
+structure can be checked locally; successful discovery and use inside that
+environment need a corresponding observation. Installation and native-host
+behavior remain qualified in [Verification](docs/VERIFICATION.md).
+
+## Make the result inspectable and continuable
+
+For creative work, the result includes the copy and media actually produced,
+the relevant source or editable master when available, and the selected
+revision. A saved brief explains a planned production; an inspected output
+shows what that production made. The assistant uses the available means to
+check meaning, reading order, legibility, format and agreement between text
+and media. If a necessary production or inspection step cannot run, it keeps
+the usable work and identifies the exact remaining step.
+
+Your continuing record preserves what changed, why, what remains open and
+which files to use. A source change can affect several derivatives; a local
+correction may affect only one. The method retains useful earlier work while
+updating the parts that depend on the new fact. See
+[state and records](docs/STATE_AND_RECORDS.md).
+
+Before a publication, reply or other real effect, the assistant resolves the
+current mandate, exact artifact, destination and actual controller. A standing
+policy can authorize continuing action within its scope. A schedule resumes
+the current method and situation; an old queue does not keep its eligibility
+after the facts change. See
 [effect freshness](docs/EXECUTABLE_EFFECT_FRESHNESS.md) and
 [recurrent operation](docs/RECURRENT_OPERATION.md).
 
-## Your continuing context
+## Current source and evidence
 
-Your project state, preferences, relationship details and effect history belong
-in a location you select and control. Public source files carry the general
-method. Surface tools receive only the information needed for their current
-job, including information sent through searches and other tool requests.
+This is the **0.2.0-dev.1 source candidate**. It includes the operating core,
+public competence bodies, editorial and media methods, receiver guidance and
+optional file tools. [CURRENT.md](CURRENT.md) carries its exact state and
+[Verification](docs/VERIFICATION.md) records which checks and exercises have
+actually been completed.
 
-The kernel preserves the history needed to understand a change without treating
-every record as a current instruction. It also distinguishes an observed event
-from an interpretation, and a successful publication from its later
-consequences. See [state and records](docs/STATE_AND_RECORDS.md).
+The [worked example](docs/WORKED_EXAMPLE.md) is a fictional explanation of
+continuity. Local contract checks, internal exercises, native-host use and
+real social effects have different scopes; their records preserve that
+difference. Licensing and a stable release remain decisions to make with the
+project owner.
 
-## Current source
-
-This is the **0.1.0-dev.1 source candidate**: a public operating method, native
-competence bodies and receiver guidance. Stable release, installed-host
-behavior and licensing remain separately determined in
-[CURRENT.md](CURRENT.md). Source checks and examples have their own limited
-scope; they do not establish independent adoption or social effectiveness.
-
-[Product direction](PRODUCT.md) describes the continuing object and its possible
-forms. [Evolution](EVOLUTION.md) explains how new experience can change the
-method while preserving source identity and evidence.
+[Product direction](PRODUCT.md) develops the continuing object and its possible
+forms. [Evolution](EVOLUTION.md) explains how experience changes the method and
+how source updates can preserve the learning in a user's own instance.
 
 Social Kernel is part of MAIOS.

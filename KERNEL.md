@@ -108,11 +108,14 @@ expression, design, business meaning, platform mechanics and execution can
 compose while retaining their different responsibilities. No standard stack or
 fixed number of owners is required.
 
-The public skills carry enough social method to begin without private source
-repositories. When deeper domain, editorial, design or business knowledge
-changes the result, use an available qualified competence or source. Identify
-the exact missing knowledge if it cannot be reached; prepare a bounded handoff
-rather than inventing the owner's conclusions.
+The public skills carry practical social, editorial and
+[media methods](skills/social-media-composition/SKILL.md) that can be used
+without private source repositories. When useful to the encounter, source
+meaning, wording, layout and medium develop together. Inspect the actual
+artifact through the available means and let what becomes visible change its
+composition or premise. Deeper domain, design or business knowledge can still
+make another qualified competence or source pertinent. Identify the exact
+missing knowledge if it cannot be reached and preserve a concrete continuation.
 
 The kernel can reuse, deepen, compose or form a competence from new intent,
 knowledge, successful work, a consequence or an emerging possibility.
@@ -148,6 +151,14 @@ difference instead of choosing a correction by label. The
 work into the owners that need to change.
 
 ## Preserve continuity at the useful depth
+
+Continuity emerges when work feeds its material consequences into how later
+work is understood and performed. Records carry the relations that still
+matter across an interruption. Their later use can change a response, teach a
+competence or change how capabilities are recognized and composed. It can also
+confirm that the existing method remains sufficient. Let the next movement
+begin from what the work has changed; no automatic method update or additional
+runtime is required for every event.
 
 Keep current direction and decisions connected with their reasons, current
 sources, open relationships, pending effects and the next condition that can

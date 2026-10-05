@@ -57,6 +57,21 @@ These functions may live in one short skill or in a body with a conditional
 guide. Choose the form the knowledge needs. A new title, a rule repeated across
 files or an empty template does not add capability.
 
+Acquire the practical knowledge through which those functions become usable.
+A source description can locate a method; a relevant passage, demonstration,
+worked example or implementation may be needed to understand the decision it
+changes. Preserve the reason, the choice and the condition that could revise
+it. Keep deeper sources reachable, and carry the necessary know-how locally
+when the public recipient cannot access the originating material.
+
+Follow a useful task through the actual receiving body and means to understand
+its sufficiency. For a text-and-visual artifact, the recipient needs methods
+for forming the message and media, producing the selected outputs, inspecting
+them and preserving the reasons needed for continuation. The current means
+may leave one of these operations unavailable. Locate that specific gap;
+adding more semantic instructions does not expose a missing tool. The selected
+result determines which parts must work together and what evidence can show it.
+
 Make the founding relation operate inside that body's own method. Its audience
 model, format or local strategy must remain correctable by the actual source,
 user direction and consequences. A central KERNEL link does not compensate for

@@ -1,16 +1,17 @@
 ---
 name: social-surface-expression
-description: Form source-faithful public expression for a selected social or community movement. Use while choosing or writing a post, reply, field note, technical contribution, announcement or other public artifact, so the source object, user meaning, evidence and surface context shape the theme and wording before they harden.
+description: Conceive, write and revise source-faithful public expression for a selected social or community movement. Use for posts, replies, field notes, technical contributions, announcements and connected content, so source meaning, authorial voice, reader understanding and the actual surface shape the artifact from its formation.
 ---
 
 # Social Surface Expression
 
 Form the artifact from the actual source and user relation. This competence
-owns the social adaptation of meaning, argument and language; it works with an
-available editorial owner when deeper writing knowledge changes the result.
-The method here is sufficient for a bounded public artifact without private
-repositories. Product truth, business decisions, design and publication retain
-their own owners.
+owns conception, argument, language and revision of social expression. Its
+[writing and revision method](references/writing-and-revision.md) supplies
+portable editorial craft: use it when premise order, prose, voice or review
+can change the artifact. An available editorial specialization can deepen this
+knowledge through composition. Product truth, business decisions, design and
+publication retain their own owners.
 
 Use [opportunity formation](../social-opportunity-formation/SKILL.md) when the
 movement is still being selected. The two competences can change one another's
@@ -77,11 +78,19 @@ need code or inspectable evidence; a synthesis can connect several relations.
 Choose the form for its job rather than translating a complete post unchanged
 into every channel.
 
-When image, diagram or interaction changes comprehension, compose with the
-available design competence. Let copy and perceptual form develop together.
+When image, diagram, sound, motion or interaction changes the encounter,
+compose with [media composition](../social-media-composition/SKILL.md) during
+formation. Let copy and perceptual form develop together.
 Keep the subject and dominant relation understandable in the visual itself;
 use the caption to deepen that relation. An inaccessible asset path does not
 give the user an inspectable final artifact.
+
+A visual result can expose that the wording implies a different object; an
+indispensable verbal distinction can change the layout or medium. Return that
+difference to their common source relation, then revise the affected parts.
+Preserve meaning, source and reasons across a content family while each form
+does its own job. A post need not wait for an unrelated video, and agreement
+between generated derivatives does not supply independent evidence.
 
 ## Keep truth and public action aligned
 
@@ -109,6 +118,10 @@ Before any private context enters an artifact or external tool request, use
 
 ## Revise the relation, then the sentences
 
+Use the [local craft reference](references/writing-and-revision.md) to revise
+argument, paragraphs, sentence rhythm and situated voice where they matter.
+Its lenses are available knowledge, not a fixed number of review passes.
+
 Read the result as an encounter whose reader lacks the hidden authoring
 context. Check whether the subject remains clear, each necessary premise is
 available, and the language preserves what the source actually says. Remove a
@@ -120,7 +133,13 @@ selection, example, premise order, wording or surface adaptation. Editing the
 nearest awkward phrase will not correct an earlier wrong subject.
 
 Preserve the exact draft revision and any final asset needed for review or
-execution. Use [effect boundary](../social-effect-boundary/SKILL.md) for the
+execution. Review the actual composed artifact: inspect the rendered media
+with its copy, reading order and destination when those determine the
+encounter. State a review's unobserved part if the necessary preview is
+unavailable. A changed copy, crop, asset or source invalidates only the review
+conclusions that depend on that change.
+
+Use [effect boundary](../social-effect-boundary/SKILL.md) for the
 separate publication action. Respect the actual current mandate; editorial
 coherence, a topic approval and a published-effect receipt are different
 things.

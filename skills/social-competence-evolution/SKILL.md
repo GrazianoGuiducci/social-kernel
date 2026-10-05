@@ -29,6 +29,31 @@ needs to change. Do not infer absent competence from a missing familiar
 filename or a failed search. The knowledge may already be carried by another
 owner or form.
 
+## Acquire the know-how that changes the choice
+
+When a desired capacity is still too implicit to use, follow a concrete task
+far enough to see which decision lacks support. Reach qualified source
+knowledge, a worked example, demonstration or implementation that teaches the
+missing relation. Let that acquisition change the question and the candidate
+method. Retain why the choice fits, what could invalidate it and how the
+recipient can recover the useful depth. Private examples can teach a general
+method without becoming the recipient's context.
+
+Suppose a receiver can describe an image composition but has no callable means
+to generate the selected asset. A credential alone does not supply an exposed
+tool, its inputs or an output the receiver can inspect. Preserve the existing
+design knowledge and locate the required receiving mechanism or another useful
+means. If an image is produced but its lettering is unreadable at the intended
+size, the media method instead needs the relevant perceptual decision and
+inspection. If that method already carried the decision but the working entry
+did not reach it, repair that path. These observations teach different owners.
+
+Use an operator's example or correction as attributed evidence of a useful
+choice, with the context that makes it applicable. Carry the reason into later
+different work; reproducing the same example cannot show that the method has
+generalized. An improved local method can become operative immediately while
+its later use remains to be observed.
+
 ## Reuse, deepen, compose or form
 
 Use the existing owner when it can carry the difference. Deepen practical

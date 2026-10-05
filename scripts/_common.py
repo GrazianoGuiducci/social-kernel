@@ -17,13 +17,18 @@ from urllib.parse import unquote, urlsplit
 import uuid
 
 
-SOURCE_VERSION = "0.1.0-dev.1"
+SOURCE_VERSION = "0.2.0-dev.1"
 MANIFEST_SCHEMA = "social-kernel.manifest.v1"
 INSTANCE_SCHEMA = "social-kernel.instance.v1"
-INVENTORY_SCHEMA = "social-kernel.bundle-inventory.v1"
+INVENTORY_SCHEMA = "social-kernel.bundle-inventory.v2"
 MANIFEST_FILE = "KERNEL_MANIFEST.json"
 INVENTORY_FILE = "BUNDLE_INVENTORY.json"
-PLUGIN_FILES = ("plugin.json", ".codex-plugin/plugin.json")
+TARGET_PLUGIN_FILES = {
+    "openai": ("plugin.json", ".codex-plugin/plugin.json"),
+    "claude-code": (".claude-plugin/plugin.json",),
+    "portable": (),
+}
+PLUGIN_FILES = tuple(path for paths in TARGET_PLUGIN_FILES.values() for path in paths)
 REQUIRED_ENTRIES = ("boot", "kernel", "competence_field", "evolution", "current")
 DEFAULT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -240,14 +245,21 @@ def plugin_metadata(manifest: dict) -> dict:
     }
 
 
-def receiver_plugin_metadata(value: Any) -> dict:
+def receiver_plugin_metadata(value: Any, target: str = "openai") -> dict:
     """Accept identity/presentation only; no undeclared tools or integrations."""
+    if target not in TARGET_PLUGIN_FILES or target == "portable":
+        raise ToolError("This target does not accept receiver plugin metadata.")
     allowed = {"$schema", "name", "version", "description", "author", "homepage",
                "repository", "license", "keywords", "extensions"}
     if not isinstance(value, dict) or set(value) - allowed or embedded_credentials(value):
         raise ToolError("Receiver metadata must contain only credential-free plugin identity and presentation.")
-    if value.get("$schema") != "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json":
+    if target == "openai" and value.get("$schema") != "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json":
         raise ToolError("Receiver metadata must use the Agent Plugins 1.0 schema.")
+    if target == "claude-code":
+        if "extensions" in value:
+            raise ToolError("The Claude Code projection accepts shared identity metadata only; it cannot preserve OpenAI presentation extensions.")
+        if "$schema" in value and value["$schema"] != "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json":
+            raise ToolError("Omit the optional schema or use the shared Agent Plugins 1.0 identity schema.")
     name, version = value.get("name"), value.get("version")
     if not isinstance(name, str) or len(name) > 64 or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", name):
         raise ToolError("Receiver plugin name must be a lowercase hyphenated identifier of at most 64 characters.")
@@ -270,20 +282,32 @@ def receiver_plugin_metadata(value: Any) -> dict:
     return value
 
 
-def assembled_files(manifest: dict, sources: dict[str, bytes], receiver_plugin: dict | None = None) -> dict[str, bytes]:
+def assembled_files(manifest: dict, sources: dict[str, bytes], receiver_plugin: dict | None = None,
+                    target: str = "openai") -> dict[str, bytes]:
+    if not isinstance(target, str) or target not in TARGET_PLUGIN_FILES:
+        raise ToolError("Unknown source-bundle target.")
+    if target == "portable" and receiver_plugin is not None:
+        raise ToolError("The portable target has no plugin identity; omit receiver metadata.")
     files = dict(sources)
-    plugin = plugin_metadata(manifest) if receiver_plugin is None else receiver_plugin_metadata(receiver_plugin)
-    files["plugin.json"] = json_bytes(plugin)
-    if receiver_plugin is None:
-        files[".codex-plugin/plugin.json"] = files["plugin.json"]
-    else:
-        legacy = {key: value for key, value in plugin.items() if key not in {"$schema", "extensions"}}
-        legacy.update(plugin.get("extensions", {}).get("com.openai", {}))
-        legacy["skills"] = "./skills"
-        files[".codex-plugin/plugin.json"] = json_bytes(legacy)
+    if target != "portable":
+        plugin = plugin_metadata(manifest) if receiver_plugin is None else receiver_plugin_metadata(receiver_plugin, target)
+        if target == "openai":
+            files["plugin.json"] = json_bytes(plugin)
+            if receiver_plugin is None:
+                files[".codex-plugin/plugin.json"] = files["plugin.json"]
+            else:
+                legacy = {key: value for key, value in plugin.items() if key not in {"$schema", "extensions"}}
+                legacy.update(plugin.get("extensions", {}).get("com.openai", {}))
+                legacy["skills"] = "./skills"
+                files[".codex-plugin/plugin.json"] = json_bytes(legacy)
+        else:
+            if receiver_plugin is None:
+                plugin = {key: value for key, value in plugin.items() if key != "$schema"}
+            files[".claude-plugin/plugin.json"] = json_bytes(plugin)
     source_files = inventory(sources)
     contents = {
         "schema_version": INVENTORY_SCHEMA,
+        "target": target,
         "source_name": bundle_name(manifest),
         "source_version": manifest.get("source_version"),
         "source_files": source_files,
@@ -427,7 +451,7 @@ def embedded_credentials(value: Any) -> bool:
 def validate_source(root: Path) -> tuple[dict, dict, dict[str, bytes]]:
     errors: list[dict] = []
     warnings: list[dict] = []
-    report = {"ok": False, "kind": "product_source", "source_version": None,
+    report = {"ok": False, "kind": "product_source", "source_version": None, "target": None,
               "counts": {"source_files": 0, "declared_competences": 0},
               "errors": errors, "warnings": warnings, "limits": list(LIMITS)}
     try:
@@ -526,34 +550,47 @@ def validate_source(root: Path) -> tuple[dict, dict, dict[str, bytes]]:
     if generated:
         report["kind"] = "source_bundle"
         receiver_plugin = None
+        target = None
         inventory_bytes = read_regular(root / INVENTORY_FILE, INVENTORY_FILE, errors)
         if inventory_bytes is not None:
             saved_inventory = parse_json(inventory_bytes, INVENTORY_FILE, errors)
-            if isinstance(saved_inventory, dict) and "receiver_plugin" in saved_inventory:
-                try:
-                    receiver_plugin = receiver_plugin_metadata(saved_inventory["receiver_plugin"])
-                except ToolError as exc:
-                    issue(errors, "receiver_plugin_metadata", INVENTORY_FILE, str(exc))
-        expected = assembled_files(manifest, sources, receiver_plugin)
-        for path in (*PLUGIN_FILES, INVENTORY_FILE):
-            actual = read_regular(root / path, path, errors)
-            if actual is not None:
-                parsed = parse_json(actual, path, errors)
-                if path in PLUGIN_FILES and embedded_credentials(parsed):
-                    issue(errors, "credential_metadata", path, "Source plugin metadata cannot embed credential fields.")
-                if actual != expected[path]:
-                    if path in PLUGIN_FILES and parsed == json.loads(expected[path]):
-                        warnings.append({
-                            "code": "manifest_serialization", "path": path,
-                            "message": "Plugin JSON values match; serialized bytes differ from canonical assembly. The inventory records assembly bytes, not this host serialization.",
-                        })
-                    else:
-                        issue(errors, "bundle_metadata", path, "Generated metadata or inventory differs from the current declared file bytes.")
-        actual_paths = {path.relative_to(root).as_posix() for path in tree_files(root, root, errors, filter_exclusions=False)}
-        for path in sorted(actual_paths - set(expected)):
-            issue(errors, "unlisted_bundle_file", path, "Bundle contains a file outside its declared inventory.")
-        for path in sorted(set(expected) - actual_paths):
-            issue(errors, "missing_bundle_file", path, "Bundle inventory requires this file.")
+            if not isinstance(saved_inventory, dict):
+                issue(errors, "bundle_inventory", INVENTORY_FILE, "Bundle inventory must be a JSON object.")
+            else:
+                if saved_inventory.get("schema_version") != INVENTORY_SCHEMA:
+                    issue(errors, "inventory_schema", INVENTORY_FILE, "Unknown or earlier inventory schema; use that bundle's own versioned tools. No migration is attempted.")
+                requested_target = saved_inventory.get("target")
+                if not isinstance(requested_target, str) or requested_target not in TARGET_PLUGIN_FILES:
+                    issue(errors, "bundle_target", INVENTORY_FILE, "Inventory must declare a supported bundle target.")
+                else:
+                    target = requested_target
+                    report["target"] = target
+                    if "receiver_plugin" in saved_inventory:
+                        try:
+                            receiver_plugin = receiver_plugin_metadata(saved_inventory["receiver_plugin"], target)
+                        except ToolError as exc:
+                            issue(errors, "receiver_plugin_metadata", INVENTORY_FILE, str(exc))
+        if target is not None:
+            expected = assembled_files(manifest, sources, receiver_plugin, target)
+            for path in (*TARGET_PLUGIN_FILES[target], INVENTORY_FILE):
+                actual = read_regular(root / path, path, errors)
+                if actual is not None:
+                    parsed = parse_json(actual, path, errors)
+                    if path in PLUGIN_FILES and embedded_credentials(parsed):
+                        issue(errors, "credential_metadata", path, "Source plugin metadata cannot embed credential fields.")
+                    if actual != expected[path]:
+                        if path in PLUGIN_FILES and parsed == json.loads(expected[path]):
+                            warnings.append({
+                                "code": "manifest_serialization", "path": path,
+                                "message": "Plugin JSON values match; serialized bytes differ from canonical assembly. The inventory records assembly bytes, not this host serialization.",
+                            })
+                        else:
+                            issue(errors, "bundle_metadata", path, "Generated metadata or inventory differs from the current declared file bytes.")
+            actual_paths = {path.relative_to(root).as_posix() for path in tree_files(root, root, errors, filter_exclusions=False)}
+            for path in sorted(actual_paths - set(expected)):
+                issue(errors, "unlisted_bundle_file", path, "Bundle contains a file outside its declared inventory.")
+            for path in sorted(set(expected) - actual_paths):
+                issue(errors, "missing_bundle_file", path, "Bundle inventory requires this file.")
     report["ok"] = not errors
     return report, manifest, sources
 

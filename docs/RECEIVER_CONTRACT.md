@@ -12,6 +12,13 @@ Locate the relevant public field and the user-selected private continuation. Pro
 
 Use existing local knowledge and state where they already carry the relation. A new project, account or storage system is unnecessary merely to study the method, answer a question or inspect one source. The useful arrangement depends on what needs to continue.
 
+An existing kernel or skill system remains an active participant. Compare
+the useful methods it already carries before selecting a new owner, then make
+the needed social relation reachable from its current entry. Preserve local
+memory, learned methods and configuration. The [host integration guide](HOST_INTEGRATION.md)
+translates this relation into concrete source projections and receiving checks;
+it does not require a chain of other kernel installations.
+
 | What the receiver needs to resolve | How it affects work |
 | --- | --- |
 | Current source and meaning | Determines what can truthfully be said and what may change the selected movement. |
@@ -30,6 +37,13 @@ A repository reader can follow public methods and current source files. A file-o
 When a needed source or operation is unavailable, identify the precise missing relation and what would resolve it. Preserve already established knowledge. An inaccessible live discussion can leave current replies unknown while source analysis and a useful draft remain possible. Do not report a successful observation using an earlier response body from a failed fetch.
 
 The same rule applies to host changes. A file path useful to one assistant may be unreadable to another. Give the receiving assistant the source content or a route it can actually resolve, together with the relation it needs to continue. Translation of the route does not transfer accounts, credentials, standing permissions or the creator's private context.
+
+Identify the actual callable operation when a task needs media generation or
+an external system. A URL, API specification or key alone does not create a
+tool. Distinguish a drafted request, a produced artifact, an inspected artifact,
+and an observed external effect. An existing integration can supply the means;
+missing capability leaves a precise receiving task while independent work
+continues.
 
 ## Separate the method, the controller and the effect
 

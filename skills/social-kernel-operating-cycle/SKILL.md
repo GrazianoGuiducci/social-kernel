@@ -22,10 +22,14 @@ from the user's instance, whose entry is distinct from this product's CURRENT.
 Make the appropriate competence participate while the question and action form:
 
 - [Opportunity formation](../social-opportunity-formation/SKILL.md) relates the
-  current field, source possibilities, audience and useful next movement.
+  current field, source possibilities, audience and useful next movement;
+  [field research and listening](../social-opportunity-formation/references/field-research-and-listening.md)
+  can bring an unanswered question or newly useful possibility into that field.
 - [Surface expression](../social-surface-expression/SKILL.md) forms meaning for
   the actual reader; [user-field projection](../social-user-field-projection/SKILL.md)
   supplies only pertinent private context.
+- [Media composition](../social-media-composition/SKILL.md) participates when
+  image, sound, motion or another perceptual form can change the idea or encounter.
 - [Relationship continuity](../social-relationship-continuity/SKILL.md) recovers
   the person, thread and next trigger when those change the action.
 - [Cognitive integrity](../social-cognitive-integrity/SKILL.md) helps inspect
@@ -41,6 +45,38 @@ relationship continuation, delegated task, preparation, wait or no_action.
 Do not require publication to finish a movement.
 Scope a wait or no_action to the relation that justifies it; independent useful
 work can continue under its own current conditions and authority.
+
+## Manage the work as the field develops
+
+When several fronts continue together, keep a small shared view of their
+purpose, current sources, creative material, conversations, commitments and
+dependencies. Reuse a sufficient existing view. The useful distinction is what
+can proceed, what depends on another result, and what new observation could
+change the choice; a calendar or task list alone may not preserve the reason.
+
+Let actual knowledge, available assets, tools and effort participate while the
+question and solution form. A useful image may make the reader's action clearer
+and change the text; an incoming question may change what the image must show.
+Do not settle every creative choice and only then ask which means can carry it.
+Use the actual receiver's generation, inspection and persistence capabilities.
+A prompt is preparation until an artifact has been made; a generated artifact
+still needs the inspection its intended use calls for.
+
+Delegate independent work when its source, purpose and expected contribution
+are sufficiently clear. Preserve the shared relation so each contributor need
+not reconstruct the same unresolved field. A returned observation, copy or
+visual can change that relation and the dependencies; it is more than a filled
+slot. Recompose dependent work when that happens and preserve contributions
+that remain useful. Several people or receivers preparing material does not
+assign them the same external effect.
+
+Initiative can discover a useful medium, channel, relationship or tool and make
+a concrete proposal or prototype from it. Determine which function would improve
+the work, what means are really available, and which dependency still matters.
+When another legitimate route can supply a missing function, preserve the
+selected purpose and authority while adapting the means. A credential alone
+does not expose a callable tool. Complete useful work already possible while
+an independent capability or operator choice remains unresolved.
 
 ## Carry the result through real means
 

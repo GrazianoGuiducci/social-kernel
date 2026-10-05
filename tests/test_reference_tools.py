@@ -20,7 +20,7 @@ import uuid
 
 
 PRODUCT_ROOT = Path(__file__).resolve().parent.parent
-VERSION = "0.1.0-dev.1"
+VERSION = "0.2.0-dev.1"
 
 
 def write_json(path: Path, value: object) -> None:
@@ -91,9 +91,12 @@ class ReferenceToolTests(unittest.TestCase):
         self.assertEqual(process.returncode == 0, result["ok"])
         return process, result
 
-    def build(self, name: str = "assembled-source") -> Path:
+    def build(self, name: str = "assembled-source", *, target: str | None = None) -> Path:
         destination = self.base / name
-        result = self.run_tool("build_plugin.py", "--destination", destination)
+        arguments = ["--destination", destination]
+        if target is not None:
+            arguments.extend(["--target", target])
+        result = self.run_tool("build_plugin.py", *arguments)
         self.assertEqual(result.returncode, 0, result.stderr)
         return destination
 
@@ -379,6 +382,153 @@ class ReferenceToolTests(unittest.TestCase):
                 self.assertEqual(result.returncode, 1)
                 self.assertFalse(destination.exists())
                 self.assertNotIn("FICTIONAL_TOKEN_NEVER_ECHO", result.stdout + result.stderr)
+
+    def test_all_targets_preserve_identical_source_and_validate_without_origin(self) -> None:
+        # A declared binary artifact is carried as bytes, not parsed as text.
+        artifact = self.root / "examples/fictional/asset.bin"
+        artifact.parent.mkdir(parents=True)
+        artifact.write_bytes(b"FICTIONAL BINARY ARTIFACT\x00\xff\r\n")
+        self.text("examples/fictional/README.md", "# Fictional artifact\n\n[Bytes](asset.bin).\n")
+        self.manifest["source_bundle"]["include"].append("examples/")
+        self.save_manifest()
+        source = snapshot(self.root)
+        targets = {target: self.build(target + "-one", target=target)
+                   for target in ("openai", "claude-code", "portable")}
+        identities = []
+        for target, bundle in targets.items():
+            with self.subTest(target=target):
+                second = self.build(target + "-two", target=target)
+                self.assertEqual(snapshot(bundle), snapshot(second))
+                record = json.loads((bundle / "BUNDLE_INVENTORY.json").read_text())
+                self.assertEqual(record["schema_version"], "social-kernel.bundle-inventory.v2")
+                self.assertEqual(record["target"], target)
+                identities.append(record["source_fingerprint"])
+                for entry in record["source_files"]:
+                    self.assertEqual((bundle / entry["path"]).read_bytes(), source[entry["path"]])
+                self.assertEqual({entry["path"] for entry in record["source_files"]}, set(source))
+        self.assertTrue(all(identity == identities[0] for identity in identities))
+        self.assertFalse((targets["portable"] / "plugin.json").exists())
+        self.assertFalse((targets["portable"] / ".claude-plugin").exists())
+        self.assertFalse((targets["portable"] / ".codex-plugin").exists())
+        self.assertFalse((targets["claude-code"] / "plugin.json").exists())
+        self.assertFalse((targets["claude-code"] / ".codex-plugin").exists())
+        claude = json.loads((targets["claude-code"] / ".claude-plugin/plugin.json").read_text())
+        self.assertEqual(set(claude), {"name", "version", "description", "repository"})
+        self.assertEqual((claude["name"], claude["version"]), ("social-kernel", VERSION))
+        self.root.rename(self.base / "origin-unavailable-for-all-targets")
+        for target, bundle in targets.items():
+            with self.subTest(target=target):
+                before = snapshot(bundle)
+                report = self.validate(root=bundle)[1]
+                self.assertTrue(report["ok"], report)
+                self.assertEqual(report["target"], target)
+                self.assertEqual(snapshot(bundle), before)
+
+    def test_claude_receiver_identity_is_separate_and_serialization_is_qualified(self) -> None:
+        metadata = {"name": "fictional-existing-claude-plugin", "version": "1.4.0",
+                    "description": "Fictional receiver identity.",
+                    "author": {"name": "Fictional author"}}
+        path = self.base / "claude-receiver-metadata.json"
+        write_json(path, metadata)
+        bundle = self.base / "claude-identity-bundle"
+        process = self.run_tool("build_plugin.py", "--destination", bundle,
+                                "--target", "claude-code", "--plugin-manifest", path)
+        self.assertEqual(process.returncode, 0, process.stderr)
+        manifest = bundle / ".claude-plugin/plugin.json"
+        self.assertEqual(json.loads(manifest.read_text()), metadata)
+        record = json.loads((bundle / "BUNDLE_INVENTORY.json").read_text())
+        self.assertEqual(record["source_version"], VERSION)
+        self.assertEqual(record["receiver_plugin"], metadata)
+        manifest.write_text(json.dumps(dict(reversed(list(metadata.items()))), indent=4), encoding="utf-8")
+        report = self.validate(root=bundle)[1]
+        self.assertTrue(report["ok"], report)
+        self.assertIn("manifest_serialization", {warning["code"] for warning in report["warnings"]})
+        metadata["version"] = "1.5.0"
+        write_json(manifest, metadata)
+        self.assertIn("bundle_metadata", self.error_codes(self.validate(root=bundle)[1]))
+
+    def test_projection_cannot_silently_drop_metadata_or_introduce_execution(self) -> None:
+        shared = {"name": "fictional-plugin", "version": "1.0.0", "description": "Fictional identity."}
+        cases = [
+            ("portable", shared),
+            ("claude-code", dict(shared, extensions={"com.openai": {"interface": {"defaultPrompt": ["Preserve this"]}}})),
+            ("claude-code", dict(shared, mcpServers={"fictional": {"command": "not-executed"}})),
+            ("claude-code", dict(shared, hooks="not-executed.json")),
+        ]
+        for index, (target, metadata) in enumerate(cases):
+            with self.subTest(target=target, case=index):
+                path = self.base / "metadata-to-refuse.json"
+                write_json(path, metadata)
+                before = path.read_bytes()
+                destination = self.base / ("refused-projection-" + str(index))
+                process = self.run_tool("build_plugin.py", "--destination", destination,
+                                        "--target", target, "--plugin-manifest", path)
+                self.assertEqual(process.returncode, 1, process.stdout + process.stderr)
+                self.assertFalse(destination.exists())
+                self.assertEqual(path.read_bytes(), before)
+
+    def test_ambiguous_receiver_metadata_is_refused_without_echoing_values(self) -> None:
+        metadata = self.base / "ambiguous-metadata.json"
+        metadata.write_text('{"name":"fictional-one","name":"FICTIONAL_VALUE_NEVER_ECHO",'
+                            '"version":"1.0.0","description":"Fictional ambiguity."}', encoding="utf-8")
+        for target in ("openai", "claude-code"):
+            with self.subTest(target=target):
+                destination = self.base / ("ambiguous-" + target)
+                process = self.run_tool("build_plugin.py", "--destination", destination,
+                                        "--target", target, "--plugin-manifest", metadata)
+                self.assertEqual(process.returncode, 1)
+                self.assertFalse(destination.exists())
+                self.assertNotIn("FICTIONAL_VALUE_NEVER_ECHO", process.stdout + process.stderr)
+
+    def test_bundle_target_and_inventory_schema_are_checked_read_only(self) -> None:
+        bundle = self.build(target="portable")
+        path = bundle / "BUNDLE_INVENTORY.json"
+        valid = json.loads(path.read_text())
+        cases = [(dict(valid, target="unknown-host"), "bundle_target"),
+                 (dict(valid, target=["portable"]), "bundle_target"),
+                 (dict(valid, schema_version="social-kernel.bundle-inventory.v1"), "inventory_schema"),
+                 (dict(valid, target="claude-code"), "missing_bundle_file")]
+        for changed, code in cases:
+            with self.subTest(code=code, target=changed.get("target")):
+                write_json(path, changed)
+                before = snapshot(bundle)
+                self.assertIn(code, self.error_codes(self.validate(root=bundle)[1]))
+                self.assertEqual(snapshot(bundle), before)
+        destination = self.base / "unknown-target"
+        process = self.run_tool("build_plugin.py", "--destination", destination, "--target", "unknown-host")
+        self.assertNotEqual(process.returncode, 0)
+        self.assertFalse(destination.exists())
+
+    def test_other_target_manifest_is_an_unlisted_bundle_file(self) -> None:
+        bundle = self.build(target="claude-code")
+        (bundle / "plugin.json").write_text("{}\n", encoding="utf-8")
+        self.assertIn("unlisted_bundle_file", self.error_codes(self.validate(root=bundle)[1]))
+
+    def test_assembly_beside_existing_configuration_preserves_its_state(self) -> None:
+        project = self.base / "existing-fictional-project"
+        existing = {
+            "AGENTS.md": b"Existing fictional kernel entry.\n",
+            "CLAUDE.md": b"Existing fictional project instructions.\n",
+            ".claude/settings.json": b'{"fictional_setting":"KEEP"}\n',
+            ".agents/skills/existing/SKILL.md": b"Existing fictional method.\n",
+            "private-field/CURRENT.md": b"Existing fictional social continuity.\n",
+            "private-field/learned-method.md": b"Existing fictional learned relation.\n",
+        }
+        for relative, content in existing.items():
+            path = project / relative
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(content)
+        for target in ("openai", "claude-code", "portable"):
+            destination = project / ("new-" + target)
+            process = self.run_tool("build_plugin.py", "--destination", destination, "--target", target)
+            self.assertEqual(process.returncode, 0, process.stderr)
+            for relative, content in existing.items():
+                self.assertEqual((project / relative).read_bytes(), content)
+            for relative in existing:
+                self.assertFalse((destination / relative).exists())
+        unchanged = {relative: content for relative, content in snapshot(project).items()
+                     if not relative.startswith(("new-openai/", "new-claude-code/", "new-portable/"))}
+        self.assertEqual(unchanged, existing)
 
     def test_both_writers_require_absolute_paths_and_existing_parents(self) -> None:
         for tool in ("init_instance.py", "build_plugin.py"):

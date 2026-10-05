@@ -14,11 +14,13 @@ Preserve who selected a direction. A proposal made by an earlier receiver does n
 
 Identify which relevant sources, durable storage, tools and execution routes are actually available now. A readable repository supplies knowledge; it does not supply a signed-in account, scheduler, persistent process or another agent's computer.
 
-If this is the first use, follow [Adoption](docs/ADOPTION.md) to select a private continuity location and provide the minimum direction/sources for a useful first movement. Existing instance knowledge stays with that instance. A read-only or session-only receiver can work from the knowledge it can reach and state precisely what cannot persist or execute.
+If this is the first use, follow [Adoption](docs/ADOPTION.md) to select a private continuity location and provide the minimum direction/sources for a useful first movement. If the receiver already has a kernel, skills, project instructions or memory, relate this method to those entries and preserve useful local knowledge. Adopt only the missing relations; no preliminary kernel installation or replacement of the user's existing system is required. Existing instance knowledge stays with that instance. A read-only or session-only receiver can work from the knowledge it can reach and state precisely what cannot persist or execute.
 
 ## Continue through the pertinent competences
 
 Let the object, context, sources and possibilities select the [competences](COMPETENCES.md) that can change understanding, method or action. Use their native bodies before settling the result. They can make further knowledge or an external owner pertinent. The first framing, available tool and familiar platform are not the whole field.
+
+Use the actual sources and questions to form the useful contribution. The public [writing method](skills/social-surface-expression/SKILL.md) and [media method](skills/social-media-composition/SKILL.md) can develop its meaning, words and perceptual form together. When the authorized result needs a media artifact and the means are callable, produce and inspect it, then preserve its selected revision. A prompt is one production input; the intended artifact still needs to exist.
 
 The result can be research, source clarification, a campaign, an artifact, a reply, a relationship movement, an inbound-information decision, a delegated task, waiting or no action. Work that is already selected and possible should proceed. A greeting or Boot-only request restores orientation and waits; a saved next step does not execute itself.
 

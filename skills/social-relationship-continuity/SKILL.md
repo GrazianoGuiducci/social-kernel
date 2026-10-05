@@ -29,6 +29,27 @@ Keep useful distinctions separate:
 
 An event can alter several relations without making them interchangeable.
 
+## Form a useful encounter
+
+For a new or renewed relationship, understand the person's current work and
+the object that makes an encounter useful now. Recover what each side could
+contribute and the smallest question, source or artifact that makes that
+relation concrete. Use [field research and listening](../social-opportunity-formation/references/field-research-and-listening.md)
+when the relevant work or source is not yet understood.
+
+Let the actual relation select the approach. Independent review, peer
+discussion, creative collaboration, contribution and a commercial inquiry can
+involve the same person while needing different objects and next steps.
+Audience size, a role label or a connection alone does not establish fit.
+An encounter can still be useful while its eventual consequence is unknown;
+do not require a predicted positive response to preserve a coherent possibility.
+
+Make the invitation or answer source-grounded and useful to this person.
+Use [surface expression](../social-surface-expression/SKILL.md) while the
+message forms. If a distinct business, domain or design function becomes
+material, compose its available knowledge without turning that owner into the
+controller of every relationship effect.
+
 ## Let the next trigger determine follow-up
 
 If the counterpart will return when a condition becomes relevant, record that

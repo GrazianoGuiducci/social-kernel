@@ -2,8 +2,8 @@
 
 ```text
 updated: 2026-10-05
-source_version: 0.1.0-dev.1
-state: PUBLIC_SOURCE_CANDIDATE / LOCALLY_VERIFIED
+source_version: 0.2.0-dev.1
+state: PUBLIC_SOURCE_CANDIDATE / VERIFICATION_IN_PROGRESS
 stable_release: none
 license: operator decision pending
 installed_receiver_update: none from this source change
@@ -11,11 +11,11 @@ installed_receiver_update: none from this source change
 
 ## Current source
 
-The public candidate supplies a native [entry](BOOT.md), [kernel](KERNEL.md), [competence field](COMPETENCES.md), [evolution method](EVOLUTION.md) and ten portable competence bodies. A new receiver can use these sources without the private history that formed them. [Adoption](docs/ADOPTION.md) connects the method to the user's own private continuity and actual capabilities.
+The public candidate supplies a native [entry](BOOT.md), [kernel](KERNEL.md), [competence field](COMPETENCES.md), [evolution method](EVOLUTION.md) and eleven portable competence bodies. The current extension brings practical writing and revision, media conception and actual production, field research and listening, and learning that changes later work. A new receiver can use these sources without the private history that formed them. [Adoption](docs/ADOPTION.md) connects the method to the user's existing knowledge, private continuity and actual capabilities.
 
-Optional local instance initialization, self-contained OpenAI source-bundle assembly and structural validation provide bounded file mechanics. They do not publish, install a plugin, create a scheduled job or connect an account.
+Optional local instance initialization, self-contained OpenAI, Claude Code and portable source projections, and structural validation provide bounded file mechanics. The profiles assemble the same canonical method for different receiving layouts. Native loading and actual capability retain their own evidence.
 
-[Verification](docs/VERIFICATION.md) records exact check scope and results. The [worked example](docs/WORKED_EXAMPLE.md) is fictional and instructional. Local checks and an internal receiver exercise do not establish independent adoption or continuing autonomous operation.
+[Verification](docs/VERIFICATION.md) preserves earlier checks and records the current extension's evidence separately. The [worked example](docs/WORKED_EXAMPLE.md) is fictional and instructional. A new internal creative exercise is being prepared; no result is claimed before it is observed. Local checks and internal exercises do not establish independent adoption or continuing autonomous operation.
 
 ## Receiver preparation — 2026-10-05
 
@@ -33,6 +33,6 @@ The earlier skills-only private preview had source identity 0.2.1. Its incomplet
 
 ## Continuation
 
-The selected source completion, three useful readings and local checks are complete at the scope recorded in Verification. An equipped receiver can continue the bounded tasks in [Codex continuation](docs/CODEX_CONTINUATION.md), using current source and preserving existing user instances. Native package loading, recurring execution, later real use, stable release and licensing retain their own evidence or operator decision.
+The original three-reading source completion and the subsequent receiving fixes retain their recorded scope. This extension is undergoing creative and receiving checks. An equipped receiver can continue the bounded tasks in [Codex continuation](docs/CODEX_CONTINUATION.md), using current source and preserving existing user instances. Native package loading, recurring execution, later real use, stable release and licensing retain their own evidence or operator decision.
 
 The live social field belongs in the user's instance, not in this product CURRENT. Later source changes and receiver results can teach the product through [Evolution](EVOLUTION.md) without replaying completed effects.
