@@ -146,6 +146,27 @@ A public artifact should not unnecessarily reduce the continuing system to one
 feature, tool or format. Keep further real possibility available while
 distinguishing current capability from direction and horizon.
 
+## Project a public identity without inventing a persona
+
+When the selected movement asks for a public Entity, assistant, representative
+or other persistent public form, do not begin from persona design. First
+separate source identity, public representation, private continuity, receiver
+capability, acting account and effect authority.
+
+Use
+[Public Entity and Projectable Possibilities](docs/PUBLIC_ENTITY_AND_PROJECTABLE_POSSIBILITIES.md)
+as the composition guide.
+
+The named form may be only one incarnation of a wider semantic possibility.
+Preserve the relation that must survive if the host, prompt, model or interface
+changes. A prompt can initialize a receiving incarnation; it does not by itself
+supply identity, continuity, credentials or authority.
+
+A truthful public incarnation keeps current identity, knowledge, capability,
+open possibility, authority and observed action distinguishable. Existing
+Social Kernel competences compose this relation; do not create a new Entity
+competence merely because the carrier changed.
+
 ## Correct the movement and the changed present
 
 FDLA, Funzione di Libero Arbitrio, makes an introduced substitution
