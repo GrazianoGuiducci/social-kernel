@@ -320,10 +320,12 @@ tool route belongs to its receiver. Use
 should alter a continuing method. A single artifact preference can stay with
 that artifact.
 
-## Public source relation
+## Self-contained public method
 
-This method re-expresses applicable design knowledge from the public
-[D-ND Design Kernel](https://github.com/GrazianoGuiducci/d-nd-ux-ai-seed/blob/fac87ed6e9d347fad7892e579c7b6b4756e2a352/DESIGN_KERNEL.md):
-perceptual composition, source-grounded spatial and temporal explanation,
-rendered critique and receiver-aware image execution. The operative method
-is present here; the upstream source provides provenance and optional depth.
+The operative design and media method needed for Social Kernel work is present
+in this skill and its local references. No external design repository is
+required to form, produce, inspect or continue a bounded media artifact.
+
+Development provenance and optional deeper sources are recorded separately in
+[Public Derivation](../../docs/PUBLIC_DERIVATION.md); they do not participate as
+runtime dependencies.

@@ -4,6 +4,7 @@ Competences contribute knowledge while a movement forms. This is an open field, 
 
 | Condition in the current work | Native owner | Contribution |
 | --- | --- | --- |
+| The framing, source relation, possibility horizon, competence selection, representation, capability, causality, failure or stop condition can change the work | [Social System Understanding](skills/social-system-understanding/SKILL.md) | Ground the field, correct receiver-introduced distortion, distinguish capability/authority/gaps, check representation and causality, localize failure and know when the movement is sufficient. |
 | Continue or organize public/social work across changing events | [Social Kernel Operating Cycle](skills/social-kernel-operating-cycle/SKILL.md) | Compose the continuing field and its next useful movement. |
 | Interruption, changed source, prior effects or open relationships can alter continuation | [Social Field Reentry](skills/social-field-reentry/SKILL.md) | Recover enough attributed context and causal continuity to act from the present. |
 | Observe questions, find possibilities or decide where and how to participate, investigate, wait or change approach | [Social Opportunity Formation](skills/social-opportunity-formation/SKILL.md) | Research and listen to the field, then form a useful encounter from its sources and the user's direction. |
@@ -15,6 +16,22 @@ Competences contribute knowledge while a movement forms. This is an open field, 
 | A particular relationship continues, changes, closes or needs a next trigger | [Social Relationship Continuity](skills/social-relationship-continuity/SKILL.md) | Preserve the relation, next actor and conditions without treating people as a queue. |
 | Inbound information carries source gaps, repetitive pressure, manipulation or uncertain provenance | [Social Cognitive Integrity](skills/social-cognitive-integrity/SKILL.md) | Help the user inspect and govern the incoming information field. |
 | Reusable learning, missing method, failed discovery or kernel change should alter later work | [Social Competence Evolution](skills/social-competence-evolution/SKILL.md) | Evolve the acting knowledge and its entry through [EVOLUTION.md](EVOLUTION.md). |
+
+## Public taxonomy
+
+The competence field is grouped by contribution rather than by an internal
+research vocabulary:
+
+- **Cognitive core** — System Understanding, Field Reentry, Operating Cycle.
+- **Formation and expression** — Opportunity Formation, Surface Expression,
+  Media Composition, User Field Projection.
+- **Interaction and control** — Relationship Continuity, Cognitive Integrity,
+  Effect Boundary, Effect Consequence.
+- **Evolution** — Competence Evolution.
+
+The [cognitive architecture](docs/COGNITIVE_ARCHITECTURE.md) explains how these
+functions connect. The groups are orientation aids, not a fixed execution
+sequence.
 
 ## Compose other owners when their knowledge changes the work
 

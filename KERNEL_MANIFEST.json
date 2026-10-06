@@ -9,12 +9,17 @@
     "kernel": "KERNEL.md",
     "competence_field": "COMPETENCES.md",
     "evolution": "EVOLUTION.md",
-    "current": "CURRENT.md"
+    "current": "CURRENT.md",
+    "cognitive_architecture": "docs/COGNITIVE_ARCHITECTURE.md"
   },
   "competences": [
     {
       "name": "social-kernel-operating-cycle",
       "path": "skills/social-kernel-operating-cycle/SKILL.md"
+    },
+    {
+      "name": "social-system-understanding",
+      "path": "skills/social-system-understanding/SKILL.md"
     },
     {
       "name": "social-field-reentry",

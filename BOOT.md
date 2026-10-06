@@ -4,7 +4,7 @@ Use Social Kernel to continue a person's, project's or community's public field:
 
 ## Enter from the actual present
 
-Read [KERNEL.md](KERNEL.md), the [competence field](COMPETENCES.md) and the [manifest](KERNEL_MANIFEST.json). Their knowledge forms the work; these files are not a checklist to replay after every interruption. [CURRENT.md](CURRENT.md) describes this public product's source state. The user's social field has its own current state in a location they control.
+Read [KERNEL.md](KERNEL.md), the [cognitive architecture](docs/COGNITIVE_ARCHITECTURE.md), the [competence field](COMPETENCES.md) and the [manifest](KERNEL_MANIFEST.json). Their knowledge forms the work; these files are not a checklist to replay after every interruption. [CURRENT.md](CURRENT.md) describes this public product's source state. The user's social field has its own current state in a location they control.
 
 Recover the current request and only the instance knowledge that can change it: direction and its attribution, source facts, selected or superseded work, material past effects, open relationships, learned methods, present capability and authority. Reach deeper sources when a real uncertainty changes the movement. A cached summary is a source of orientation, not proof that a source, account, person or decision is unchanged.
 
@@ -17,6 +17,12 @@ Identify which relevant sources, durable storage, tools and execution routes are
 If this is the first use, follow [Adoption](docs/ADOPTION.md) to select a private continuity location and provide the minimum direction/sources for a useful first movement. If the receiver already has a kernel, skills, project instructions or memory, relate this method to those entries and preserve useful local knowledge. Adopt only the missing relations; no preliminary kernel installation or replacement of the user's existing system is required. Existing instance knowledge stays with that instance. A read-only or session-only receiver can work from the knowledge it can reach and state precisely what cannot persist or execute.
 
 ## Continue through the pertinent competences
+
+Use [System Understanding](skills/social-system-understanding/SKILL.md) whenever
+the source/object relation, first framing, possibility horizon, competence gap,
+representation, capability, causality, failure or stopping point can materially
+change the work. It is part of this public product; no external kernel or
+private metacompetence is required for these cognitive functions.
 
 Let the object, context, sources and possibilities select the [competences](COMPETENCES.md) that can change understanding, method or action. Use their native bodies before settling the result. They can make further knowledge or an external owner pertinent. The first framing, available tool and familiar platform are not the whole field.
 
