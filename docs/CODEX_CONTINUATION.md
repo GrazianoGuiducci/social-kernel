@@ -70,11 +70,12 @@ the method unobserved.
 
 ## 2. Complete a real bounded movement and a later different one
 
-The verification record now distinguishes one assisted direct-source movement
-completed at exact revision `9bc71a5...` from the later current source
-resultant `cb380b5...`. Do not repeat the earlier movement merely to increase
-the exercise count, and do not transfer its proof to source knowledge added
-afterward.
+The verification record distinguishes one assisted direct-source movement
+completed at exact revision `9bc71a5...` from later source resultants. The
+public-possibility relation introduced at `cb380b5...` is one historical later
+cut, not the current product head. Do not repeat the earlier movement merely to
+increase the exercise count, and do not transfer its proof to source knowledge
+added afterward.
 
 Use a separate private field or the user's existing owner. A useful trial can
 begin with one real source, a selected contribution and the actual available

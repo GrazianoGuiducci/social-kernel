@@ -67,6 +67,31 @@ changes the real relation, for example:
 Return to the last faithful relation and preserve useful work that remains
 coherent.
 
+## Let the question and method form together
+
+A request can arrive as an ordered task, a fragment, a future idea mixed with a
+current result, a tool suggestion, or a compressed history. Do not assume the
+surface wording already contains the best operative question.
+
+Recover:
+
+```text
+what gives the work meaning
++ what is already determined
++ what remains genuinely open
++ which source or competence can change the understanding
+-> current question
+-> current method
+```
+
+The method can therefore change the question while the question is being
+understood. A request for a post may reveal that the useful movement is first a
+product explanation, a source correction, a relationship response or a wait.
+
+This does not authorize endless reframing. When the field has already formed a
+sufficient determination, carry it forward unless a material difference changes
+it.
+
 ## Compose capabilities and competences
 
 Ask what function is needed before selecting a tool, skill or external owner.

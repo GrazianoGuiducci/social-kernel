@@ -11,6 +11,52 @@ distribution: public main / contributions welcome
 installed_receiver_update: none from this source change
 ```
 
+## Product completion / catalogue handoff — 2026-10-06
+
+Social Kernel is complete enough in its **current product scope** for catalogue
+integration as an open-source development product.
+
+This statement means:
+
+```text
+self-contained public operating method
++ twelve reachable competence bodies
++ adoption / host / state / effect boundaries
++ Apache-2.0
++ public source distribution
++ standalone use
++ optional multi-kernel composition
++ contribution route
+-> catalogue-ready product truth
+```
+
+It does **not** mean:
+
+```text
+stable release
+universal native installation
+autonomous social account
+verified behavior in every receiver
+commercial service selected
+```
+
+The bounded product-to-site contract is in
+[Product completion and catalogue handoff](docs/PRODUCT_COMPLETION_AND_CATALOG_HANDOFF_2026-10-06.md).
+The site/catalogue owner must freshness-check the product source before
+publication; catalogue mutation remains a separate effect.
+
+The final product pass also deepens existing owners without changing the
+competence count:
+
+- System Understanding lets the question and method form together;
+- Field Reentry extracts still-causal relations from summaries/chronologies and
+  preserves active source linkage without loading the archive;
+- Projectable Presence makes prompt/projection evolution return learning to the
+  correct product/social/presence owner.
+
+These are source-level product refinements, not prerequisites for a stable
+release or a new test campaign.
+
 ## Current source
 
 ### Composable kernel platform relation — 2026-10-06
@@ -148,11 +194,11 @@ need it, while preserving the distinction between current capability, reachable
 direction and open horizon. It is represented in [Kernel](KERNEL.md) and
 [Social Media Composition](skills/social-media-composition/SKILL.md).
 
-No later receiver movement has yet exercised this added relation. The current
-source resultant is therefore `cb380b5...`, while the first observed
-`dev.2` concept-to-media behavior remains bound to `9bc71a5...`. The later
-source addition does not retroactively change the earlier artifacts or their
-evidence scope.
+No later receiver movement has yet exercised this added relation. That
+public-possibility source cut remains `cb380b5...`, while the first observed
+`dev.2` concept-to-media behavior remains bound to `9bc71a5...`. Later source
+resultants preserve that evidence boundary and do not retroactively change the
+earlier artifacts.
 
 ## Possibility-field source sovereignty — 2026-10-06
 
@@ -216,6 +262,6 @@ The earlier skills-only private preview had source identity 0.2.1. Its incomplet
 
 ## Continuation
 
-The original three-reading source completion and the subsequent receiving fixes retain their recorded scope. This extension's source work, local mechanics and two assisted creative receiving movements are complete. The export finding also returned a reference-base distinction to the public media method; later receiving use of that new distinction remains unobserved. One assisted direct-source `dev.2` movement has now been observed at exact revision `9bc71a5...`; the later public-possibility addition in current resultant `cb380b5...` remains unexercised. An equipped receiver can continue the bounded tasks in [Codex continuation](docs/CODEX_CONTINUATION.md), using current source and preserving existing user instances. The selected license and current distribution form are recorded in [License and distribution state](docs/RELEASE_DECISIONS.md). Native package loading, selected recurring execution, later non-identical use of the current resultant and any future stable release retain their own evidence or operator decision.
+The original three-reading source completion and the subsequent receiving fixes retain their recorded scope. This extension's source work, local mechanics and two assisted creative receiving movements are complete. The export finding also returned a reference-base distinction to the public media method; later receiving use of that new distinction remains unobserved. One assisted direct-source `dev.2` movement has been observed at exact revision `9bc71a5...`; the subsequent public-possibility addition at `cb380b5...` remains unexercised in that exact scope and is historical relative to the newer source resultants. An equipped receiver can continue the bounded tasks in [Codex continuation](docs/CODEX_CONTINUATION.md), using current source and preserving existing user instances. The selected license and current distribution form are recorded in [License and distribution state](docs/RELEASE_DECISIONS.md). Native package loading, selected recurring execution, later non-identical use of the current resultant and any future stable release retain their own evidence or operator decision.
 
 The live social field belongs in the user's instance, not in this product CURRENT. Later source changes and receiver results can teach the product through [Evolution](EVOLUTION.md) without replaying completed effects.

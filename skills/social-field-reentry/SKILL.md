@@ -29,6 +29,28 @@ Follow the entry into deeper sources when meaning or an unresolved consequence
 can change the decision. Do not reopen closed work without a new material
 difference. An unrelated project's current cursor does not select this movement.
 
+## Preserve linkage, not the whole archive
+
+A chronology, export, handoff or summary is useful when it helps reach the
+relations that still change the present. Do not make the archive itself the
+working state.
+
+```text
+history / summary / saved packet
+-> recover causal differences, reasons and still-live links
+-> point back to the owning source when deeper meaning may matter
+-> current usable present
+```
+
+Prefer a stable reference to copying a source when copying would create another
+owner or allow the copies to drift. Preserve exact snapshots when historical
+identity matters; use current links/entries for active navigation.
+
+When a source relationship repeatedly fails to become reachable at the next
+pertinent entry, return that learning through
+[Competence Evolution](../social-competence-evolution/SKILL.md) rather than
+solving every recurrence by loading a larger archive.
+
 ## Establish the relevant present
 
 Search results, memory, an old checkout or a saved browser tab are not necessarily
