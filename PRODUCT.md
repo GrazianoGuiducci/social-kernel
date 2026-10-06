@@ -131,6 +131,16 @@ the real host, private field, acting identity/account and current policy.
 The practical composition and truth boundary are in
 [Public Entity and Projectable Possibilities](docs/PUBLIC_ENTITY_AND_PROJECTABLE_POSSIBILITIES.md).
 
+The lightest incarnation can be a discreet signature/provenance relation. A
+deeper incarnation can let the product explain itself, support adoption, answer
+questions or invite contribution. When Social Kernel is composed inside another
+consumer/domain product, the public Entity can represent that product while
+Social Kernel remains the method contributor.
+
+A truthful self-promoting product speaks when current product truth and a real
+receiver/business relation make self-presentation useful; it does not infer a
+mandate to maximize attention from the fact that it has a public identity.
+
 This is a product horizon and formation relation, not a claim that the current
 development source creates autonomous accounts or persistent agents by itself.
 
