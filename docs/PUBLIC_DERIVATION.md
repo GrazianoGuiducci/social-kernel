@@ -6,6 +6,12 @@ work and receiver experience. The knowledge an adopter needs lives in the
 linked guides. The sources below preserve provenance and offer further depth;
 they are not an installation chain.
 
+The public product is operationally self-contained. If an essential method
+exists only in an upstream source, that is an autonomy defect to correct by
+carrying the required know-how into the responsible Social Kernel competence.
+Use upstream links as genealogy, research depth or optional complementary
+knowledge, never as a hidden prerequisite for ordinary operation.
+
 ## Public sources and their contribution
 
 These references identify the public source versions used in the current
