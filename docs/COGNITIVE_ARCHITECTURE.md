@@ -205,6 +205,27 @@ changed field
 
 No single diagram, database, agent or runtime owns these dynamics.
 
+## Composable kernel field
+
+Social Kernel's cognitive architecture is complete enough for standalone use,
+but it can participate in a wider harness of independent kernels.
+
+```text
+standalone kernel
++ optional compatible kernels
++ operator harness
+-> situated composition
+```
+
+Composition is function-driven. Another kernel participates when its knowledge
+changes the result, not because an ecosystem catalogue lists it.
+
+General kernels such as MAIOS Project Kernel or kernel_chat can provide broader
+continuity/operating relations. Specialized kernels can contribute domain or
+product knowledge. All retain their own identity and learning.
+
+See [Kernel Ecosystem Composition](KERNEL_ECOSYSTEM_COMPOSITION.md).
+
 ## Practical autonomy
 
 An independent Social Kernel installation needs only:
