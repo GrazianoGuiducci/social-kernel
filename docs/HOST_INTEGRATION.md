@@ -16,9 +16,14 @@ equivalence, and different names do not require duplicate owners.
 Make Social Kernel's [BOOT](../BOOT.md) and pertinent [competences](../COMPETENCES.md)
 reachable when public work needs them. An existing reentry or learning method
 can continue to perform its function while the public-work methods deepen the
-social relation. MAIOS Project Kernel, kernel_chat or another operating system
-can participate through what they already know. None is a prerequisite to use
-this product.
+social relation.
+
+The receiver can expose Social Kernel alone or make it one participant in a
+multi-kernel harness. MAIOS Project Kernel, kernel_chat and specialized kernels
+can participate through the functions they actually own. Preserve independent
+identity, state and authority, and avoid loading a second kernel when the first
+already carries the needed function. See
+[Kernel Ecosystem Composition](KERNEL_ECOSYSTEM_COMPOSITION.md).
 
 Keep a small integration note at the current entry if these locations would
 otherwise be lost:
