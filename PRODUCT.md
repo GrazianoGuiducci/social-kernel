@@ -112,6 +112,28 @@ must be observed at that host. Follow
 [adoption](docs/ADOPTION.md) and the
 [receiver contract](docs/RECEIVER_CONTRACT.md) for these practical relations.
 
+## Projectable public incarnations
+
+The same Social Kernel method can support different public operating forms
+without being reduced to any one of them.
+
+A source-grounded **Projectable Possibility** can preserve enough identity,
+method, current capability, open possibility, public/private boundary and
+lineage for a receiving environment to form a suitable incarnation. A prompt
+may carry one executable projection of that relation; it is not the product
+identity by itself.
+
+Possible forms include an operator-support assistant, a public product Entity,
+a community-facing assistant, a delegated social operator or another
+receiver-relative incarnation. Their exact capability and authority depend on
+the real host, private field, acting identity/account and current policy.
+
+The practical composition and truth boundary are in
+[Public Entity and Projectable Possibilities](docs/PUBLIC_ENTITY_AND_PROJECTABLE_POSSIBILITIES.md).
+
+This is a product horizon and formation relation, not a claim that the current
+development source creates autonomous accounts or persistent agents by itself.
+
 ## Autonomy through actual means
 
 The host may expose generators, editors, browser or computer use, MCP tools,
