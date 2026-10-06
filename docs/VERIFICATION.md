@@ -1,8 +1,35 @@
 # Verification and evidence
 
-Current source family: `0.2.0-dev.2`. Updated on 2026-10-05.
+Current source family: `0.2.0-dev.2`. Updated on 2026-10-06.
 
 This document separates source construction, local mechanics, receiving behavior and external use. A material change has its own applicable proof; an earlier preview or upstream product's result does not prove this source.
+
+## Current autonomy/cognitive-core resultant — 2026-10-06
+
+The current source adds **Social System Understanding** as a twelfth public
+competence and makes the general cognitive taxonomy explicit in
+[COGNITIVE_ARCHITECTURE](COGNITIVE_ARCHITECTURE.md).
+
+Source-level changes include:
+
+- the ordinary BOOT/core path reaches the public cognitive architecture;
+- source/object/intent/status grounding, open possibility, in-flow correction,
+  capability/authority/gap discrimination, representation adequacy,
+  temporal-causal reasoning, failure localization and stop conditions have one
+  public cross-cutting owner;
+- KERNEL no longer requires KA/FDLA terminology to explain ordinary operation;
+- the media competence carries its operative method locally and routes upstream
+  design sources to provenance only;
+- Public Derivation explicitly distinguishes genealogy from runtime dependency;
+- README/Product state that Social Kernel is operationally self-contained.
+
+This is **source evidence**, not a claim of behavioral assimilation. No new
+mechanical suite, native-host exercise, social effect or non-identical behavior
+test is claimed for this resultant.
+
+All recorded 11-competence / 79-file / 37-test observations below retain their
+original exact source scope. They are not reassigned to this twelve-competence
+resultant.
 
 ## Current source resultant — cb380b5 after the first dev.2 receiver exercise
 
