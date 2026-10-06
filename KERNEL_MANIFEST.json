@@ -10,7 +10,8 @@
     "competence_field": "COMPETENCES.md",
     "evolution": "EVOLUTION.md",
     "current": "CURRENT.md",
-    "cognitive_architecture": "docs/COGNITIVE_ARCHITECTURE.md"
+    "cognitive_architecture": "docs/COGNITIVE_ARCHITECTURE.md",
+    "kernel_ecosystem_composition": "docs/KERNEL_ECOSYSTEM_COMPOSITION.md"
   },
   "competences": [
     {

@@ -26,8 +26,15 @@ which methods already own reentry, writing, design, effects and learning;
 compose or deepen them where the current situation requires it. The
 [host integration guide](HOST_INTEGRATION.md) gives concrete Codex, Claude Code
 and generic receiving routes, including how to check discovery without
-replacing existing configuration. MPK and kernel_chat can contribute without
-becoming required installations.
+replacing existing configuration.
+
+A receiving harness may expose several independent kernels. Use Social Kernel
+standalone when it is sufficient; compose another kernel only when its function
+materially changes the work. MAIOS Project Kernel and kernel_chat can provide
+general continuity/operating knowledge without becoming required installations.
+Specialized kernels can participate beside Social Kernel while retaining their
+own source, state and learning. See
+[kernel ecosystem composition](KERNEL_ECOSYSTEM_COMPOSITION.md).
 
 ## Keep your continuing field under your control
 
