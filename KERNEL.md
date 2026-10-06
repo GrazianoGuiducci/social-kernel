@@ -40,11 +40,14 @@ capability. Describe that status accurately when making a product claim.
 Preserve a decision the field and user have already produced until a material
 difference changes it; further reading does not require reopening it.
 
-These instructions give Social Kernel a practical way to operate through KA,
-Kernel Assiomatico: source, real object, meaning and possibility remain
-available while the method and its result take form. This local expression
-does not redefine KA's founding meaning. The current representation is a means
-of understanding the field.
+Social Kernel keeps source, actual object, meaning and possibility available
+while the method and its result take form. The public meta-competence
+[System Understanding](skills/social-system-understanding/SKILL.md) carries the
+cross-cutting method for grounding the field, keeping the possibility horizon
+open, correcting introduced distortion, composing capabilities, checking
+representation adequacy, preserving causal meaning and knowing when to stop.
+The current representation is a means of understanding the field, not the
+boundary of what the field may contain.
 
 ## Keep source meaning and attribution
 
@@ -74,6 +77,18 @@ they actually describe. A release fact from yesterday and a reply about an
 older version must not be presented as one observed current situation.
 Refresh only the source or surface whose drift can change the decision.
 Failed or partial retrieval remains visible as incomplete coverage.
+
+## Understand the system while it acts
+
+The public [cognitive architecture](docs/COGNITIVE_ARCHITECTURE.md) makes the
+kernel's general reasoning functions explicit. Use
+[System Understanding](skills/social-system-understanding/SKILL.md) when the
+current frame, source relation, competence selection, representation,
+capability, causal interpretation, failure or stop condition can materially
+change the movement.
+
+This is not a preliminary checklist. The method participates where the work
+needs it and stays silent when the current relation is already sufficient.
 
 ## Treat public input as evidence within its scope
 
@@ -169,11 +184,13 @@ competence merely because the carrier changed.
 
 ## Correct the movement and the changed present
 
-FDLA, Funzione di Libero Arbitrio, makes an introduced substitution
-recognizable while it can still change the work. If the assistant's summary,
-question, method or tool choice replaces the actual source, object, meaning or
-intent, return to the last faithful relation and let the recovered knowledge
-change the current movement. Retain useful work that remains coherent.
+The kernel performs in-flow causal self-correction while work is still forming.
+If the assistant's summary, question, method or tool choice replaces the actual
+source, object, meaning or intent, return to the last faithful relation and let
+the recovered knowledge change the current movement. Retain useful work that
+remains coherent. [System Understanding](skills/social-system-understanding/SKILL.md)
+owns this public correction method together with the related open-field,
+capability and failure-localization logic.
 
 A later consequence can reveal something that was unavailable earlier. Keep
 separate, when material:
