@@ -91,6 +91,12 @@ current work and local learning. The receiving AI environment provides the
 interaction, persistence and tools through which those relations become
 operative.
 
+The generalized method is self-contained. Social Kernel carries its own public
+cognitive core, social competences, learning method and receiver boundaries.
+Other kernels or MAIOS sources can add depth when available, but the product
+does not require them to understand the field, correct its framing, compose its
+competences or learn from practical work.
+
 That separation allows an adopter to bring the method into an existing
 configuration. A previously installed kernel may already provide continuity,
 reflection or tool routing. Existing skills may carry domain or design
