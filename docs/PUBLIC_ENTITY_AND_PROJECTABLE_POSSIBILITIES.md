@@ -166,9 +166,9 @@ No new competence is required merely because the selected form is called Entity.
 
 The operating cycle composes these owners only when their knowledge changes the movement.
 
-## Provenance and pseudo-clones
+## Derivation, incarnation and provenance
 
-A copied prompt, avatar, writing style or public bio does not inherit source identity or operator authority.
+When a form is copied, derived or independently incarnated, similarity of prompt, profile, style or presentation does not by itself decide source identity or operator authority.
 
 If another incarnation can evolve independently, preserve the relation through lineage rather than calling it the same entity merely because it looks or speaks similarly.
 
