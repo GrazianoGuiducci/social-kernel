@@ -6,6 +6,9 @@ This document separates source construction, local mechanics, receiving behavior
 
 ## Current autonomy/cognitive-core resultant — 2026-10-06
 
+Exact public source cut for this resultant:
+`0c73dd75c2dee8a0303b1629e8ebbce3294a1509`.
+
 The current source adds **Social System Understanding** as a twelfth public
 competence and makes the general cognitive taxonomy explicit in
 [COGNITIVE_ARCHITECTURE](COGNITIVE_ARCHITECTURE.md).
