@@ -1,9 +1,10 @@
 # Social Kernel — Product Completion and Catalogue Handoff
 
 Date: 2026-10-06  
-Status: **READY_FOR_CATALOGUE_HANDOFF / PUBLIC_DEVELOPMENT_SOURCE**  
+Status: **READY_FOR_CATALOGUE_INTEGRATION / PUBLIC_DEVELOPMENT_SOURCE**  
 Product owner: `GrazianoGuiducci/social-kernel`  
 Prepared from main: `b633d3625b9bea2c8c2cd5b5c8732d5f9019b581`  
+Product resultant: `4d72a233371d244754bb05cd66ca3c9404bcb3c8`  
 Freshness required before catalogue mutation: **yes**
 
 ## Decision
@@ -262,11 +263,9 @@ product source through the site owner.
 
 ## Stop condition
 
-The product-completion phase is closed when:
-- this source delta is merged;
-- the exact product resultant is read back;
-- this handoff is bound to that resultant;
-- no unresolved product truth changes catalogue identity/capability/status.
+The product-completion phase is closed for resultant
+`4d72a233371d244754bb05cd66ca3c9404bcb3c8`.
 
-At that point the product can enter the site/catalogue lane without reopening
-kernel construction.
+No unresolved product truth currently changes catalogue identity, capability or
+status. The product can enter the site/catalogue lane after a freshness check,
+without reopening kernel construction.
