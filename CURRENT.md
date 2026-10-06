@@ -1,7 +1,7 @@
 # Social Kernel — current product source
 
 ```text
-updated: 2026-10-05
+updated: 2026-10-06
 source_version: 0.2.0-dev.2
 source_resultant: fe3a2a2a7ced358496dff5772214ce5a624dc894
 state: PUBLIC_DEVELOPMENT_SOURCE
@@ -13,7 +13,55 @@ installed_receiver_update: none from this source change
 
 ## Current source
 
-The public development source supplies a native [entry](BOOT.md), [kernel](KERNEL.md), [competence field](COMPETENCES.md), [evolution method](EVOLUTION.md) and eleven portable competence bodies. The current extension brings practical writing and revision, concept-to-media formation plus actual production, field research and listening, and learning that changes later work. A new receiver can use these sources without the private history that formed them. [Adoption](docs/ADOPTION.md) connects the method to the user's existing knowledge, private continuity and actual capabilities.
+### Autonomy and cognitive-core hardening — 2026-10-06
+
+The public product now makes its general cognitive functions explicit and
+self-contained.
+
+New public meta-competence:
+`skills/social-system-understanding/SKILL.md`.
+
+New public map:
+`docs/COGNITIVE_ARCHITECTURE.md`.
+
+The cognitive core now explicitly carries:
+
+```text
+source-grounded field understanding
+open possibility without reopening valid determination
+in-flow correction of receiver-introduced distortion
+capability / authority / competence-gap discrimination
+representation adequacy
+temporal-causal reasoning
+failure localization
+decision-relevant attention and stop / no_change
+```
+
+These functions were partly distributed across the previous kernel, reentry,
+media, effect and evolution methods. The new owner makes their cross-cutting
+method locally reachable instead of relying on MAIOS/D-ND terminology or
+upstream repositories.
+
+The public operating path is now:
+
+```text
+BOOT
+-> KERNEL
+-> COGNITIVE_ARCHITECTURE
+-> COMPETENCES
+-> local skill bodies / references
+-> receiver / state / evolution methods
+```
+
+MAIOS, D-ND research, Project Kernel, kernel_chat, private K-Social and other
+development sources remain genealogy or optional complementary knowledge, not
+runtime prerequisites.
+
+This source-level hardening adds a twelfth public competence body. No new
+behavioral or mechanical test run is claimed for this resultant; all earlier
+11-competence test evidence retains its original source scope.
+
+The public development source supplies a native [entry](BOOT.md), [kernel](KERNEL.md), [cognitive architecture](docs/COGNITIVE_ARCHITECTURE.md), [competence field](COMPETENCES.md), [evolution method](EVOLUTION.md) and twelve portable competence bodies. The source now carries its general cognitive logic in its own public vocabulary through [Social System Understanding](skills/social-system-understanding/SKILL.md), alongside practical writing/revision, media formation/production, field research/listening, relationship/effect methods and competence evolution. A new receiver can use these sources without the private history or upstream MAIOS/D-ND repositories that formed them. [Adoption](docs/ADOPTION.md) connects the method to the user's existing knowledge, private continuity and actual capabilities.
 
 Optional local instance initialization, self-contained OpenAI, Claude Code and portable source projections, and structural validation provide bounded file mechanics. The profiles assemble the same canonical method for different receiving layouts. Native loading and actual capability retain their own evidence.
 
@@ -96,8 +144,10 @@ constraint, rule or comparison selected by the current movement.
 
 ## Projectable Presence / living product horizon — 2026-10-06
 
-The current `0.2.0-dev.2` development source now also carries a public-product
-presence relation without adding a twelfth competence.
+At the time this presence relation was formed, the `0.2.0-dev.2` source added
+it without creating another competence. The later autonomy/cognitive-core
+hardening above adds Social System Understanding as the twelfth public
+competence.
 
 The product distinguishes:
 
