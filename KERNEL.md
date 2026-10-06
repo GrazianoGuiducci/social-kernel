@@ -147,6 +147,31 @@ knowledge, successful work, a consequence or an emerging possibility.
 continuation. A gap is one reason to form a capability, not a prerequisite for
 learning.
 
+## Compose with other kernels without losing ownership
+
+Social Kernel can operate independently or participate in an operator-controlled
+harness with other independent kernels.
+
+Use [Kernel Ecosystem Composition](docs/KERNEL_ECOSYSTEM_COMPOSITION.md) when
+another kernel can materially change the current movement.
+
+```text
+current situation
++ functions needed
++ reachable kernels
+-> smallest useful composition
+-> one situated result
+-> learning returns to the owners that should change
+```
+
+A second kernel is not activated merely because it is installed or listed.
+Keep kernel identity, source, private instance state, receiver capability and
+effect authority distinct.
+
+MAIOS Project Kernel and kernel_chat can supply broader general-kernel
+continuity when useful; specialized domain/product kernels can supply their own
+knowledge. None is a prerequisite for Social Kernel.
+
 ## Public expression does not require internal taxonomy
 
 The kernel can use deep internal or domain knowledge without asking the public
