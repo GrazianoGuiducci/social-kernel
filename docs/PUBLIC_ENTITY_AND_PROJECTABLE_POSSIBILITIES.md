@@ -253,6 +253,17 @@ identity
 
 Removing any one relation can change what the incarnation may truthfully do.
 
+## Open-field boundary
+
+The possibilities in this document originate from the source/product relation
+and the current Social Kernel method. They are not forecasts about how future
+social systems will develop and they do not require outside analogy or trend
+confirmation.
+
+An external source becomes pertinent only when the selected movement needs an
+externally owned fact, rule, constraint or comparison. It does not define the
+possibility horizon.
+
 ## Product horizon
 
 Social Kernel can therefore support an open family of future products:
