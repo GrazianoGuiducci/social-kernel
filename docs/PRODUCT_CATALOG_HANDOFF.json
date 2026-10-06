@@ -1,12 +1,12 @@
 {
   "schema": "social-kernel.catalog-handoff.v1",
   "prepared_at": "2026-10-06",
-  "status": "ready_for_catalogue_handoff",
+  "status": "ready_for_catalogue_integration",
   "product_id": "social-kernel",
   "product_name": "Social Kernel",
   "canonical_repository": "GrazianoGuiducci/social-kernel",
   "prepared_from_main": "b633d3625b9bea2c8c2cd5b5c8732d5f9019b581",
-  "product_resultant": null,
+  "product_resultant": "4d72a233371d244754bb05cd66ca3c9404bcb3c8",
   "freshness_required_before_catalogue_mutation": true,
   "source_version": "0.2.0-dev.2",
   "distribution_state": "public_development_source",
@@ -84,5 +84,8 @@
   ],
   "site_owner": "GrazianoGuiducci/maios_it",
   "publication_effect_state": "not_selected",
-  "final_copy_owner": "Editoriali + MAIOS site communication"
+  "final_copy_owner": "Editoriali + MAIOS site communication",
+  "catalogue_readiness": "ready",
+  "blocking_product_truth": [],
+  "next_effect": "MAIOS catalogue/site projection after freshness check"
 }

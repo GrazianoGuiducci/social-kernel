@@ -1,5 +1,23 @@
 # Verification and evidence
 
+## Product-completion / catalogue-handoff resultant — 2026-10-06
+
+Exact product source cut:
+`4d72a233371d244754bb05cd66ca3c9404bcb3c8`.
+
+This source converges the final pre-catalogue product state:
+
+- question/method co-formation deepened in Social System Understanding;
+- causal reentry from summaries/chronologies deepened in Field Reentry;
+- prompt/presence projection connected to owner-bound learning;
+- historical `cb380b5...` wording corrected so it is no longer presented as
+  the current resultant;
+- human-readable and machine-readable catalogue handoffs added.
+
+This is source evidence only. No new behavioral exercise, native-host proof,
+social effect, stable release or catalogue publication is claimed.
+
+
 Current source family: `0.2.0-dev.2`. Updated on 2026-10-06.
 
 This document separates source construction, local mechanics, receiving behavior and external use. A material change has its own applicable proof; an earlier preview or upstream product's result does not prove this source.
