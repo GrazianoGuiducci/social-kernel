@@ -4,6 +4,28 @@ Current source family: `0.2.0-dev.2`. Updated on 2026-10-06.
 
 This document separates source construction, local mechanics, receiving behavior and external use. A material change has its own applicable proof; an earlier preview or upstream product's result does not prove this source.
 
+## Current composable-platform resultant — 2026-10-06
+
+Exact source cut:
+`9a430502230c3637ccac162da413ea7b67716ff7`.
+
+This source adds an explicit standalone/composable product relation:
+
+```text
+Social Kernel standalone
+or
+Social Kernel + compatible independent kernels
++ operator-controlled harness
+-> situated composition
+```
+
+It adds no thirteenth competence and no central orchestrator, registry,
+installation dependency or external effect. The operative change is
+documentation/core/manifest reachability for optional multi-kernel composition.
+
+No new mechanical suite or behavioral exercise is claimed for this resultant.
+Earlier evidence remains scoped to the exact source cuts recorded below.
+
 ## Current autonomy/cognitive-core resultant — 2026-10-06
 
 Exact public source cut for this resultant:

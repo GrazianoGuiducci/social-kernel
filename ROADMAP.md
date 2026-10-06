@@ -6,10 +6,10 @@ This roadmap follows the current source and what use makes newly relevant.
 
 ## Current source work — 0.2.0-dev.2
 
-Current source resultant: `0c73dd75c2dee8a0303b1629e8ebbce3294a1509`.
-The earlier `cb380b5...` public-possibility resultant and the first assisted
-concept-to-media exercise at `9bc71a5...` retain their own evidence boundaries;
-the autonomous cognitive-core hardening is a later source resultant.
+Current source resultant: `9a430502230c3637ccac162da413ea7b67716ff7`.
+The autonomous cognitive-core resultant at `0c73dd75...`, the earlier
+`cb380b5...` public-possibility resultant and the first assisted concept-to-media
+exercise at `9bc71a5...` retain their own evidence boundaries.
 
 The development source preserves the native kernel, adoption, continuity,
 evolution and optional local tools. It deepens editorial conception, writing and revision; extends native media composition with concept-to-representation formation before medium selection; preserves production and inspection; and makes ordinary listening and field research usable alongside relationship continuity and cognitive integrity.
