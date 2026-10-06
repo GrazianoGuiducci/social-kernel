@@ -27,6 +27,20 @@ discovery, available integrations and exercised behavior have separate
 evidence. See [Adoption](docs/ADOPTION.md) and the
 [receiver contract](docs/RECEIVER_CONTRACT.md).
 
+## Composable kernel platform
+
+Social Kernel can be used alone or as one independent participant in an
+operator-controlled harness with other kernels.
+
+[Kernel Ecosystem Composition](docs/KERNEL_ECOSYSTEM_COMPOSITION.md) preserves
+the current relation: general kernels such as MAIOS Project Kernel or
+kernel_chat can provide broader continuity when useful, while specialized
+kernels can contribute their own domain/product knowledge.
+
+Future real harness work may make machine-readable kernel discovery or an
+interop profile useful. Do not create a central registry or fixed stack before
+that function becomes material.
+
 ## Public autonomy and cognitive core
 
 The public operating path is self-contained. Essential cognitive method now
