@@ -55,6 +55,14 @@ and design knowledge needed for bounded social work is included in this
 repository. An adopter can use it without access to its private development
 sources.
 
+The [cognitive architecture](docs/COGNITIVE_ARCHITECTURE.md) also carries the
+general reasoning functions needed by the product itself: source-grounded
+understanding, open possibility, in-flow self-correction, capability and
+authority discrimination, representation checks, causal reasoning, failure
+localization, competence-gap discrimination and stop conditions. These
+functions are expressed in Social Kernel's own public taxonomy; knowledge of
+MAIOS or D-ND terminology is not required to use them.
+
 ## Start with one real situation
 
 Give your assistant access to this repository and point it to [BOOT.md](BOOT.md)
@@ -165,4 +173,6 @@ out of scope. See [CONTRIBUTING.md](CONTRIBUTING.md).
 forms. [Evolution](EVOLUTION.md) explains how experience changes the method and
 how source updates can preserve the learning in a user's own instance.
 
-Social Kernel is part of MAIOS.
+Social Kernel is an independent open-source product in the MAIOS ecosystem. Its
+operating method is self-contained; MAIOS and other upstream projects are
+provenance or optional complementary sources, not runtime dependencies.
