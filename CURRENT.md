@@ -3,7 +3,7 @@
 ```text
 updated: 2026-10-05
 source_version: 0.2.0-dev.2
-source_resultant: cb380b59784e9b10e40090400fa8efcc02b64510
+source_resultant: 3cd36aba3c4a0841ae57006b1b78f24a90ca2a55
 state: PUBLIC_DEVELOPMENT_SOURCE
 stable_release: none
 license: Apache-2.0
@@ -84,6 +84,41 @@ source resultant is therefore `cb380b5...`, while the first observed
 `dev.2` concept-to-media behavior remains bound to `9bc71a5...`. The later
 source addition does not retroactively change the earlier artifacts or their
 evidence scope.
+
+## Projectable Presence / living product horizon — 2026-10-06
+
+The current `0.2.0-dev.2` development source now also carries a public-product
+presence relation without adding a twelfth competence.
+
+The product distinguishes:
+
+```text
+kernel / product identity
+!= public representation
+!= private continuity
+!= receiving runtime
+!= acting account
+!= effect authority
+```
+
+[Public Entity and Projectable Possibilities](docs/PUBLIC_ENTITY_AND_PROJECTABLE_POSSIBILITIES.md)
+now covers discreet signature/provenance presence, product self-explanation,
+public Product Entity formation, bounded delegation and the case where Social
+Kernel contributes the public-field method inside another consumer/domain
+product's Entity.
+
+A product may become a **living product presence** when current product truth,
+public encounters, corrections, contributions and useful consequences can
+change how the product presents or supports itself later. This does not claim
+consciousness, autonomous accounts or a standing mandate to promote itself.
+
+Bounded self-promotion is treated as a relevant product/business function:
+current truth plus a real receiver/public relation may make an announcement,
+explanation, use case, contribution invitation or support route useful. Product
+existence alone does not create a posting mandate.
+
+The source remains `0.2.0-dev.2`; no runtime, account, scheduler, publication
+authority or stable release is created by this method extension.
 
 ## Receiver preparation — 2026-10-05
 
