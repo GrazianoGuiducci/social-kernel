@@ -102,6 +102,23 @@ Personal, organizational and community uses remain possible. A chosen
 distribution or business model can develop from actual use without defining
 the whole kernel in advance.
 
+## Public Entity / projectable possibility horizon
+
+The current source can compose its existing continuity, projection, integrity,
+relationship, effect and learning methods when a future receiver needs a
+truthful public incarnation.
+
+[Public Entity and Projectable Possibilities](docs/PUBLIC_ENTITY_AND_PROJECTABLE_POSSIBILITIES.md)
+keeps this horizon explicit without turning it into a new competence or current
+runtime claim. A future real use may expose a distinct reusable method that
+deserves deeper product integration; until then the existing competence field
+remains the owner.
+
+Potential incarnations must keep product/kernel identity, public
+representation, private continuity, acting account, receiver capability and
+effect authority distinct. A copied prompt or persona does not inherit source
+identity or operator authority.
+
 ## Open development
 
 Cross-kernel learning, richer media, the effects of sustained public-field
