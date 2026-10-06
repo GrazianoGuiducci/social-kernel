@@ -166,9 +166,9 @@ No new competence is required merely because the selected form is called Entity.
 
 The operating cycle composes these owners only when their knowledge changes the movement.
 
-## Provenance and pseudo-clones
+## Derivation, incarnation and provenance
 
-A copied prompt, avatar, writing style or public bio does not inherit source identity or operator authority.
+When a form is copied, derived or independently incarnated, similarity of prompt, profile, style or presentation does not by itself decide source identity or operator authority.
 
 If another incarnation can evolve independently, preserve the relation through lineage rather than calling it the same entity merely because it looks or speaks similarly.
 
@@ -252,6 +252,17 @@ identity
 ```
 
 Removing any one relation can change what the incarnation may truthfully do.
+
+## Open-field boundary
+
+The possibilities in this document originate from the source/product relation
+and the current Social Kernel method. They are not forecasts about how future
+social systems will develop and they do not require outside analogy or trend
+confirmation.
+
+An external source becomes pertinent only when the selected movement needs an
+externally owned fact, rule, constraint or comparison. It does not define the
+possibility horizon.
 
 ## Product horizon
 
