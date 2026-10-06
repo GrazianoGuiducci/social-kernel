@@ -108,8 +108,13 @@ Three parts have different jobs:
 If you already use a kernel, skills or memory, compose this method with them.
 Recover what they already know, let each own the work it understands, and add
 the missing entry or capability without replacing valid local knowledge.
-MAIOS Project Kernel and kernel_chat can participate when useful; neither is a
-required installation step.
+
+Social Kernel is part of a **composable platform of independent kernels**. It can
+run by itself or join an operator-controlled harness where other compatible
+kernels are reachable. MAIOS Project Kernel and kernel_chat can provide a
+general operating nucleus when their functions fit the receiving environment;
+neither is required. See
+[Composing Social Kernel with other kernels](docs/KERNEL_ECOSYSTEM_COMPOSITION.md).
 
 A receiver may create media or reach a platform through a suitable generator,
 editor, browser, MCP server, API integration or connector. The operation needs a
