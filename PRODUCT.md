@@ -105,10 +105,16 @@ valid methods and make the added knowledge reachable under the situation that
 needs it. Do not infer replacement authority from the fact that an upstream
 version is newer.
 
-MAIOS Project Kernel or kernel_chat can supply useful capabilities when they
-fit the user's environment. They remain optional contributors; Social Kernel
-does not require a chain of installations or access to the builder's private
-repositories.
+Social Kernel belongs to a wider **composable kernel platform**: independent
+kernels can be used alone or made reachable together through the operator's
+harness. Each kernel keeps its own identity, method, state ownership and
+learning.
+
+MAIOS Project Kernel or kernel_chat can supply a general operating nucleus when
+their receiving relation fits the environment. Specialized product/domain
+kernels can contribute their own knowledge beside Social Kernel. None is a
+hidden prerequisite, and composition does not merge their authority or state.
+See [kernel ecosystem composition](docs/KERNEL_ECOSYSTEM_COMPOSITION.md).
 
 The source has mechanical packaging profiles for OpenAI, Claude Code and
 portable file use. A profile describes how source material is arranged. A
