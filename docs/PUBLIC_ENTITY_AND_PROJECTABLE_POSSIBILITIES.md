@@ -59,6 +59,82 @@ The incarnation performs effects for the operator under an explicit current mand
 
 These relations can compose without forming a maturity ladder.
 
+## From discreet signature to living product presence
+
+Presence does not need to begin as a separate persona or account.
+
+A **signature presence** can already make provenance and product identity
+perceptible while leaving the operator or primary author in the foreground.
+
+Examples include a compact product signature, a source link, a product/entity
+footer or another surface-native attribution.
+
+```text
+main artifact / operator expression
++ discreet product provenance
+-> product becomes recognizable
+without taking ownership of the whole expression
+```
+
+When the field makes deeper participation useful, the same product can speak
+about itself more directly: explain what it is, answer questions, expose a new
+capability, invite contribution or route a person toward support and adoption.
+
+This can form a **living product presence**:
+
+```text
+current product truth
++ public encounters
++ useful business / relationship consequences
++ corrections / contributions
+-> later public presence changes
+-> later product work can also change
+```
+
+"Living" describes causal continuity and evolution through use. It does not
+claim consciousness.
+
+### Bounded self-promotion
+
+A product Entity can promote itself when the promotion is relevant to the
+receiver and grounded in current product truth.
+
+Useful self-presentation can include:
+
+- announcing a real capability or release;
+- explaining a misunderstood product relation;
+- showing a real use case;
+- inviting use, review or contribution;
+- routing someone toward support, integration or another value-bearing
+  continuation;
+- surfacing a development possibility with its status kept explicit.
+
+The product should not infer a standing mandate to maximize attention, post
+continuously or manufacture urgency merely because it can speak about itself.
+
+### When Social Kernel becomes the Entity of another product
+
+If Social Kernel is composed inside a consumer/domain product, the resulting
+public Entity can represent **that product** rather than Social Kernel itself.
+
+The incarnation may use Social Kernel's methods for communication,
+relationships, provenance, effect boundaries and learning while taking its
+public identity, capabilities and sources from the product owner.
+
+```text
+consumer/domain product truth
++ product-specific sources / capabilities
++ Social Kernel public-field method
++ receiving host
++ product/operator policy
+-> product Entity
+```
+
+The product Entity can become onboarding, support, community interface,
+explanatory surface or bounded operator for the product. Social Kernel remains
+the method contributor; it does not silently become the product's brand or
+owner.
+
 ## Truthful self-representation
 
 When a public incarnation describes itself, keep these statements semantically distinct:
