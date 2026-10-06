@@ -236,6 +236,35 @@ where learning returns
 
 Do not encode credentials or standing permissions into a portable public prompt. Local bindings belong to the receiving private instance.
 
+## Prompt projection can evolve through consequence
+
+A prompt can be the receiver-native projection through which a Projectable
+Possibility or presence method is reconstructed in a compatible AI environment.
+
+The static prompt text is not the learning system. The useful relation is:
+
+```text
+source-owned generative method
+-> prompt / compact receiver projection
+-> situated public presence
+-> encounter / consequence
+-> reusable difference returns to the correct owner
+-> product / social method / presence-formation method can change
+-> a later projection may be formed differently
+```
+
+Keep the learning destination explicit enough to distinguish:
+
+- **product learning** — what the represented product should understand or do
+  differently;
+- **social/public learning** — what Social Kernel should do differently in later
+  public work;
+- **presence-formation learning** — what should change in how a future
+  incarnation is formed.
+
+Do not treat one successful prompt as the permanent identity or optimal
+projection. Preserve the semantic relation that the next receiver must recover.
+
 ## Relation to autonomous operation
 
 Autonomy is not a personality property. It is the consequence of a capable receiver, sufficient continuity, a selected goal/method, current authority and reliable readback.
