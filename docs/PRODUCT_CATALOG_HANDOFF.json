@@ -1,0 +1,88 @@
+{
+  "schema": "social-kernel.catalog-handoff.v1",
+  "prepared_at": "2026-10-06",
+  "status": "ready_for_catalogue_handoff",
+  "product_id": "social-kernel",
+  "product_name": "Social Kernel",
+  "canonical_repository": "GrazianoGuiducci/social-kernel",
+  "prepared_from_main": "b633d3625b9bea2c8c2cd5b5c8732d5f9019b581",
+  "product_resultant": null,
+  "freshness_required_before_catalogue_mutation": true,
+  "source_version": "0.2.0-dev.2",
+  "distribution_state": "public_development_source",
+  "license": "Apache-2.0",
+  "stable_release": null,
+  "competence_count": 12,
+  "standalone": true,
+  "composable": true,
+  "primary_entry": "BOOT.md",
+  "product_truth": {
+    "product_class": "independent specialized public/social operating kernel",
+    "one_line_function": "Continuing AI-assisted public work across understanding, writing, media, relationships, effects and learning.",
+    "current_capabilities": [
+      "source-grounded system understanding and in-flow correction",
+      "public opportunity formation and research/listening",
+      "writing and revision",
+      "concept-to-media formation, production and inspection through available tools",
+      "private-to-public context projection",
+      "relationship continuity",
+      "incoming cognitive integrity",
+      "effect authority/freshness handling",
+      "consequence interpretation",
+      "competence evolution",
+      "standalone use and optional composition with compatible kernels"
+    ],
+    "optional_general_kernels": [
+      "MAIOS Project Kernel",
+      "kernel_chat"
+    ],
+    "current_distribution_forms": [
+      "public source",
+      "OpenAI projection",
+      "Claude Code projection",
+      "portable projection"
+    ]
+  },
+  "receiver_requirements": [
+    "access to source or self-contained projection",
+    "user-selected context/sources",
+    "actual persistence/tools required by selected work",
+    "real controller/account access only for selected external effects"
+  ],
+  "evidence_boundary": {
+    "source_truth_current": true,
+    "universal_native_installation_verified": false,
+    "autonomous_social_account": false,
+    "audience_effectiveness_established": false,
+    "stable_release": false
+  },
+  "current_public_surface": {
+    "routes": [
+      "/social-kernel-it.html",
+      "/social-kernel.html",
+      "/prodotti.html",
+      "/products.html"
+    ],
+    "catalogue_source_commit_observed": "81c36c600ca1ba92837448a706a04523e14d2e07",
+    "freshness": "stale",
+    "route_change_required": false,
+    "meaning_refresh_required": true
+  },
+  "catalogue_candidates": {
+    "context": "public communication / social presence",
+    "status": "Open source · in development",
+    "format": "independent open-source kernel"
+  },
+  "open_nonblocking_horizons": [
+    "stable release/tag",
+    "additional native-host observations",
+    "selected recurring operation",
+    "product/public Entity incarnations",
+    "machine-readable kernel interop profile if materially useful",
+    "commercial/support models",
+    "community-driven competence evolution"
+  ],
+  "site_owner": "GrazianoGuiducci/maios_it",
+  "publication_effect_state": "not_selected",
+  "final_copy_owner": "Editoriali + MAIOS site communication"
+}
