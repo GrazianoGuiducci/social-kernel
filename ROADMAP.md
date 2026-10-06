@@ -14,15 +14,36 @@ source additions retain their own evidence boundary.
 The development source preserves the native kernel, adoption, continuity,
 evolution and optional local tools. It deepens editorial conception, writing and revision; extends native media composition with concept-to-representation formation before medium selection; preserves production and inspection; and makes ordinary listening and field research usable alongside relationship continuity and cognitive integrity.
 
-The current competence field contains eleven bodies. Their contribution and
-usable continuation determine further changes; this count is not a target
-for future versions.
+The current competence field contains twelve bodies after the 6 October
+autonomy/cognitive-core hardening. The added Social System Understanding
+meta-competence makes source-grounded framing, open possibility, in-flow
+correction, capability/gap discrimination, representation adequacy, causal
+reasoning, failure localization and stop conditions explicit in the public
+product. The count is descriptive, not a target for future versions.
 
 The builder provides three projections of the same canonical methods:
 `openai`, `claude-code` and `portable`. Their source packaging, native host
 discovery, available integrations and exercised behavior have separate
 evidence. See [Adoption](docs/ADOPTION.md) and the
 [receiver contract](docs/RECEIVER_CONTRACT.md).
+
+## Public autonomy and cognitive core
+
+The public operating path is self-contained. Essential cognitive method now
+lives inside Social Kernel rather than depending on the builder's MAIOS/D-ND
+vocabulary or repositories.
+
+See:
+- [Cognitive architecture](docs/COGNITIVE_ARCHITECTURE.md)
+- [Social System Understanding](skills/social-system-understanding/SKILL.md)
+- [Autonomy and cognitive coverage review](docs/AUTONOMY_AND_COGNITIVE_REVIEW_2026-10-06.md)
+
+Development provenance remains available through
+[Public Derivation](docs/PUBLIC_DERIVATION.md) without becoming an installation
+or runtime dependency.
+
+No artificial behavioral exercise is selected merely because this source
+resultant adds a competence.
 
 ## Concept-to-media generalization
 
