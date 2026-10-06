@@ -13,6 +13,27 @@ installed_receiver_update: none from this source change
 
 ## Current source
 
+### Composable kernel platform relation — 2026-10-06
+
+Social Kernel remains an independent public product and now explicitly exposes
+its optional ecosystem relation in
+[Kernel Ecosystem Composition](docs/KERNEL_ECOSYSTEM_COMPOSITION.md).
+
+```text
+Social Kernel standalone
+or
+Social Kernel + compatible independent kernels
++ operator-controlled harness
+-> situated composition
+```
+
+MAIOS Project Kernel and kernel_chat can act as optional general operating
+kernels when their functions are useful. Other specialized kernels can
+participate without merging identity, state, learning or effect authority.
+
+No central orchestrator, registry service, second kernel installation or
+machine-readable interop schema is required by this source change.
+
 ### Autonomy and cognitive-core hardening — 2026-10-06
 
 The public product now makes its general cognitive functions explicit and
