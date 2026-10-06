@@ -3,7 +3,7 @@
 ```text
 updated: 2026-10-05
 source_version: 0.2.0-dev.2
-source_resultant: 3cd36aba3c4a0841ae57006b1b78f24a90ca2a55
+source_resultant: fe3a2a2a7ced358496dff5772214ce5a624dc894
 state: PUBLIC_DEVELOPMENT_SOURCE
 stable_release: none
 license: Apache-2.0
@@ -84,6 +84,15 @@ source resultant is therefore `cb380b5...`, while the first observed
 `dev.2` concept-to-media behavior remains bound to `9bc71a5...`. The later
 source addition does not retroactively change the earlier artifacts or their
 evidence scope.
+
+## Possibility-field source sovereignty — 2026-10-06
+
+The public Entity / Projectable Presence horizon is source-grounded. It does
+not use outside trends, adjacent products or imagined future platform forms as
+semantic validation.
+
+External sources become pertinent only for an exact externally owned fact,
+constraint, rule or comparison selected by the current movement.
 
 ## Projectable Presence / living product horizon — 2026-10-06
 
