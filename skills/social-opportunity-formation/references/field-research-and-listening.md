@@ -48,6 +48,43 @@ For specific uncertainty, provenance or pressure, use
 [cognitive integrity](../../social-cognitive-integrity/SKILL.md). A surprising
 idea or unfamiliar viewpoint is not itself a reason to exclude the source.
 
+## GitHub: preserve conversation identity before interpreting a signal
+
+When GitHub is the selected encounter, distinguish **Issue**, **Pull Request**,
+**Discussion**, review thread, repository/source revision and independent
+listing. They use different parent/reply relations and can require different
+write means or authority. A number belongs to its exact repository and
+object type; never search a convenient near-named repository and treat the
+same number as the intended issue. Resolve owner/repository + type +
+native permalink before readback and preserve the source of that resolution.
+
+A GitHub CLOSED/MERGED/OPEN status, comment count, validation report or
+updated timestamp is not the complete consequence: inspect the material
+maintainer/author conversation and linked result before deciding whether a
+prepared suggestion is still pertinent. The same text can be ineligible
+after an implementation change, a closure, a changed issue owner, or a
+new explanation that already answers it. A report of successful tests
+is attributable to its reporting owner until independently reproduced.
+
+For recurring observation, compare with the last qualified instance record.
+Preserve observed scope/time and separate source evidence, inference, known
+outcome and unknown cause. An unchanged open submission is not a fresh
+conversation; a new version of a repo is not automatically a response to
+our contribution. Choose a source-grounded question, counterexample,
+concrete implementation help or no_action when useful, not by a quota.
+See [recurrent operation](../../../docs/RECURRENT_OPERATION.md) and
+[effect boundary](../../social-effect-boundary/SKILL.md).
+
+The receiving host must check whether it can **read** a GitHub object and
+whether it can actually **write** that class (Issue reply, PR comment,
+inline review, Discussion reply, etc.). A connector's support for PR
+comments is not proof of generic Discussion or Issue writes. When the
+target is not writable, use a qualified handoff rather than inventing
+an effect. One exact social effect has one current controller and native
+readback before retry. This specific GitHub treatment generalizes a
+source-address and temporal-eligibility lesson; it is not proof of broad
+autonomous posting or adoption.
+
 ## Adapt discovery to the real means
 
 One tool may find topics, another may resolve a known profile, and a third may

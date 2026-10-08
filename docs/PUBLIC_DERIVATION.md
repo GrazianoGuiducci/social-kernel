@@ -57,6 +57,25 @@ here does not relicense those sources. Social Kernel itself is distributed
 under Apache-2.0 as declared in [LICENSE](../LICENSE) and
 [CURRENT](../CURRENT.md).
 
+## GitHub source fidelity — an eligible generalized return
+
+An October 2026 private Social Kernel source-reading movement exposed a
+portable selection failure: looking up a remembered issue number under
+an inferred repository identity can produce a plausible but unrelated
+object. The generalized method now belongs to
+[Field Research and Listening](../skills/social-opportunity-formation/references/field-research-and-listening.md#github-preserve-conversation-identity-before-interpreting-a-signal):
+resolve exact owner/repository, object type and native permalink, then
+requalify issue/conversation applicability against current content before
+using a prepared contribution. This is a source-identity and reentry
+improvement rather than a new moderation/publication subsystem.
+
+The public knowledge is available in the current source and has
+not been exercised by an independent receiving model in a later
+non-identical case. No private runtime, controller identity, raw
+conversation or account permissions are projected. The next exercise
+may show assimilation, revision or a limitation, without backdating
+that observation to this source edit.
+
 ## Keep derivation and receiver evidence distinct
 
 A source supports the relation attributed to it. A public method makes that

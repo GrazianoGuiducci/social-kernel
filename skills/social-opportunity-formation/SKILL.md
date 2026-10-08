@@ -54,6 +54,12 @@ Use [field research and listening](references/field-research-and-listening.md)
 when the movement needs new knowledge of questions, conversations, source
 developments or adjacent work. Start from what a new observation could change;
 an open exploration can discover that question through its first observations.
+For GitHub-native encounters, [field research and listening](references/field-research-and-listening.md#github-preserve-conversation-identity-before-interpreting-a-signal)
+also distinguishes repository/object identity, Issues, PRs, Discussions,
+implementation developments and exact receiver write availability.
+An older prepared response is not inherently applicable to a later issue state.
+
+Reach beyond already known posts when that changes the field, without treating
 Reach beyond already known posts when that changes the field, without treating
 every available feed as something to monitor.
 

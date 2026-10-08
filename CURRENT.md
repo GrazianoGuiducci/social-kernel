@@ -11,6 +11,23 @@ distribution: public main / contributions welcome
 installed_receiver_update: none from this source change
 ```
 
+## GitHub encounter practice — qualified source-method return, 8 October 2026
+
+The public [Field Research and Listening](skills/social-opportunity-formation/references/field-research-and-listening.md#github-preserve-conversation-identity-before-interpreting-a-signal)
+now describes GitHub-native source identity and temporal applicability.
+An issue number without repository and object type can resolve to an
+unrelated conversation; an old prepared contribution can lose eligibility
+after a closure, reply or implementation without changing its own text.
+The source-neutral method stays in an existing competence rather than
+creating a new GitHub controller or scheduler.
+
+A bounded private read-only exercise made this distinction material;
+the generalized public knowledge does **not** carry private contacts,
+current account state, private schedule, raw receipts, or author permissions.
+This is an updated public development-source method, not an observed
+non-identical independent receiver exercise, stable release, installed
+plugin update, or permission to post.
+
 ## Source evolution — executor agenda and qualified capability cascade, 2026-10-08
 
 The public operating cycle now includes **execution-agenda coordination**:
