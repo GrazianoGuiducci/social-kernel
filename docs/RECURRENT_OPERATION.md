@@ -20,6 +20,57 @@ session or credential availability can differ between runs.
 Reuse an appropriate existing job where possible. Another receiver joining
 does not itself require another scheduler.
 
+## Coordinate an executor's agenda
+
+A social-analysis receiver may identify useful work that another capable
+receiver or agent should do later. Keep the **social operating competence**
+present while forming this follow-up; task scheduling is not merely an
+administrative afterthought to content generation.
+
+When the user or an applicable authority selects that future work, preserve a
+task request in the **user-owned instance**, not in this public product's
+CURRENT. Name its objective and source, exact expected contribution, controller,
+one-time/event/recurring trigger, time zone and stopping condition only where
+selected, dependencies, effect scope, communication/receipt route, and what
+would invalidate it. Do not invent dates or default posting times to fill
+absent detail.
+
+Separate what can be proved:
+
+```text
+proposed task (not selected)
+-> operator-selected task
+-> controller-bound assignment (not natively scheduled)
+-> native scheduler change/readback (configuration verified)
+-> actual wake/run observed
+-> separately qualified external effect, consequence and learning
+```
+
+A repository issue, document or ChatGPT reminder can carry the assignment
+but does **not** prove that another receiver's native automation was changed.
+Inspect the actual scheduling capability available in the controller, and
+use its supported create/update/pause/cancel operation **only when callable
+and authorized**. Otherwise keep a controller-specific, readable handoff with
+`native_update_pending`; report that the native action was not completed.
+Re-enter the user's actual agenda before later changes and compare the target
+job with current instructions. Treat cancellation, rescheduling and owner
+transfer as material changes needing their own readback.
+
+Prefer extending an existing authorized recurrent inspection if its cadence
+and purpose suffice. Separate jobs are justified by different timing,
+controller availability, stopping conditions or effect scope, not merely by a
+new channel or conversation. One semantic owner can coordinate multiple
+receivers, but one external effect has one current controller. Never infer
+exactly-once semantics from a ledger without an actual concurrency contract.
+
+At each relevant wake, reconcile the selected task with source truth, changed
+authority and already observed effects. A scheduled run is an opportunity for
+a situated movement; it is **not** permission to republish a queued post.
+Scheduling and publication authority are independently bounded. Return native
+job readback, actual execution, observed social consequence and learning to
+the correct owner. When the capability is absent, do not simulate it by
+claiming a future job was installed.
+
 ## Wake into current meaning
 
 At a wake-up, recover mission, sources, direction, open effects, relationship

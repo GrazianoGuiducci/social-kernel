@@ -129,6 +129,26 @@ method change, its causal source, receiving owner, missing capability and next
 use that could expose the difference. This makes continuation possible without
 claiming an inaccessible system changed.
 
+## Return a qualifying capability to the public derivative
+
+When a private living social competence acquires a method whose value can
+survive removal of its private context, make the public derivation question
+pertinent in the **same movement**, not only at the next publicity pass.
+Use [public derivation](../../docs/PUBLIC_DERIVATION.md#same-movement-capability-return)
+to identify the transferable causal distinction, its current evidence/claim
+state, privacy and authority limits, the canonical public owner and the
+affected entry or receiving method.
+
+If this public Social Kernel is the selected receiving owner and source write
+is authorized, change the closest public competence and necessary consumers,
+then read back the new source. If not qualified or not writable, retain the
+candidate, missing condition and route to its owner. Do not copy private
+accounts, scheduled jobs, receipts or the original environment's capabilities
+into an independently receiving product.
+
+A public source change is not a package release, an installed-plugin update,
+a live schedule change or proof of later model assimilation.
+
 ## Observe the next use honestly
 
 After a material change, read the resulting entry and knowledge actually

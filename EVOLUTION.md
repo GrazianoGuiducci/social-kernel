@@ -200,6 +200,31 @@ public update does not automatically authorize replacing local state or
 permissions. If the receiver cannot persist or update a needed body, prepare
 a readable bounded handoff and describe that limit accurately.
 
+## Cascade newly usable social capabilities to the public owner
+
+If a living private social instance introduces or materially deepens a
+capability, do not end at its private event record. In that **same selected
+movement**, let the acting competence and its evolution method ask whether the
+new relation is reusable beyond that private instance. Qualify its sources,
+observed or proposed status, expected behavioral difference, applicability,
+falsifier and privacy/authority limits. The private owner remains authoritative
+for its occurrence and local execution.
+
+For a private owner that identifies this repository as its **canonical public
+derivative**, a qualified portable social capability should reach the existing
+public competence, necessary entry and consumer sources, with the smallest
+source-native correction. Carry useful know-how into public bodies so a future
+independent receiver does not need private files to use it. If not yet mature,
+record the candidate, missing evidence and reentry condition with the owning
+private instance; do not silently import it into public source.
+
+A source change here remains a separate authorized Git effect, subject to
+current-source/branch freshness and exact readback. Later package assembly,
+installed-plugin update, scheduled-job activation, release, deployment, social
+publication and behavioral assimilation are **not implied**. See
+[public derivation](docs/PUBLIC_DERIVATION.md#same-movement-capability-return)
+and [competence evolution](skills/social-competence-evolution/SKILL.md).
+
 ## Generalize only the learning that can travel
 
 When private work exposes a relation useful outside its origin, identify the

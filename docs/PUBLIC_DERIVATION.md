@@ -76,6 +76,38 @@ Retain source representation, reachability, discovery, exercise and later
 non-identical use as distinct evidence. A conceptual source and a local
 example cannot supply unobserved public consequences.
 
+## Same-movement capability return
+
+When private social work creates a durable capability rather than a one-off
+task, bring the public derivative question into the originating movement. The
+source owner identifies what should act differently; the public-learning
+promotion competence qualifies transferability and claim strength. If the
+generalized relation is useful independently of the private instance, the
+current public Social Kernel owner can integrate it with the affected
+competence, entry, receiver reference and, if material, an example or check.
+
+```text
+private source-bound competence change
+-> qualify portable social function + source/evidence and limits
+-> public Social Kernel acting competence and dependent entry
+-> source readback under exact revision
+-> separate packaging, receiver installation and later exercise
+```
+
+Do not defer useful public-owner learning merely because the public article,
+marketing post or stable release is not yet selected. Conversely, no private
+capability **automatically grants** a public repo mutation: if write capability,
+source freshness, portability or effect authority is missing, preserve a
+specific candidate with the blocker, source relation and later trigger.
+No private account, contact, permission, controller ID, private schedule or
+raw receipt crosses merely because the capability concerns scheduling.
+
+The current generalized example is **executor-agenda coordination**:
+[Social Kernel Operating Cycle](../skills/social-kernel-operating-cycle/SKILL.md)
+forms a selected future task and [Recurrent Operation](RECURRENT_OPERATION.md)
+preserves the distinction between the assigned request, saved native schedule,
+observed run and effect. Neither file depends on a particular Codex installation.
+
 ## Qualify what can cross from private work
 
 Recover the actual occurrence, what was understood then, the reusable

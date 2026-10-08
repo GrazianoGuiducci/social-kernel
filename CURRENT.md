@@ -3,13 +3,34 @@
 ```text
 updated: 2026-10-06
 source_version: 0.2.0-dev.2
-source_resultant: 4d72a233371d244754bb05cd66ca3c9404bcb3c8
+previous_product_resultant: 4d72a233371d244754bb05cd66ca3c9404bcb3c8
 state: PUBLIC_DEVELOPMENT_SOURCE
 stable_release: none
 license: Apache-2.0
 distribution: public main / contributions welcome
 installed_receiver_update: none from this source change
 ```
+
+## Source evolution — executor agenda and qualified capability cascade, 2026-10-08
+
+The public operating cycle now includes **execution-agenda coordination**:
+an instance can form a selected future task in its own owner-native state,
+bind the real scheduled controller, reuse an existing heartbeat when suitable,
+and distinguish a requested assignment, a verified native job configuration,
+an observed run and any external social effect. This is receiver-neutral
+method knowledge, not a built-in Codex scheduler or a new standing authority.
+
+The evolution competence also keeps a **qualified private-to-public capability
+return** in the same movement where reusable social learning appears.
+This respects the canonical public owner, public portability/privacy/evidence
+qualification and a separately selected source effect. It does not mirror
+private state, automatically publish/release a plugin, change an installed
+receiver, or update another agent's native calendar.
+
+This source change is a new development resultant under the existing
+`0.2.0-dev.2` line; the prior product resultant in the header remains
+historical. Exact new source identity belongs to Git/readback, not a
+self-referential commit field. No stable release or runtime exercise is claimed.
 
 ## Product completion / catalogue handoff — 2026-10-06
 

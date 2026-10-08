@@ -1,6 +1,6 @@
 ---
 name: social-kernel-operating-cycle
-description: Operate or resume a continuing social or public-presence field; use when managing, planning, monitoring, publishing, responding, coordinating relationships or evolving social work across events, rather than only rewriting one isolated text.
+description: Operate or resume a continuing social or public-presence field; use for social analysis, planning, monitoring, publishing, responding, delegated work, execution-agenda coordination, scheduling follow-ups, relationships or competence evolution across events, rather than only rewriting one isolated text.
 ---
 
 # Social Kernel Operating Cycle
@@ -56,6 +56,30 @@ purpose, current sources, creative material, conversations, commitments and
 dependencies. Reuse a sufficient existing view. The useful distinction is what
 can proceed, what depends on another result, and what new observation could
 change the choice; a calendar or task list alone may not preserve the reason.
+
+### Coordinate another receiver's agenda
+
+When social analysis produces meaningful future work, this competence stays
+active through the **assignment and return**, rather than stopping at a draft
+or telling the user to arrange it manually. Form the task from the current
+social field and operator purpose, then use
+[recurrent operation](../../docs/RECURRENT_OPERATION.md#coordinate-an-executors-agenda)
+to determine whether an existing authorized heartbeat can carry it or a
+different trigger/controller is genuinely needed.
+
+Preserve the assignment in the user-owned instance with source, exact task,
+trigger/time zone if material, dependencies, current authority, execution
+controller, expected artifact or observation, status and receipt route.
+Classify proposed, selected, assigned, native configuration verified and
+run observed **separately**. An exposed task file is not a changed native
+scheduler. If the native controller is not callable here, hand off the exact
+selected task and keep scheduler modification unverified until the actual
+controller returns its native readback. Do not silently substitute this
+receiver's reminders for another agent's agenda.
+
+A task that can generate an authorized reply may still require different
+authority to create a new feed post, spend money, send a private message or
+change an account. A scheduled task does not widen any of these classes.
 
 Let actual knowledge, available assets, tools and effort participate while the
 question and solution form. A useful image may make the reader's action clearer
