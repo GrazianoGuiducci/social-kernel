@@ -219,6 +219,16 @@ Treat experiments and older preferences according to their actual status.
 Without a profile, form a situated candidate from the subject and record the
 useful reasons. The method's origin supplies no default palette or brand.
 
+## Participatory social artifacts and reusable media derivatives — 10 October 2026
+
+The selected social object may require more than a static post: a question/poll that invites a real answer, an illustrated mini-guide, an explorable linked tool, a carousel, motion/short video, YouTube explanation or a kernel presentation. These are **alternative or composable carriers**, not a mandatory content schedule.
+
+Before producing an apparent interaction, identify the receiving platform's **real affordance** and the desired participation. A native poll can collect votes according to its platform contract; an image that displays buttons only *illustrates* a questionnaire; a carousel permits frame navigation but not arbitrary executable controls; an externally linked microsite is a separate hosted surface with its own permissions, privacy/data ownership, access and effect conditions. Do not label a fake clickable overlay a functioning poll or infer social-provider support from HTML preview.
+
+Keep a recoverable **source/master and derivative relation** where useful: semantic question or guide, exact copy, original artwork/components and provenance, selected output, platform crop/accessibility, status and links back to the owner. A clip of an interactive avatar demonstrates its appearance but cannot by itself prove that a live assistant is connected. A YouTube video or kernel deck must not claim live product features from concept cinematics.
+
+Call [Editoriali Concept-to-Media](https://github.com/GrazianoGuiducci/Editoriali/blob/main/skills/concept-to-media-formation/SKILL.md) for editorial intent and audience response meaning, [Design Kernel](https://github.com/GrazianoGuiducci/d-nd-ux-ai-seed/blob/main/DESIGN_KERNEL.md) for medium, art direction and interaction quality, and the receiver's existing **Code Medium Construction** competence for actual programmable motion/UI components and verified export when it matters. This skill stays owner of social media form, production/inspection and continuity; the [social effect boundary](../social-effect-boundary/SKILL.md) still owns publication. No new avatar runtime, questionnaire service or posting authority follows from this source change.
+
 ## Keep the form faithful to its source
 
 A line, arrow, grouping, scale or animated transition makes a claim. Preserve

@@ -1,7 +1,7 @@
 # Social Kernel — current product source
 
 ```text
-updated: 2026-10-08
+updated: 2026-10-10
 source_version: 0.2.0-dev.2
 previous_product_resultant: 4d72a233371d244754bb05cd66ca3c9404bcb3c8
 state: PUBLIC_DEVELOPMENT_SOURCE
@@ -10,6 +10,10 @@ license: Apache-2.0
 distribution: public main / contributions welcome
 installed_receiver_update: none from this source change
 ```
+
+## Participatory artifact-family routing — 2026-10-10
+
+[Social Media Composition](skills/social-media-composition/SKILL.md#participatory-social-artifacts-and-reusable-media-derivatives--10-october-2026) now makes the operator's wider reusable artifact horizon discoverable for social work: polls/questionnaires, mini-guides, carousels, linked interactive tools, short motion/video, YouTube and kernel presentations. The method preserves source/master and platform-true capabilities: on-platform native poll, static illustrated question, carousel and externally hosted interactive form are different effects. Editoriali owns wording/participation meaning, Design owns perception/interaction and receiver-native Code Medium Construction owns new executable assets; Social Media Composition owns social output/inspection. No new installed plugin, scheduled task, post, external contact, public release or video asset is implied.
 
 ## GitHub encounter practice — qualified source-method return, 8 October 2026
 
