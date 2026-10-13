@@ -1,5 +1,12 @@
 # Verification and evidence
 
+## Meta-Activity source-level transfer checks — 13 October 2026
+
+The public Social Kernel's existing `social-kernel-operating-cycle` has received the portable **Meta-Activity** function. The [competence body](../skills/social-kernel-operating-cycle/SKILL.md#meta-activity-inside-the-social-operating-cycle--13-october-2026) and [recurrent-operation contract](RECURRENT_OPERATION.md#meta-activity--self-maintaining-recurrence--13-october-2026) carry the user-origin intent anchor, reentry, consequence-to-competence return, bounded own-prompt reconfiguration, native scheduler readback, concurrency/recovery limits and distinct external authority. BOOT, COMPETENCES, CURRENT and [Public Derivation](PUBLIC_DERIVATION.md#meta-activity--portable-recurrent-self-configuration--13-october-2026) are updated discoverability/lineage consumers.
+
+**Source-level checks:** changed files have been fetched/read back after GitHub writes. The manifest still identifies 12 native competences and source version `0.2.0-dev.2`; no thirteenth skill or new scheduler was formed. This entry is a scoped inspection record, **not** `scripts/validate.py` execution, package build, plugin installation, live recurring job reconfiguration, autonomous self-edit or independent receiving-task assimilation. A real receiver must later supply its own native controller/effect evidence. Privacy remains separate from the public product: source-side MAIOS task identifiers, private messages, accounts, financial pressure and credentials were not exported.
+
+
 ## Transfer-procedure reconciliation — 2026-10-13
 
 The public-source update was reviewed against native owner competences:
