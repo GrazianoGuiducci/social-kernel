@@ -12,6 +12,16 @@ carrying the required know-how into the responsible Social Kernel competence.
 Use upstream links as genealogy, research depth or optional complementary
 knowledge, never as a hidden prerequisite for ordinary operation.
 
+## Meta-Activity — portable recurrent self-configuration, 13 October 2026
+
+**Operator-selected public transfer** from [Meta_Skill / Meta-Activity](https://github.com/GrazianoGuiducci/Meta_Skill/blob/main/skills/meta-activity/SKILL.md), founded on [Situated Activity Evolution](https://github.com/GrazianoGuiducci/Meta_Skill/blob/main/skills/situated-activity-evolution/SKILL.md) and actual MAIOS Radar creation/configuration/owner-return experiences. This is a *source-qualified method*, not proof that an external job has already self-edited its own native configuration. The [prior promotion qualification packet](https://github.com/GrazianoGuiducci/Meta_Skill/blob/main/process/reports/META_ACTIVITY_PUBLIC_TRANSFER_2026-10-13.md) preceded this write and identified function, receiver body, excluded private elements and proof limits; kernel-to-kernel transfer considered [RepoKernel Transfer Kernel Potential](https://github.com/GrazianoGuiducci/RepoKernel/blob/main/skills/transfer-kernel-potential/SKILL.md) and Skill Promotion Router for status rather than blindly copying task details.
+
+**Already native:** Social Kernel Operating Cycle organizes recurring social work and Social Competence Evolution returns learning. **New portable difference:** a user-owned scheduled activity may retain its attributed original purpose while learning and selectively changing its *own* native instructions/configuration, within a pre-existing exact authority envelope, after real work. The [receiving operating cycle](../skills/social-kernel-operating-cycle/SKILL.md#meta-activity-inside-the-social-operating-cycle--13-october-2026) and [recurrent-operation method](RECURRENT_OPERATION.md#meta-activity--self-maintaining-recurrence--13-october-2026) carry the required knowledge **without depending on private MAIOS/Meta_Skill sources or any particular scheduler**. BOOT/COMPETENCES route the same existing competence; no thirteenth skill is needed.
+
+**Not transferred:** personal and company data, private mailing relationships, material from closed MAIOS tasks, business pressure, other kernel manifests, authentication, Codex/ChatGPT job IDs, credentials, scheduled prompts, delegated effect permissions or rights to modify unrelated jobs. Native social post/message authority, account actions and user authorial direction remain local to each adopting instance.
+
+**Observed:** source formation and readback of this public adaptation. **Still open:** native scheduler configuration/edit and controller receipts in an independent Social Kernel receiver, packaging/versioned release, installation and non-identical behavioral assimilation. Those require actual consumer evidence; a successful link check cannot replace it. Future public learning can deepen or contract the native method from relevant use.
+
 ## Public sources and their contribution
 
 These references identify the public source versions used in the current
