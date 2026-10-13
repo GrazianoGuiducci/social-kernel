@@ -71,6 +71,22 @@ job readback, actual execution, observed social consequence and learning to
 the correct owner. When the capability is absent, do not simulate it by
 claiming a future job was installed.
 
+## Meta-Activity — self-maintaining recurrence, 13 October 2026
+
+This receiver-neutral operational profile belongs to the existing [Social Kernel Operating Cycle](../skills/social-kernel-operating-cycle/SKILL.md#meta-activity-inside-the-social-operating-cycle--13-october-2026), with Social Competence Evolution supplying learning and Social Effect Boundary governing exact external effects. It adapts the general Meta-Activity competence **inside this public kernel**, without installing the Meta_Skill kernel, Codex, ChatGPT, cron, a plugin, or a second scheduler.
+
+A task may be **self-maintaining within an attributed mandate**, not self-authorizing. At the moment the user selects recurring work, keep the *originating purpose and legitimate scope* distinguishable from the current prompt: controller/task identity, state owner, present source/reentry, relevant competences, trigger and timezone, expected kind of useful result, notification/stop conditions, authorized native configuration edit classes, and the exact social effects still requiring approval. Use the user's current private instance and a job entry really available to the receiver, not this public repository's CURRENT as a personal task database.
+
+Each actual wake should be able to ask: what happened since the preceding run, which earlier attempts have real receipts or responses, what knowledge/relationship can now change the work, and which competent next movement or useful non-action follows? A result can be a better question, source, action, relationship contribution, useful deferred state or learning. Update durable method/reentry only when a reusable difference exists. A long chronological log and a timer count do not show improved capability.
+
+Where the operator selected bounded self-configuration, an appropriate job can revise its own **working instructions** when feedback or changed conditions expose a materially better source, prompt, priority, deduplication or routing method. Recover real task ID/configuration and the latest native update tools; compare purpose and authority before editing; preserve all still-applicable existing instructions and concurrent work; update only supported target fields and read back the exact job. A private skill file, GitHub commit, proposed diff or assignment is **not** a modified scheduled task. If the scheduler cannot be called or lacks a safe concurrency/recovery mechanism, preserve the specific change as a pending candidate with a receiving controller rather than asserting native success.
+
+The auto-change envelope must be **supplied or selected by the user or authorized controller**. Improving one's own prompt does not by itself allow rescheduling, pausing/deleting, creating child jobs, modifying another activity, changing sender/account, spending, messaging, publishing, or moving boundaries inherited from the user's social effect policy. A job may propose such a distinct change with reasons, consequences, exact target and intended recovery; a separately authorized native change needs its own receipt. The goal can evolve only through a new attributed user determination, not via a new public post or self-generated instruction.
+
+At the end of a consequential cycle, the changed competence and owner state must be reachable at the next reentry. If there was no material difference, `no_change` is legitimate and quiet. If the old query appears saturated, consider whether a missing source, field, competence or capability would enlarge later work rather than multiplying runs. The resulting method may become shorter and more capable, or the activity may be legitimately integrated/retired through a separate selected effect.
+
+**Evidence:** `owner method changed != native task configured != job woke != external action observed != social consequence != later different-case learning`. The public source offers a competent operation, not proof that an installed Social Kernel adapter or any native heartbeat has acquired it.
+
 ## Wake into current meaning
 
 At a wake-up, recover mission, sources, direction, open effects, relationship
