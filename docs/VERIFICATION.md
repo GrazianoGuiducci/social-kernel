@@ -1,5 +1,35 @@
 # Verification and evidence
 
+## Result-first value formation — source method review, 2026-10-13
+
+The [new source-level method](../CURRENT.md#source-bound-value-selection-for-encounters--2026-10-13)
+was read back on public `main` at
+`84489b989b7aac649b7e75aa3c48260c00c29e4e` before this
+verification note. Its portable change lives in existing
+[Opportunity Formation](../skills/social-opportunity-formation/SKILL.md#form-source-bound-value-before-selecting-the-encounter)
+and [Surface Expression](../skills/social-surface-expression/SKILL.md#select-the-receivers-valuable-possibility-before-phrasing).
+Boot, competence map, cognitive architecture and public derivation were
+read back as consumers.
+
+**Static source check performed:** resolved 119 relative Markdown file
+references across the seven changed files against the complete public
+Git tree (136 tree records); **zero missing target files**. Verified both
+new method headings, the public derivation note, and the existing manifest
+declaring 12 competence bodies and `0.2.0-dev.2`.
+This check validates the mentioned file targets and current source
+reachability; it does **not** check every anchor, execute the
+`scripts/validate.py` suite or run a receiving assistant.
+
+**Semantic scope:** a source-grounded distinction between selecting the
+value-bearing encounter and expressing it for the real receiver;
+present capability versus constructible potential and future horizon;
+and learning from later actual consequences. The short multi-receiver
+comparison in the writing method is explicitly fictional, not
+observed customer or audience evidence. No publication, email send,
+native plugin/package build, independent adoption or changed
+receiver behavior is established by this source return.
+
+
 ## Product-completion / catalogue-handoff resultant — 2026-10-06
 
 Exact product source cut:
