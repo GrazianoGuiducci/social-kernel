@@ -17,6 +17,61 @@ Use [opportunity formation](../social-opportunity-formation/SKILL.md) when the
 movement is still being selected. The two competences can change one another's
 understanding; do not finish the theme first and use writing only to polish it.
 
+## Select the receiver's valuable possibility before phrasing
+
+When the artifact is intended to help someone recognize a product, understand
+a mechanism, ask a question, evaluate an offer or decide whether to continue,
+its value is not automatically the last benefit the author described.
+Compose the intended reader result with the **current capability and
+relevant possibilities of the actual source system** and the receiving
+situation *while the expression is being conceived*.
+[Opportunity formation](../social-opportunity-formation/SKILL.md#form-source-bound-value-before-selecting-the-encounter)
+owns the selection of the encounter; this competence owns which semantic
+premises let its value become intelligible.
+
+A compact internal relation is often sufficient:
+
+```text
+what should this reader be able to recognize or do?
++ what does the source system demonstrably do today?
++ what could it genuinely form or become through further situated work?
++ what does this reader actually know, face or have permission to do?
+-> pertinent value difference, with its evidence state
+-> minimum recognizable subject, premises, example and action
+-> expression in this surface's own words/media
+```
+
+The value difference is a **possibility grounded in a relation**, not a
+product slogan, a prediction of the reader's reaction or an asserted
+need. Make the current ability legible at its proper strength; a
+constructible extension is a proposal or hypothesis until actual work
+exercises it. A source's technical mechanism can support very different
+reader resultants without changing its identity or being copied unchanged
+between surfaces. A question that reveals lack of access, proof, fit
+or budget can legitimately change the proposed encounter; it is not
+automatically resistance to defeat.
+
+**Fictional contrast, not evidence of effectiveness:** suppose an open
+project method already preserves corrections and reasons across two
+work sessions, while integration with an external business system is only
+proposed. A builder-facing explanation can show the current files and
+how to inspect the method. A potential organizational partner may
+benefit from a brief discussion of what a future, funded integration
+would require, without promising it is installed. A research audience
+might instead investigate how to verify that the retained correction
+changes behavior on a non-identical later task. These are three
+different useful results from a common source, not three repetitions
+of one marketing call to action.
+
+When the current source and recipient relation are already clear, choose
+the smallest sufficient expression directly: this is acting knowledge,
+not a mandatory multi-pass briefing or approval procedure. Let a real
+reader question, response or failed encounter teach **which value and
+premise were missing** and return that general writing distinction
+to this competence. Source/product truth, private recipient context,
+relationship state and effect authority remain with their actual
+owners; a drafted message is not a sent or received one.
+
 ## Recover the source before the hook
 
 Read the current source needed for the selected object. Distinguish exact user
