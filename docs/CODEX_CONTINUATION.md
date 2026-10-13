@@ -21,6 +21,57 @@ creative example and evidence to understand what was exercised. Do not replace
 finished creative work with another brief or reopen source construction merely
 because this task runs in a new host.
 
+## Current 13 October transfer: validate the receiving value-selection capability
+
+The latest source-return **is not another social-template or media job**.
+[Opportunity Formation](../skills/social-opportunity-formation/SKILL.md#form-source-bound-value-before-selecting-the-encounter)
+now selects a meaningful encounter from what a current source system
+actually makes possible, relevant *constructible* possibilities,
+the operator's intent and the receiving field.
+[Surface Expression](../skills/social-surface-expression/SKILL.md#select-the-receivers-valuable-possibility-before-phrasing)
+forms the few premises through which the selected recipient could
+understand that value. BOOT and COMPETENCES now route this locally;
+neither private K-Social nor Editoriali nor Meta_Skill is a runtime
+dependency of the public Social Kernel.
+
+On the **next already-selected native source build / real receiving use**,
+with an actual checkout and supported execution:
+
+- Inspect the current Git head, ordinary BOOT, competence map and both
+  complete affected skill bodies. Prefer the `main` current source over
+  an earlier historical preview (`plugin-adapters/openai/private-preview`).
+- Run the repository's read-only structural tool
+  `python3 scripts/validate.py --root .` and its source tests
+  `python3 -B -m unittest discover -s tests -v`. Record the actual
+  command, source cut, return code and failing condition if any. A source
+  check does not create a host install or prove an operator-facing effect.
+- If a bundle is actually needed, build **one selected receiver target**
+  via `scripts/build_plugin.py`, inspect that its native entry and
+  the **new full Opportunity/Expression bodies** are included, then
+  validate the assembled bundle. No automatic release, deployment or
+  change to an installed account is selected here.
+- Exercise the new relation through a **genuine source/user work
+  situation** on the receiving host, not another artificial copywriting
+  benchmark. The choice should depend on the *actual recipient and
+  source capability*, distinguishing today’s implemented method,
+  a constructive next development and an unverified horizon.
+  If the result is an informational post, it need not carry a
+  commercial CTA. If a real user is pursuing a business encounter,
+  a source description alone cannot prove their counterpart's budget
+  or need. If no meaningful communication is warranted, no_action
+  can be the right result.
+- Preserve exact receiving assistance and readback; a later distinct
+  encounter may demonstrate that the learned selection changes the
+  method. Return only a useful difference to its native public owner.
+
+This is a **consumer-reachability guide** and bounded next opportunity,
+not a mandatory waiting gate for public source use, a new recurring test
+programme, or proof of autonomous persuasion. The
+[13 October verification record](VERIFICATION.md#transfer-procedure-reconciliation--2026-10-13)
+identifies the unexecuted native suite and current evidence limit.
+Stop when further reading/testing changes no material receiving
+capability; use source-native methods already complete for ordinary work.
+
 ## 1. Exercise native discovery in the selected host
 
 The construction shell did not expose a `codex` or `claude` executable.
