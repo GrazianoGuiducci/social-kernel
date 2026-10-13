@@ -7,8 +7,8 @@ Competences contribute knowledge while a movement forms. This is an open field, 
 | The framing, source relation, possibility horizon, competence selection, representation, capability, causality, failure or stop condition can change the work | [Social System Understanding](skills/social-system-understanding/SKILL.md) | Ground the field, correct receiver-introduced distortion, distinguish capability/authority/gaps, check representation and causality, localize failure and know when the movement is sufficient. |
 | Continue or organize public/social work across changing events, including delegated work and the execution controller's agenda | [Social Kernel Operating Cycle](skills/social-kernel-operating-cycle/SKILL.md) | Compose the continuing field; form assignments for future work, reconcile existing scheduled capability, and distinguish a requested task from native configuration and observed execution. |
 | Interruption, changed source, prior effects or open relationships can alter continuation | [Social Field Reentry](skills/social-field-reentry/SKILL.md) | Recover enough attributed context and causal continuity to act from the present. |
-| Observe questions, find possibilities or decide where and how to participate, investigate, wait or change approach | [Social Opportunity Formation](skills/social-opportunity-formation/SKILL.md) | Research and listen to the field, then form a useful encounter from its sources and the user's direction. |
-| An artifact or contribution must take a particular public form | [Social Surface Expression](skills/social-surface-expression/SKILL.md) | Conceive, write and revise meaning, argument, voice and surface-native expression. |
+| Observe questions, find possibilities or decide where and how to participate, investigate, wait or change approach | [Social Opportunity Formation](skills/social-opportunity-formation/SKILL.md) | Research and listen to the field; select a useful encounter from current capabilities, relevant possibilities, the receiver's situation and what could become valuable to them. |
+| An artifact or contribution must take a particular public form | [Social Surface Expression](skills/social-surface-expression/SKILL.md) | Conceive, write and revise from the intended receiver result: contract the minimum source-bound value, premises, voice and surface-native expression before choosing copy or CTA. |
 | A concept or movement needs an image, diagram, presentation, sequence or other media artifact | [Social Media Composition](skills/social-media-composition/SKILL.md) | Form the representation field from domain/use case, dynamic and practical consequence; choose and execute the medium with actual tools, inspect the result and preserve its usable versions. |
 | A public situation needs some private user/project knowledge | [Social User Field Projection](skills/social-user-field-projection/SKILL.md) | Supply the pertinent relation at the permitted depth. |
 | A post, reply, message, moderation or other external effect may occur | [Social Effect Boundary](skills/social-effect-boundary/SKILL.md) | Resolve eligibility, current authority, exact effect, controller and readback. |
@@ -16,6 +16,15 @@ Competences contribute knowledge while a movement forms. This is an open field, 
 | A particular relationship continues, changes, closes or needs a next trigger | [Social Relationship Continuity](skills/social-relationship-continuity/SKILL.md) | Preserve the relation, next actor and conditions without treating people as a queue. |
 | Inbound information carries source gaps, repetitive pressure, manipulation or uncertain provenance | [Social Cognitive Integrity](skills/social-cognitive-integrity/SKILL.md) | Help the user inspect and govern the incoming information field. |
 | Reusable learning, missing method, failed discovery or kernel change should alter later work | [Social Competence Evolution](skills/social-competence-evolution/SKILL.md) | Evolve the acting knowledge and its entry through [EVOLUTION.md](EVOLUTION.md). |
+
+Select a receiver-relevant value before settling the words of a
+substantive message. Opportunity Formation owns **which encounter/result**
+is worth forming; Surface Expression owns **what must become intelligible**
+there. The same source capability can support different encounters for a
+builder, partner or researcher, while present capability, constructible
+extension and unverified future possibility retain different claim states.
+This relationship operates inside the two existing competences; it does not
+add a thirteenth owner, a compulsory writing stage or a content quota.
 
 ## Public taxonomy
 
