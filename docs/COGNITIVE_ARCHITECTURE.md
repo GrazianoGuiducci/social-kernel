@@ -60,6 +60,12 @@ Functions:
 - reuse, deepen, compose or form the smallest continuing method;
 - let useful learning alter future competence formation.
 
+### Meta-Activity as a continuing operating-cycle faculty
+
+When an independently configured **recurrent or event-triggered social task** itself needs to keep following the person's original purpose while its instructions and competent method improve, the [existing Social Kernel Operating Cycle](../skills/social-kernel-operating-cycle/SKILL.md#meta-activity-inside-the-social-operating-cycle--13-october-2026) exercises the **Meta-Activity** function. [Recurrent Operation](RECURRENT_OPERATION.md#meta-activity--self-maintaining-recurrence--13-october-2026) supplies the portable controller-relative method: recover mandate and real effects, form the next action with the existing competences, update own working instructions only when authorized and read back the actual native job. [Social Competence Evolution](../skills/social-competence-evolution/SKILL.md) owns the learned method and [Social Effect Boundary](../skills/social-effect-boundary/SKILL.md) exact external authority.
+
+This is a **composition of the existing cognitive core**, not a thirteenth function/skill, newly running monitor, fixed self-audit stage or authority to change other activities. The public method is usable without upstream private repositories.
+
 ## Field formation
 
 ### 4. Opportunity and participation
