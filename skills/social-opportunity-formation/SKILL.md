@@ -105,7 +105,6 @@ implementation developments and exact receiver write availability.
 An older prepared response is not inherently applicable to a later issue state.
 
 Reach beyond already known posts when that changes the field, without treating
-Reach beyond already known posts when that changes the field, without treating
 every available feed as something to monitor.
 
 Understand what people are trying to do and what their current sources let
