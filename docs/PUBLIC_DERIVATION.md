@@ -91,11 +91,11 @@ mandatory manifest, fixed audience taxonomy or marketing scheduler was
 introduced.
 
 **Public qualification:** only the generalizable relation and an explicitly
-fictional comparison cross the private-to-public boundary. Private
-MAIOS operator intent, sales target registry, individual companies or
-contacts, pricing/contract stance, personal style/voice samples, recipient
-emails, account controllers, raw conversations and authorization policy
-remain private. Public use must itself supply the user's source, tools,
+fictional comparison cross the private-to-public boundary. Individual
+operating goals, organizational prospects, conversations, commercially
+sensitive arrangements, private writing samples, account/controller state,
+internal records and effect permissions remain under their own user/source
+owner. Public use must itself supply the user's source, tools,
 recipient facts, local commercial/legal context and effect authority.
 
 **Evidence:** a current source-level method change, not newly exercised
