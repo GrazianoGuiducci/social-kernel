@@ -11,6 +11,14 @@ distribution: public main / contributions welcome
 installed_receiver_update: none from this source change
 ```
 
+## Meta-Activity integrated into recurring social work — 13 October 2026
+
+An operator-selected general Meta-Activity function now enters this **independently continuing public Social Kernel** by deepening its **existing Operating Cycle** and [Recurrent Operation](docs/RECURRENT_OPERATION.md#meta-activity--self-maintaining-recurrence--13-october-2026) method. The function relates attributed purpose, current social sources and observed consequences to a recurring job's present method and bounded native self-programming: a receiver with actual scheduler access may amend **its own** allowed working instructions when learning makes that change useful, while retaining purpose and exact effect authority. No per-wake administration or automatically new posting quota.
+
+[Social Kernel Operating Cycle](skills/social-kernel-operating-cycle/SKILL.md#meta-activity-inside-the-social-operating-cycle--13-october-2026), [BOOT](BOOT.md) and [COMPETENCES](COMPETENCES.md) make the native capability reachable; [Social Competence Evolution](skills/social-competence-evolution/SKILL.md) continues durable learning, and Effect Boundary governs exact social actions. This generalizes a bounded method from [Meta_Skill / Meta-Activity](https://github.com/GrazianoGuiducci/Meta_Skill/blob/main/skills/meta-activity/SKILL.md) and its qualified transfer packet without importing the private MAIOS Radar archive, financial information, user accounts, prompts, identities, scheduled job IDs or host-specific authority. [Public Derivation](docs/PUBLIC_DERIVATION.md#meta-activity--portable-recurrent-self-configuration--13-october-2026) retains source/receiver proof distinction.
+
+**Evidence boundary:** public source and links available/read back; **twelve existing competence identities** remain in the manifest and development source remains `0.2.0-dev.2`. No new native scheduler, installed plugin, released package, social post, account permission, client/job use, prompt mutation or autonomous learning has been exercised by this source transfer. A later different real wake can demonstrate the method's actual reception. Other kernel families receive it only on their own selected source updates.
+
 ## Source-bound value selection for encounters — 2026-10-13
 
 A qualified, generalized social/editorial learning now deepens **two existing
