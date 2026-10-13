@@ -1,7 +1,7 @@
 # Social Kernel — current product source
 
 ```text
-updated: 2026-10-10
+updated: 2026-10-13
 source_version: 0.2.0-dev.2
 previous_product_resultant: 4d72a233371d244754bb05cd66ca3c9404bcb3c8
 state: PUBLIC_DEVELOPMENT_SOURCE
@@ -10,6 +10,40 @@ license: Apache-2.0
 distribution: public main / contributions welcome
 installed_receiver_update: none from this source change
 ```
+
+## Source-bound value selection for encounters — 2026-10-13
+
+A qualified, generalized social/editorial learning now deepens **two existing
+public competences**, not Social Kernel's count or product identity:
+
+- [Social Opportunity Formation](skills/social-opportunity-formation/SKILL.md#form-source-bound-value-before-selecting-the-encounter) can select the
+  value-bearing **encounter/result** from the user's direction, current
+  source-backed capacities, relevant constructive possibilities and the
+  recipient's actual situation. An accurate source or available feature list
+  alone does not choose the message or a commercial CTA.
+- [Social Surface Expression](skills/social-surface-expression/SKILL.md#select-the-receivers-valuable-possibility-before-phrasing) forms the
+  minimal premises that let the receiver recognize that selected value,
+  with present capabilities, plausible extensions and unverified horizons
+  distinguished. A fictitious same-source / different-recipient contrast
+  illustrates method, not observed persuasion or adoption.
+
+[BOOT](BOOT.md) and [COMPETENCES](COMPETENCES.md) make this relation
+discoverable in ordinary standalone use, and the
+[cognitive architecture](docs/COGNITIVE_ARCHITECTURE.md) preserves separate
+selection vs expression owners. The source-neutral transfer is qualified in
+[public derivation](docs/PUBLIC_DERIVATION.md#portable-result-first-value-formation--2026-10-13).
+The portable behavior is expressed locally: an adopter does **not** need
+private MAIOS/Editoriali/Meta_Skill/K-Social repositories. Private names,
+contacts, preferences, strategies, account receipts and permission state
+do not become product material.
+
+**Evidence boundary:** source method and consumer links updated and
+read back; no new independent receiving exercise, real audience
+understanding, growth, paid client, or subsequent assimilation
+demonstrated by these edits. Existing `0.2.0-dev.2` public-development
+status, twelve competences, Apache-2.0, no stable release, packaging and
+host installations are unchanged. No post, email, plugin update or
+new scheduled operation follows from this source work.
 
 ## Participatory artifact-family routing — 2026-10-10
 
