@@ -57,6 +57,53 @@ here does not relicense those sources. Social Kernel itself is distributed
 under Apache-2.0 as declared in [LICENSE](../LICENSE) and
 [CURRENT](../CURRENT.md).
 
+## Portable result-first value formation — 2026-10-13
+
+A private communication/competence-formation movement surfaced a reusable
+**selection** distinction: knowing how to write an accurate artifact from an
+intended outcome can still miss the **possibility of value** that a changing
+source system could make recognizable to this particular receiver.
+
+The qualified public return keeps the portable method:
+
+```text
+user's actual purpose + recipient's current situation
++ verified source capability / learned method
++ relevant constructible or open possibility, with its claim state
+-> useful difference worth encountering
+-> appropriate question / discussion / explanation / wait
+-> minimum semantic premises and selected surface expression
+-> observed consequence -> owner-native learning
+```
+
+The meaningful advance is the relation **between choosing the value-bearing
+encounter** and **making that value understandable**, *before* a hook,
+template, default CTA or copied product description fixes the argument.
+A source capability can support different legitimate results for an
+implementer, a potential collaborator and a research reader; no one
+receiver's presumed need or reaction decides the whole field.
+
+This learning enters the existing [Social Opportunity Formation](../skills/social-opportunity-formation/SKILL.md#form-source-bound-value-before-selecting-the-encounter)
+and [Social Surface Expression](../skills/social-surface-expression/SKILL.md#select-the-receivers-valuable-possibility-before-phrasing)
+competences, with [BOOT](../BOOT.md) and [COMPETENCES](../COMPETENCES.md)
+as entry/consumer relations. No separate value-selection skill, new kernel,
+mandatory manifest, fixed audience taxonomy or marketing scheduler was
+introduced.
+
+**Public qualification:** only the generalizable relation and an explicitly
+fictional comparison cross the private-to-public boundary. Private
+MAIOS operator intent, sales target registry, individual companies or
+contacts, pricing/contract stance, personal style/voice samples, recipient
+emails, account controllers, raw conversations and authorization policy
+remain private. Public use must itself supply the user's source, tools,
+recipient facts, local commercial/legal context and effect authority.
+
+**Evidence:** a current source-level method change, not newly exercised
+independent capability, measured persuasion, native receiver installation,
+publication, release or validated economic outcome. The existing private
+owner retains its own causal history and local lessons; the generalized
+public source can be exercised in a later, genuinely different receiving field.
+
 ## GitHub source fidelity — an eligible generalized return
 
 An October 2026 private Social Kernel source-reading movement exposed a
