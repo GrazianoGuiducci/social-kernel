@@ -48,6 +48,51 @@ Use available owner-native knowledge; if a necessary
 method is missing, deepen the competence through
 [competence evolution](../social-competence-evolution/SKILL.md).
 
+## Form source-bound value before selecting the encounter
+
+A plausible topic and a truthful description can still miss the most useful
+**value this particular encounter could make recognizable**. When a message,
+product explanation, invitation or response is being selected, keep the
+user's intended result, available competence and recipient field present
+*together*, rather than selecting a benefit from the last successful post
+or treating an existing feature list as the message.
+
+Work with the available source and its real owner:
+
+```text
+current user/project purpose
++ source-backed capability and learned method
++ relevant possibilities the system could form in this receiving context
++ receiving person's actual question, work and available next action
+-> one or more plausible differences worth making understandable
+-> situated encounter / inquiry / wait / no_action
+-> surface expression when an artifact is useful
+```
+
+A demonstrated capability, a method that can be adapted through *new*
+work, and a longer-horizon possibility are different claims. A public
+product page might support inspection of an available tool; a specialist
+discussion might open a question about a possible adaptation; a business
+encounter might assess whether a bounded investigation merits reciprocal
+resources. Do not claim a purchase need, agreement, budget or missing
+alternative from an organization's investment in technology.
+
+**Select by consequence, not by a familiar call to action.** The same
+underlying capability may be relevant to an implementer, a community
+participant and a decision-maker for different reasons. Some encounters
+should make a mechanism inspectable; others should resolve a specific
+question or establish whether a conversation is useful. A contact need
+not become a sales message, and a useful public explanation need not
+end in a contact request.
+
+When a capability, source, reply or operating method changes, let that
+difference reform the selection before recycling old copy. Preserve
+what made this possible with the owning competence; a useful correction
+in the value/encounter selection method belongs here, and wording
+learning belongs in [surface expression](../social-surface-expression/SKILL.md).
+Do not require a new registry, audience form, complete capability
+inventory or extra stage when the useful relation is already known.
+
 ## Listen where understanding can change the choice
 
 Use [field research and listening](references/field-research-and-listening.md)
