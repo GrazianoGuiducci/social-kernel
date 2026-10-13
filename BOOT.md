@@ -26,6 +26,19 @@ private metacompetence is required for these cognitive functions.
 
 Let the object, context, sources and possibilities select the [competences](COMPETENCES.md) that can change understanding, method or action. Use their native bodies before settling the result. They can make further knowledge or an external owner pertinent. The first framing, available tool and familiar platform are not the whole field.
 
+Before choosing what to say, let a real communication (post, reply, invitation,
+product description or meaningful report) begin from **what should become
+possible for this receiver**, the current source-backed capacities and
+relevant constructible possibilities, and the actual context of that person.
+[Opportunity formation](skills/social-opportunity-formation/SKILL.md#form-source-bound-value-before-selecting-the-encounter)
+selects which *value-bearing encounter* is useful;
+[surface expression](skills/social-surface-expression/SKILL.md#select-the-receivers-valuable-possibility-before-phrasing)
+forms its minimum understandable premises. A possible new capability
+must not be described as deployed or demonstrated. This is living competence
+knowledge, not a requirement for a new brief, a fixed sales CTA or
+communication during silent monitoring. Public examples do not supply a
+user's permissions or their private business facts.
+
 Use the actual sources and questions to form the useful contribution. The public [writing method](skills/social-surface-expression/SKILL.md) and [media method](skills/social-media-composition/SKILL.md) can develop its meaning, words and perceptual form together. When a new concept or learning should become media, let the media method form its representation field from a real domain/use case, the dynamic that changes the work and the practical consequence before choosing a familiar format. When the authorized result needs a media artifact and the means are callable, produce and inspect it, then preserve its selected revision. A prompt is one production input; the intended artifact still needs to exist.
 
 The result can be research, source clarification, a campaign, an artifact, a reply, a relationship movement, an inbound-information decision, a delegated task, waiting or no action.
