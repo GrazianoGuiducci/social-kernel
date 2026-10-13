@@ -68,14 +68,14 @@ Owner:
 [Social Opportunity Formation](../skills/social-opportunity-formation/SKILL.md)
 
 Forms the useful encounter from sources, people, questions, opportunities and
-the user's direction.
+the user's direction. Selects value from source-backed capabilities and relevant open possibilities in relation to the **recipient's actual situation and desired next result**, rather than from a fixed benefit or last-used CTA.
 
 ### 5. Public expression
 
 Owner:
 [Social Surface Expression](../skills/social-surface-expression/SKILL.md)
 
-Forms meaning, argument, voice and surface-native language.
+Forms meaning, argument, voice and surface-native language from the recipient's intended comprehension/action and the **minimum premises** that make the selected value recognizable.
 
 ### 6. Perceptual/media representation
 
