@@ -1,5 +1,60 @@
 # Verification and evidence
 
+## Transfer-procedure reconciliation — 2026-10-13
+
+The public-source update was reviewed against native owner competences:
+Meta_Skill **Public Learning Promotion** for private-to-public
+qualification, RepoKernel **Transfer Kernel Potential** for
+method/recipient/consumer continuation, RepoKernel **Skill Promotion
+Router** for the required compact promotion record, and this product's
+own [Social Competence Evolution](../skills/social-competence-evolution/SKILL.md)
+for owner-native learning. The missing promotion packet was subsequently
+reconstructed and dated **after** the first public write, not claimed as
+a precondition already exercised. The user-specific packet and
+private operative evidence remain with their owner, not in this product.
+
+Source selection comparison confirms the existing
+[Opportunity Formation](../skills/social-opportunity-formation/SKILL.md#form-source-bound-value-before-selecting-the-encounter)
+and [Surface Expression](../skills/social-surface-expression/SKILL.md#select-the-receivers-valuable-possibility-before-phrasing)
+are appropriate public recipients. The function is taught in their native
+bodies and reached through BOOT, COMPETENCES and cognitive architecture.
+This new reading does not establish autonomous model behavior or public
+user adoption.
+
+**Fresh API inspection:** public `main` was observed at
+`f987c1ea30e28ffec6f2e0f456d2fac457cdee0b` before
+the present verification note. The tree contained **98 blob files**,
+of which **87** are selected by the source-bundle includes.
+The declared kernel entry paths and **12 competence paths** resolve.
+All **eight changed source/method/entry/evidence files** are part of
+the declared source bundle, while the historical
+`plugin-adapters/openai/private-preview` snapshot is excluded.
+Against these eight files, 131 relative Markdown file links
+and 19 relative section-anchor links resolved to targets.
+This expands the earlier 119-link seven-file readback;
+both checks remain attributed to their actual sources/times.
+A duplicate line in Opportunity Formation was also corrected.
+
+**Still unexecuted on this revision:**
+`python3 scripts/validate.py --root .`,
+`python3 -B -m unittest discover -s tests -v`,
+a fresh `scripts/build_plugin.py` bundle,
+actual native host/installed-plugin discovery and a
+non-identical receiving exercise. This ChatGPT container's
+direct `git ls-remote` failed because `github.com`
+could not be resolved; the authenticated GitHub connector
+enabled read/write source checks but did not provide a local
+checkout for Python execution. The absence of that test result
+is an **environment limitation**, not a demonstrated test failure.
+
+At the next **selected** build or real receiving use, a
+controller with an actual checkout should run the native
+read-only validator and relevant tests, inspect any generated
+bundle against the updated competence bodies, and preserve
+the exact source/receiver/host evidence. Release,
+installation, scheduling and external post/contact effects
+remain independent decisions.
+
 ## Result-first value formation — source method review, 2026-10-13
 
 The [new source-level method](../CURRENT.md#source-bound-value-selection-for-encounters--2026-10-13)
