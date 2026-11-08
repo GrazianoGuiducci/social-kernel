@@ -97,6 +97,12 @@ without establishing that it represents the user's intended object. If those
 relations conflict, return to the last faithful source relation before writing
 more copy.
 
+## 8 November 2026 — preserve the referent of a short rhetorical question
+
+The operator clarified the original mathematical meme: «Ora a chi tocca?» means **which discipline or profession is next**, not «which person can understand this mathematical answer». The prior visual had rendered «CHI LO CAPISCE?» and the draft then followed the visual's narrower interpretation. That was the assistant's representation replacing the source's referent, not an error in the original question. Recompose the post and its visual around the cross-professional progression: mathematicians first; potentially clinicians, lawyers, accountants and other professionals next. The recurring friction is between a proposed solution and an accountable, understood real-world decision or effect.
+
+In short humor-led content, preserve the **scope of the rhetorical question** before compressing. The image's punchline may stage one aspect, but must not become the authority for what the author's question means. Where legality is invoked, distinguish an existing but evolving regulatory framework from an operational ability to interpret, evaluate, approve, interrupt or reverse an effect. Source-qualified claims about regulations and actual deployed capabilities remain separate from the author's research/design question. This corrects the same-movement 8 November entry below without erasing its earlier interpretation.
+
 ## Short posts from a widely felt change — 8 November 2026
 
 A short, dry social post ("post secco") can begin from an event that matters to people **outside the specialist community**: a profession changing, a task becoming automatable, an unfamiliar result, a decision that the reader can no longer interpret, or another actually recognizable change. Technical interest alone does not establish that common concern. When freshness matters, qualify the event with a current dated source; its publicity does not make a product claim true or guarantee reach.
