@@ -97,6 +97,16 @@ without establishing that it represents the user's intended object. If those
 relations conflict, return to the last faithful source relation before writing
 more copy.
 
+## Short posts from a widely felt change — 8 November 2026
+
+A short, dry social post ("post secco") can begin from an event that matters to people **outside the specialist community**: a profession changing, a task becoming automatable, an unfamiliar result, a decision that the reader can no longer interpret, or another actually recognizable change. Technical interest alone does not establish that common concern. When freshness matters, qualify the event with a current dated source; its publicity does not make a product claim true or guarantee reach.
+
+Form the public encounter through the smallest causal difference: recognizable occurrence and human stake -> the question or tension it leaves for the reader -> a **currently available** competence or method that can change how this is handled -> a practical intervention or capacity. These are relations to compose, not a four-line template. A humorous inversion can carry the argument: a newly announced solution can itself create a problem of explanation and understanding. Preserve the real result's evidence state; a claimed proof and a universally accepted proof are different claims.
+
+Make compactness semantic, not merely typographic. Keep the author's sharpness and odd but meaningful turn of phrase; repair pronoun agreement, grammatical subjects and conceptual overload without replacing the voice with a technology pitch. The first sentence should be recognizable without knowing the product. Name the existing competence at the point where it answers the **specific human difficulty**, with an inspectable public link when there is a usable resource. A method in development may already exist without having demonstrated universal effectiveness; the public wording should distinguish those states directly rather than through defensive disclaimers.
+
+When a meme or short animation accompanies the post, compose with Social Media Composition: let the visual stage the same causal reversal (for example, *task completed -> new human question -> shared way to examine it*). Avoid making the visual a separate product advertisement or falsely depicting a demonstrated live product behavior. The caption retains the source and practical claim; the visual makes the core tension recognizable quickly. Re-read both together after generation.
+
 ## Preserve the two directions
 
 In formation, the source precedes the public meaning. In the encounter, a
