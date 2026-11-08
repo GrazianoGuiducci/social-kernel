@@ -97,6 +97,12 @@ without establishing that it represents the user's intended object. If those
 relations conflict, return to the last faithful source relation before writing
 more copy.
 
+## 8 November 2026 — correction is a possibility, not the meaning of UX-AI
+
+The operator subsequently observed: «correggibile sembra una contaminazione, rileggi KA e FDLA». In the text following the mathematicians' meme, the assistant had reduced UX-AI to «making AI work understandable and correctable», then shaped the professional transition as a generalized oversight/approval problem. The source actually centers the **capacity of the AI side to adapt to human understanding**, the person's developing participation, and new concepts, methods and possibilities arising from the relation. Corrections and effect controls can be valuable in a particular situation, but they do not define this generative field.
+
+When a short post moves from a real professional tension to an already formed competence, ask whether the chosen benefit is an expression of the **whole source relation relevant here** or whether a familiar safety/control frame has replaced it. Do not convert that insight into banned wording or obligatory review stages. Return to the operator's causal meaning and compose the copy accordingly. The opening «Ora a chi tocca?» still refers to the next discipline; the comprehension problem can expand possibilities and capacities on both sides. Regulatory claims belong to their exact source and context, without taking over the theme by association. This is a later correction of the same November 8 work, not an interpretation already present in the previous draft.
+
 ## 8 November 2026 — preserve the referent of a short rhetorical question
 
 The operator clarified the original mathematical meme: «Ora a chi tocca?» means **which discipline or profession is next**, not «which person can understand this mathematical answer». The prior visual had rendered «CHI LO CAPISCE?» and the draft then followed the visual's narrower interpretation. That was the assistant's representation replacing the source's referent, not an error in the original question. Recompose the post and its visual around the cross-professional progression: mathematicians first; potentially clinicians, lawyers, accountants and other professionals next. The recurring friction is between a proposed solution and an accountable, understood real-world decision or effect.
